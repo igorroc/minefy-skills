@@ -1,0 +1,612 @@
+{
+	"primeira_forja": {
+		"title": "Primeira Forja",
+		"description": [
+			{"text": "O começo da sua jornada como ferreiro."}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:anvil"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [],
+		"metadata": {
+			"icon": "f_root_001_abcd"
+		}
+	},
+	"passive_repair_1": {
+		"title": "Economia I",
+		"description": [
+			{"text": "-5% de custo de reparo"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:anvil"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:repair_cost",
+					"value": -0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "f_rep1_002_efgh"
+		}
+	},
+	"passive_repair_2": {
+		"title": "Economia II",
+		"description": [
+			{"text": "-5% de custo de reparo"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:anvil"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:repair_cost",
+					"value": -0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "f_rep2_003_ijkl"
+		}
+	},
+	"passive_repair_3": {
+		"title": "Economia III",
+		"description": [
+			{"text": "-5% de custo de reparo"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:chipped_anvil"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:repair_cost",
+					"value": -0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "f_rep3_004_mnop"
+		}
+	},
+	"passive_repair_4": {
+		"title": "Economia IV",
+		"description": [
+			{"text": "-5% de custo de reparo"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:chipped_anvil"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:repair_cost",
+					"value": -0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "f_rep4_005_qrst"
+		}
+	},
+	"passive_repair_5": {
+		"title": "Economia V",
+		"description": [
+			{"text": "-5% de custo de reparo"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:damaged_anvil"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:repair_cost",
+					"value": -0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "f_rep5_006_uvwx"
+		}
+	},
+	"passive_repair_6": {
+		"title": "Economia VI",
+		"description": [
+			{"text": "-5% de custo de reparo"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:damaged_anvil"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:repair_cost",
+					"value": -0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "f_rep6_007_yzab"
+		}
+	},
+	"passive_durability_1": {
+		"title": "Durabilidade I",
+		"description": [
+			{"text": "+3% de durabilidade dos itens"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:diamond"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [],
+		"metadata": {
+			"icon": "f_dur1_008_cdef"
+		}
+	},
+	"passive_durability_2": {
+		"title": "Durabilidade II",
+		"description": [
+			{"text": "+3% de durabilidade dos itens"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:netherite_ingot"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [],
+		"metadata": {
+			"icon": "f_dur2_009_ghij"
+		}
+	},
+	"challenge_aprendiz": {
+		"title": "Aprendiz de Ferreiro",
+		"description": [
+			{"text": "Use a bigorna 100 vezes."},
+			{"text": ""},
+			{"text": "Recompensa: -10% custo de reparo"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:iron_block"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:repair_cost",
+					"value": -0.10,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s anvil 2"}
+			}
+		],
+		"metadata": {
+			"icon": "f_chr1_010_klmn"
+		}
+	},
+	"challenge_artesao": {
+		"title": "Artesão",
+		"description": [
+			{"text": "Craft 500 itens."},
+			{"text": ""},
+			{"text": "Recompensa: -15% custo de reparo"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:crafting_table"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:repair_cost",
+					"value": -0.15,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s diamond 16"}
+			}
+		],
+		"metadata": {
+			"icon": "f_chr2_011_opqr"
+		}
+	},
+	"challenge_mestre": {
+		"title": "Mestre Ferreiro",
+		"description": [
+			{"text": "Use smithing table 200 vezes."},
+			{"text": ""},
+			{"text": "Recompensa: -20% custo de reparo"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:smithing_table"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:repair_cost",
+					"value": -0.20,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s netherite_ingot 8"}
+			}
+		],
+		"metadata": {
+			"icon": "f_chr3_012_stuv"
+		}
+	},
+	"challenge_lendario": {
+		"title": "Forjador Lendário",
+		"description": [
+			{"text": "Funda 1000 minérios."},
+			{"text": ""},
+			{"text": "Recompensa: -30% custo de reparo"}
+		],
+		"size": 2,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:blast_furnace"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:repair_cost",
+					"value": -0.30,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s anvil[custom_name='{\"text\":\"Bigorna Lendária\",\"color\":\"gold\",\"bold\":true}',enchantments={unbreaking:10}] 1"}
+			}
+		],
+		"metadata": {
+			"icon": "f_chr4_013_wxyz"
+		}
+	},
+	"challenge_armas": {
+		"title": "Especialista em Armas",
+		"description": [
+			{"text": "Especialização: Armas"},
+			{"text": ""},
+			{"text": "+10% dano corpo a corpo"},
+			{"text": "+10% dano à distância"},
+			{"text": "-40% custo reparo armas"},
+			{"text": ""},
+			{"text": "Incompatível: Armaduras, Engenheiro"}
+		],
+		"size": 2,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:netherite_sword"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:melee_damage",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:repair_cost",
+					"value": -0.40,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s netherite_sword[enchantments={sharpness:5,unbreaking:5}] 1"}
+			}
+		],
+		"metadata": {
+			"icon": "f_chr5_014_abcd"
+		}
+	},
+	"challenge_armaduras": {
+		"title": "Especialista em Armaduras",
+		"description": [
+			{"text": "Especialização: Armaduras"},
+			{"text": ""},
+			{"text": "+4 armadura"},
+			{"text": "+8% resistência"},
+			{"text": "-40% custo reparo armaduras"},
+			{"text": ""},
+			{"text": "Incompatível: Armas, Engenheiro"}
+		],
+		"size": 2,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:netherite_chestplate"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.armor",
+					"value": 4,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:resistance",
+					"value": 0.08,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:repair_cost",
+					"value": -0.40,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s netherite_chestplate[enchantments={protection:5,unbreaking:5}] 1"}
+			}
+		],
+		"metadata": {
+			"icon": "f_chr6_015_efgh"
+		}
+	},
+	"challenge_engenheiro": {
+		"title": "Engenheiro",
+		"description": [
+			{"text": "Especialização: Ferramentas"},
+			{"text": ""},
+			{"text": "+15% velocidade de mineração"},
+			{"text": "+10% fortune"},
+			{"text": "-40% custo reparo ferramentas"},
+			{"text": ""},
+			{"text": "Incompatível: Armas, Armaduras"}
+		],
+		"size": 2,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:netherite_pickaxe"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:pickaxe_speed",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:fortune",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:repair_cost",
+					"value": -0.40,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s netherite_pickaxe[enchantments={efficiency:6,fortune:4,unbreaking:5}] 1"}
+			}
+		],
+		"metadata": {
+			"icon": "f_chr7_016_ijkl"
+		}
+	},
+	"active_reparo": {
+		"title": "Reparo de Campo",
+		"description": [
+			{"text": "Skill Ativa: Ao desbloquear, recebe:"},
+			{"text": "16 Mending Books"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:experience_bottle"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s enchanted_book[stored_enchantments={mending:1}] 16"}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "tag @s add minefy_reparo_campo"}
+			}
+		],
+		"metadata": {
+			"icon": "f_act1_017_mnop"
+		}
+	},
+	"active_forja_rapida": {
+		"title": "Forja Rápida",
+		"description": [
+			{"text": "Skill Ativa: Ao desbloquear, recebe:"},
+			{"text": "Pressa III por 60 segundos"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:blaze_powder"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "effect give @s haste 60 2"}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "tag @s add minefy_forja_rapida"}
+			}
+		],
+		"metadata": {
+			"icon": "f_act2_018_qrst"
+		}
+	},
+	"active_bencao": {
+		"title": "Benção do Ferreiro",
+		"description": [
+			{"text": "Skill Ativa: Ao desbloquear, recebe:"},
+			{"text": "Unbreaking em todo equipamento"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:totem_of_undying"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s enchanted_book[stored_enchantments={unbreaking:10}] 4"}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "tag @s add minefy_bencao_ferreiro"}
+			}
+		],
+		"metadata": {
+			"icon": "f_act3_019_uvwx"
+		}
+	}
+}

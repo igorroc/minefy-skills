@@ -1,0 +1,806 @@
+{
+	"primeira_armadura": {
+		"title": "Primeira Armadura",
+		"description": [
+			{"text": "O começo da sua jornada como defensor."}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:shield"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [],
+		"metadata": {
+			"icon": "d_root_001_abcd"
+		}
+	},
+	"passive_armor_1": {
+		"title": "Proteção I",
+		"description": [
+			{"text": "+1 ponto de armadura"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:leather_chestplate"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "d_arm1_002_efgh"
+		}
+	},
+	"passive_armor_2": {
+		"title": "Proteção II",
+		"description": [
+			{"text": "+1 ponto de armadura"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:iron_chestplate"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "d_arm2_003_ijkl"
+		}
+	},
+	"passive_armor_3": {
+		"title": "Proteção III",
+		"description": [
+			{"text": "+1 ponto de armadura"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:diamond_chestplate"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "d_arm3_004_mnop"
+		}
+	},
+	"passive_armor_4": {
+		"title": "Proteção IV",
+		"description": [
+			{"text": "+1 ponto de armadura"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:netherite_chestplate"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "d_arm4_005_qrst"
+		}
+	},
+	"passive_resist_1": {
+		"title": "Resistência I",
+		"description": [
+			{"text": "+1% de resistência a dano"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:iron_ingot"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:resistance",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "d_res1_006_uvwx"
+		}
+	},
+	"passive_resist_2": {
+		"title": "Resistência II",
+		"description": [
+			{"text": "+1% de resistência a dano"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:iron_block"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:resistance",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "d_res2_007_yzab"
+		}
+	},
+	"passive_resist_3": {
+		"title": "Resistência III",
+		"description": [
+			{"text": "+1% de resistência a dano"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:diamond"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:resistance",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "d_res3_008_cdef"
+		}
+	},
+	"passive_resist_4": {
+		"title": "Resistência IV",
+		"description": [
+			{"text": "+1% de resistência a dano"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:netherite_ingot"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:resistance",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "d_res4_009_ghij"
+		}
+	},
+	"passive_health_1": {
+		"title": "Vitalidade I",
+		"description": [
+			{"text": "+1 coração de vida"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:apple"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "d_hp1_010_klmn"
+		}
+	},
+	"passive_health_2": {
+		"title": "Vitalidade II",
+		"description": [
+			{"text": "+1 coração de vida"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:golden_apple"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "d_hp2_011_opqr"
+		}
+	},
+	"passive_health_3": {
+		"title": "Vitalidade III",
+		"description": [
+			{"text": "+1 coração de vida"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:enchanted_golden_apple"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "d_hp3_012_stuv"
+		}
+	},
+	"passive_health_4": {
+		"title": "Vitalidade IV",
+		"description": [
+			{"text": "+1 coração de vida"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:glistering_melon_slice"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "d_hp4_013_wxyz"
+		}
+	},
+	"challenge_guarda": {
+		"title": "Guarda",
+		"description": [
+			{"text": "Bloqueie 100 ataques com escudo."},
+			{"text": ""},
+			{"text": "Recompensa: +2 armadura"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:shield"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.armor",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s shield[enchantments={unbreaking:3}] 1"}
+			}
+		],
+		"metadata": {
+			"icon": "d_chr1_014_abcd"
+		}
+	},
+	"challenge_defensor": {
+		"title": "Defensor",
+		"description": [
+			{"text": "Receba 500 corações de dano."},
+			{"text": ""},
+			{"text": "Recompensa: +5% resistência"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:iron_block"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:resistance",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s iron_chestplate[enchantments={protection:3}] 1"}
+			}
+		],
+		"metadata": {
+			"icon": "d_chr2_015_efgh"
+		}
+	},
+	"challenge_fortaleza": {
+		"title": "Fortaleza Viva",
+		"description": [
+			{"text": "Receba 1500 corações de dano."},
+			{"text": ""},
+			{"text": "Recompensa: +3 armadura, +2 corações"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:obsidian"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.armor",
+					"value": 3,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s diamond_chestplate[enchantments={protection:4}] 1"}
+			}
+		],
+		"metadata": {
+			"icon": "d_chr3_016_ijkl"
+		}
+	},
+	"challenge_colosso": {
+		"title": "Colosso",
+		"description": [
+			{"text": "Receba 3000 corações de dano."},
+			{"text": ""},
+			{"text": "Recompensa: +10% resistência, +3 corações"}
+		],
+		"size": 2,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:totem_of_undying"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:resistance",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.max_health",
+					"value": 6,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s netherite_chestplate[custom_name='{\"text\":\"Armadura do Colosso\",\"color\":\"dark_red\",\"bold\":true}',enchantments={protection:5,unbreaking:5}] 1"}
+			}
+		],
+		"metadata": {
+			"icon": "d_chr4_017_mnop"
+		}
+	},
+	"challenge_tanque": {
+		"title": "Tanque",
+		"description": [
+			{"text": "Especialização: Armadura Máxima"},
+			{"text": ""},
+			{"text": "+8 armadura"},
+			{"text": "-10% velocidade de movimento"},
+			{"text": ""},
+			{"text": "Incompatível: Juggernaut, Muralha"}
+		],
+		"size": 2,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:heavy_core"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.armor",
+					"value": 8,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.movement_speed",
+					"value": -0.10,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s netherite_helmet[trim={material:\"netherite\",pattern:\"rib\"}] 1"}
+			}
+		],
+		"metadata": {
+			"icon": "d_chr5_018_qrst"
+		}
+	},
+	"challenge_juggernaut": {
+		"title": "Juggernaut",
+		"description": [
+			{"text": "Especialização: Vida Máxima"},
+			{"text": ""},
+			{"text": "+8 corações"},
+			{"text": "-5% resistência"},
+			{"text": ""},
+			{"text": "Incompatível: Tanque, Muralha"}
+		],
+		"size": 2,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:heart_of_the_sea"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.max_health",
+					"value": 16,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:resistance",
+					"value": -0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s enchanted_golden_apple 4"}
+			}
+		],
+		"metadata": {
+			"icon": "d_chr6_019_uvwx"
+		}
+	},
+	"challenge_muralha": {
+		"title": "Muralha",
+		"description": [
+			{"text": "Especialização: Resistência Balanceada"},
+			{"text": ""},
+			{"text": "+15% resistência"},
+			{"text": "+4 armadura"},
+			{"text": "+4 corações"},
+			{"text": ""},
+			{"text": "Incompatível: Tanque, Juggernaut"}
+		],
+		"size": 2,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:reinforced_deepslate"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:resistance",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.armor",
+					"value": 4,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.max_health",
+					"value": 8,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s totem_of_undying 1"}
+			}
+		],
+		"metadata": {
+			"icon": "d_chr7_020_yzab"
+		}
+	},
+	"active_pele_pedra": {
+		"title": "Pele de Pedra",
+		"description": [
+			{"text": "Skill Ativa: Ao desbloquear, recebe:"},
+			{"text": "Resistência III por 30 segundos"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:stone"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "effect give @s resistance 30 2"}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "tag @s add minefy_pele_pedra"}
+			}
+		],
+		"metadata": {
+			"icon": "d_act1_021_cdef"
+		}
+	},
+	"active_regeneracao": {
+		"title": "Regeneração",
+		"description": [
+			{"text": "Skill Ativa: Ao desbloquear, recebe:"},
+			{"text": "Regeneração III por 20 segundos"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:golden_carrot"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "effect give @s regeneration 20 2"}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "tag @s add minefy_regeneracao"}
+			}
+		],
+		"metadata": {
+			"icon": "d_act2_022_ghij"
+		}
+	},
+	"active_absorcao": {
+		"title": "Absorção",
+		"description": [
+			{"text": "Skill Ativa: Ao desbloquear, recebe:"},
+			{"text": "Absorção IV por 120 segundos"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:golden_apple"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "effect give @s absorption 120 3"}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "tag @s add minefy_absorcao"}
+			}
+		],
+		"metadata": {
+			"icon": "d_act3_023_klmn"
+		}
+	},
+	"active_fortificar": {
+		"title": "Fortificar",
+		"description": [
+			{"text": "Skill Ativa: Ao desbloquear, recebe:"},
+			{"text": "Lentidão IV, Resistência V por 30s"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:bedrock"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "effect give @s slowness 30 3"}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "effect give @s resistance 30 4"}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "tag @s add minefy_fortificar"}
+			}
+		],
+		"metadata": {
+			"icon": "d_act4_024_opqr"
+		}
+	},
+	"active_escudo_total": {
+		"title": "Escudo Total",
+		"description": [
+			{"text": "Skill Ativa: Ao desbloquear, recebe:"},
+			{"text": "Fire Resistance, Absorção II por 60s"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:netherite_block"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "effect give @s fire_resistance 60 0"}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "effect give @s absorption 60 1"}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "tag @s add minefy_escudo_total"}
+			}
+		],
+		"metadata": {
+			"icon": "d_act5_025_stuv"
+		}
+	}
+}

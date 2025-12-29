@@ -1,0 +1,33 @@
+{
+	"exclusive": {
+		"bidirectional": [
+			["al_chr5_014_abcd", "al_chr6_015_efgh"],
+			["al_chr5_014_abcd", "al_chr7_016_ijkl"],
+			["al_chr6_015_efgh", "al_chr7_016_ijkl"]
+		]
+	},
+	"normal": {
+		"bidirectional": [
+			["al_root_001_abcd", "al_chr1_010_klmn"],
+			["al_root_001_abcd", "al_dmg1_002_efgh"],
+			["al_root_001_abcd", "al_res1_006_uvwx"],
+			["al_chr1_010_klmn", "al_chr2_011_opqr"],
+			["al_chr2_011_opqr", "al_chr3_012_stuv"],
+			["al_chr3_012_stuv", "al_chr4_013_wxyz"],
+			["al_chr4_013_wxyz", "al_chr7_016_ijkl"],
+			["al_dmg1_002_efgh", "al_dmg2_003_ijkl"],
+			["al_dmg2_003_ijkl", "al_dmg3_004_mnop"],
+			["al_dmg3_004_mnop", "al_dmg4_005_qrst"],
+			["al_dmg4_005_qrst", "al_chr5_014_abcd"],
+			["al_dmg4_005_qrst", "al_act1_018_qrst"],
+			["al_chr5_014_abcd", "al_act2_019_uvwx"],
+			["al_res1_006_uvwx", "al_res2_007_yzab"],
+			["al_res2_007_yzab", "al_res3_008_cdef"],
+			["al_res3_008_cdef", "al_res4_009_ghij"],
+			["al_res4_009_ghij", "al_chr6_015_efgh"],
+			["al_chr6_015_efgh", "al_act3_020_yzab"],
+			["al_chr7_016_ijkl", "al_chr8_017_mnop"],
+			["al_chr8_017_mnop", "al_act4_021_cdef"]
+		]
+	}
+}

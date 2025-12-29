@@ -1,0 +1,31 @@
+{
+	"exclusive": {
+		"bidirectional": [
+			["f_chr5_014_abcd", "f_chr6_015_efgh"],
+			["f_chr5_014_abcd", "f_chr7_016_ijkl"],
+			["f_chr6_015_efgh", "f_chr7_016_ijkl"]
+		]
+	},
+	"normal": {
+		"bidirectional": [
+			["f_root_001_abcd", "f_chr1_010_klmn"],
+			["f_root_001_abcd", "f_rep1_002_efgh"],
+			["f_chr1_010_klmn", "f_chr2_011_opqr"],
+			["f_chr2_011_opqr", "f_chr3_012_stuv"],
+			["f_chr2_011_opqr", "f_dur1_008_cdef"],
+			["f_chr3_012_stuv", "f_chr4_013_wxyz"],
+			["f_chr4_013_wxyz", "f_chr7_016_ijkl"],
+			["f_rep1_002_efgh", "f_rep2_003_ijkl"],
+			["f_rep2_003_ijkl", "f_rep3_004_mnop"],
+			["f_rep3_004_mnop", "f_rep4_005_qrst"],
+			["f_rep4_005_qrst", "f_rep5_006_uvwx"],
+			["f_rep5_006_uvwx", "f_rep6_007_yzab"],
+			["f_rep5_006_uvwx", "f_act1_017_mnop"],
+			["f_rep6_007_yzab", "f_chr5_014_abcd"],
+			["f_rep6_007_yzab", "f_act2_018_qrst"],
+			["f_dur1_008_cdef", "f_dur2_009_ghij"],
+			["f_dur2_009_ghij", "f_chr6_015_efgh"],
+			["f_chr7_016_ijkl", "f_act3_019_uvwx"]
+		]
+	}
+}

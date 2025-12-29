@@ -1,0 +1,88 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(level ^ 2.2 * 3 + 60, 4000)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:use_anvil",
+			"data": {
+				"experience": [
+					{"condition": "true", "expression": "3"}
+				],
+				"anti_farming": {
+					"limit": 30,
+					"reset_after_seconds": 300
+				}
+			}
+		},
+		{
+			"type": "puffish_skills:use_smithing_table",
+			"data": {
+				"experience": [
+					{"condition": "true", "expression": "5"}
+				],
+				"anti_farming": {
+					"limit": 30,
+					"reset_after_seconds": 300
+				}
+			}
+		},
+		{
+			"type": "puffish_skills:smelt",
+			"data": {
+				"variables": {
+					"is_ore": {
+						"operations": [
+							{"type": "get_smelted_item"},
+							{"type": "puffish_skills:test", "data": {"item": "#c:ores"}}
+						]
+					}
+				},
+				"experience": [
+					{"condition": "is_ore", "expression": "1"},
+					{"condition": "true", "expression": "0.5"}
+				],
+				"anti_farming": {
+					"limit": 50,
+					"reset_after_seconds": 300
+				}
+			}
+		},
+		{
+			"type": "puffish_skills:craft",
+			"data": {
+				"variables": {
+					"is_tool": {
+						"operations": [
+							{"type": "get_crafted_item"},
+							{"type": "puffish_skills:test", "data": {"item": "#c:tools"}}
+						]
+					},
+					"is_weapon": {
+						"operations": [
+							{"type": "get_crafted_item"},
+							{"type": "puffish_skills:test", "data": {"item": "#c:weapons"}}
+						]
+					},
+					"is_armor": {
+						"operations": [
+							{"type": "get_crafted_item"},
+							{"type": "puffish_skills:test", "data": {"item": "#c:armors"}}
+						]
+					}
+				},
+				"experience": [
+					{"condition": "is_tool || is_weapon || is_armor", "expression": "2"},
+					{"condition": "true", "expression": "0"}
+				],
+				"anti_farming": {
+					"limit": 30,
+					"reset_after_seconds": 300
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,118 @@
+{
+	"a_root_001_abcd": {
+		"definition": "primeiro_disparo",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"a_chr1_012_stuv": {
+		"definition": "challenge_atirador",
+		"x": 0,
+		"y": 68
+	},
+	"a_chr2_013_wxyz": {
+		"definition": "challenge_francotirador",
+		"x": 0,
+		"y": 136
+	},
+	"a_chr3_014_abcd": {
+		"definition": "challenge_olho_aguia",
+		"x": 0,
+		"y": 204
+	},
+	"a_chr4_015_efgh": {
+		"definition": "challenge_mestre_arco",
+		"x": 0,
+		"y": 272
+	},
+	"a_dmg1_002_efgh": {
+		"definition": "passive_ranged_dmg_1",
+		"x": -68,
+		"y": 68
+	},
+	"a_dmg2_003_ijkl": {
+		"definition": "passive_ranged_dmg_2",
+		"x": -68,
+		"y": 136
+	},
+	"a_dmg3_004_mnop": {
+		"definition": "passive_ranged_dmg_3",
+		"x": -136,
+		"y": 136
+	},
+	"a_dmg4_005_qrst": {
+		"definition": "passive_ranged_dmg_4",
+		"x": -136,
+		"y": 204
+	},
+	"a_dmg5_006_uvwx": {
+		"definition": "passive_ranged_dmg_5",
+		"x": -136,
+		"y": 272
+	},
+	"a_dmg6_007_yzab": {
+		"definition": "passive_ranged_dmg_6",
+		"x": -136,
+		"y": 340
+	},
+	"a_chr5_016_ijkl": {
+		"definition": "challenge_elite",
+		"x": -136,
+		"y": 408
+	},
+	"a_act1_019_uvwx": {
+		"definition": "active_visao",
+		"x": -204,
+		"y": 340
+	},
+	"a_act2_020_yzab": {
+		"definition": "active_flechas_fogo",
+		"x": -204,
+		"y": 408
+	},
+	"a_spd1_008_cdef": {
+		"definition": "passive_projectile_1",
+		"x": 68,
+		"y": 68
+	},
+	"a_spd2_009_ghij": {
+		"definition": "passive_projectile_2",
+		"x": 68,
+		"y": 136
+	},
+	"a_spd3_010_klmn": {
+		"definition": "passive_projectile_3",
+		"x": 136,
+		"y": 136
+	},
+	"a_spd4_011_opqr": {
+		"definition": "passive_projectile_4",
+		"x": 136,
+		"y": 204
+	},
+	"a_chr6_017_mnop": {
+		"definition": "challenge_cacador",
+		"x": 136,
+		"y": 272
+	},
+	"a_act5_023_klmn": {
+		"definition": "active_recuo",
+		"x": 136,
+		"y": 340
+	},
+	"a_chr7_018_qrst": {
+		"definition": "challenge_artilheiro",
+		"x": 0,
+		"y": 340
+	},
+	"a_act3_021_cdef": {
+		"definition": "active_mira",
+		"x": -68,
+		"y": 340
+	},
+	"a_act4_022_ghij": {
+		"definition": "active_rajada",
+		"x": 68,
+		"y": 340
+	}
+}

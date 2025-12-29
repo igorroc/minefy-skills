@@ -1,0 +1,98 @@
+{
+	"f_root_001_abcd": {
+		"definition": "primeira_forja",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"f_chr1_010_klmn": {
+		"definition": "challenge_aprendiz",
+		"x": 0,
+		"y": 68
+	},
+	"f_chr2_011_opqr": {
+		"definition": "challenge_artesao",
+		"x": 0,
+		"y": 136
+	},
+	"f_chr3_012_stuv": {
+		"definition": "challenge_mestre",
+		"x": 0,
+		"y": 204
+	},
+	"f_chr4_013_wxyz": {
+		"definition": "challenge_lendario",
+		"x": 0,
+		"y": 272
+	},
+	"f_rep1_002_efgh": {
+		"definition": "passive_repair_1",
+		"x": -68,
+		"y": 68
+	},
+	"f_rep2_003_ijkl": {
+		"definition": "passive_repair_2",
+		"x": -68,
+		"y": 136
+	},
+	"f_rep3_004_mnop": {
+		"definition": "passive_repair_3",
+		"x": -136,
+		"y": 136
+	},
+	"f_rep4_005_qrst": {
+		"definition": "passive_repair_4",
+		"x": -136,
+		"y": 204
+	},
+	"f_rep5_006_uvwx": {
+		"definition": "passive_repair_5",
+		"x": -136,
+		"y": 272
+	},
+	"f_rep6_007_yzab": {
+		"definition": "passive_repair_6",
+		"x": -136,
+		"y": 340
+	},
+	"f_chr5_014_abcd": {
+		"definition": "challenge_armas",
+		"x": -136,
+		"y": 408
+	},
+	"f_act1_017_mnop": {
+		"definition": "active_reparo",
+		"x": -204,
+		"y": 340
+	},
+	"f_dur1_008_cdef": {
+		"definition": "passive_durability_1",
+		"x": 68,
+		"y": 136
+	},
+	"f_dur2_009_ghij": {
+		"definition": "passive_durability_2",
+		"x": 68,
+		"y": 204
+	},
+	"f_chr6_015_efgh": {
+		"definition": "challenge_armaduras",
+		"x": 68,
+		"y": 272
+	},
+	"f_chr7_016_ijkl": {
+		"definition": "challenge_engenheiro",
+		"x": 0,
+		"y": 340
+	},
+	"f_act2_018_qrst": {
+		"definition": "active_forja_rapida",
+		"x": -68,
+		"y": 340
+	},
+	"f_act3_019_uvwx": {
+		"definition": "active_bencao",
+		"x": 0,
+		"y": 408
+	}
+}

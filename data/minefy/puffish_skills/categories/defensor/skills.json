@@ -1,0 +1,128 @@
+{
+	"d_root_001_abcd": {
+		"definition": "primeira_armadura",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"d_chr1_014_abcd": {
+		"definition": "challenge_guarda",
+		"x": 0,
+		"y": 68
+	},
+	"d_chr2_015_efgh": {
+		"definition": "challenge_defensor",
+		"x": 0,
+		"y": 136
+	},
+	"d_chr3_016_ijkl": {
+		"definition": "challenge_fortaleza",
+		"x": 0,
+		"y": 204
+	},
+	"d_chr4_017_mnop": {
+		"definition": "challenge_colosso",
+		"x": 0,
+		"y": 272
+	},
+	"d_arm1_002_efgh": {
+		"definition": "passive_armor_1",
+		"x": -68,
+		"y": 68
+	},
+	"d_arm2_003_ijkl": {
+		"definition": "passive_armor_2",
+		"x": -68,
+		"y": 136
+	},
+	"d_arm3_004_mnop": {
+		"definition": "passive_armor_3",
+		"x": -136,
+		"y": 136
+	},
+	"d_arm4_005_qrst": {
+		"definition": "passive_armor_4",
+		"x": -136,
+		"y": 204
+	},
+	"d_chr5_018_qrst": {
+		"definition": "challenge_tanque",
+		"x": -136,
+		"y": 272
+	},
+	"d_act1_021_cdef": {
+		"definition": "active_pele_pedra",
+		"x": -204,
+		"y": 204
+	},
+	"d_act4_024_opqr": {
+		"definition": "active_fortificar",
+		"x": -204,
+		"y": 272
+	},
+	"d_res1_006_uvwx": {
+		"definition": "passive_resist_1",
+		"x": 68,
+		"y": 68
+	},
+	"d_res2_007_yzab": {
+		"definition": "passive_resist_2",
+		"x": 68,
+		"y": 136
+	},
+	"d_res3_008_cdef": {
+		"definition": "passive_resist_3",
+		"x": 136,
+		"y": 136
+	},
+	"d_res4_009_ghij": {
+		"definition": "passive_resist_4",
+		"x": 136,
+		"y": 204
+	},
+	"d_chr7_020_yzab": {
+		"definition": "challenge_muralha",
+		"x": 136,
+		"y": 272
+	},
+	"d_act5_025_stuv": {
+		"definition": "active_escudo_total",
+		"x": 204,
+		"y": 272
+	},
+	"d_hp1_010_klmn": {
+		"definition": "passive_health_1",
+		"x": 0,
+		"y": 340
+	},
+	"d_hp2_011_opqr": {
+		"definition": "passive_health_2",
+		"x": -68,
+		"y": 340
+	},
+	"d_hp3_012_stuv": {
+		"definition": "passive_health_3",
+		"x": -68,
+		"y": 408
+	},
+	"d_hp4_013_wxyz": {
+		"definition": "passive_health_4",
+		"x": 0,
+		"y": 408
+	},
+	"d_chr6_019_uvwx": {
+		"definition": "challenge_juggernaut",
+		"x": 0,
+		"y": 476
+	},
+	"d_act2_022_ghij": {
+		"definition": "active_regeneracao",
+		"x": -68,
+		"y": 476
+	},
+	"d_act3_023_klmn": {
+		"definition": "active_absorcao",
+		"x": 68,
+		"y": 476
+	}
+}

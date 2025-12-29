@@ -1,0 +1,683 @@
+{
+	"primeira_pocao": {
+		"title": "Primeira Poção",
+		"description": [
+			{"text": "O começo da sua jornada como alquimista."}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:brewing_stand"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [],
+		"metadata": {
+			"icon": "al_root_001_abcd"
+		}
+	},
+	"passive_magic_dmg_1": {
+		"title": "Poder Mágico I",
+		"description": [
+			{"text": "+3% de dano mágico"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:blaze_powder"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "al_dmg1_002_efgh"
+		}
+	},
+	"passive_magic_dmg_2": {
+		"title": "Poder Mágico II",
+		"description": [
+			{"text": "+3% de dano mágico"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:blaze_rod"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "al_dmg2_003_ijkl"
+		}
+	},
+	"passive_magic_dmg_3": {
+		"title": "Poder Mágico III",
+		"description": [
+			{"text": "+3% de dano mágico"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:dragon_breath"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "al_dmg3_004_mnop"
+		}
+	},
+	"passive_magic_dmg_4": {
+		"title": "Poder Mágico IV",
+		"description": [
+			{"text": "+3% de dano mágico"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:nether_star"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "al_dmg4_005_qrst"
+		}
+	},
+	"passive_magic_res_1": {
+		"title": "Proteção Mágica I",
+		"description": [
+			{"text": "+2% de resistência mágica"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:enchanted_book"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_resistance",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "al_res1_006_uvwx"
+		}
+	},
+	"passive_magic_res_2": {
+		"title": "Proteção Mágica II",
+		"description": [
+			{"text": "+2% de resistência mágica"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:book"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_resistance",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "al_res2_007_yzab"
+		}
+	},
+	"passive_magic_res_3": {
+		"title": "Proteção Mágica III",
+		"description": [
+			{"text": "+2% de resistência mágica"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:knowledge_book"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_resistance",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "al_res3_008_cdef"
+		}
+	},
+	"passive_magic_res_4": {
+		"title": "Proteção Mágica IV",
+		"description": [
+			{"text": "+2% de resistência mágica"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:writable_book"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_resistance",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "al_res4_009_ghij"
+		}
+	},
+	"challenge_aprendiz": {
+		"title": "Aprendiz de Alquimia",
+		"description": [
+			{"text": "Crie 50 poções."},
+			{"text": ""},
+			{"text": "Recompensa: +5% dano mágico"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:potion"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s potion[potion_contents={potion:\"strong_strength\"}] 3"}
+			}
+		],
+		"metadata": {
+			"icon": "al_chr1_010_klmn"
+		}
+	},
+	"challenge_boticario": {
+		"title": "Boticário",
+		"description": [
+			{"text": "Crie 200 poções."},
+			{"text": ""},
+			{"text": "Recompensa: +8% dano mágico"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:splash_potion"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_damage",
+					"value": 0.08,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s splash_potion[potion_contents={potion:\"strong_harming\"}] 5"}
+			}
+		],
+		"metadata": {
+			"icon": "al_chr2_011_opqr"
+		}
+	},
+	"challenge_alquimista": {
+		"title": "Alquimista",
+		"description": [
+			{"text": "Crie 500 poções."},
+			{"text": ""},
+			{"text": "Recompensa: +10% resistência mágica"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:lingering_potion"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_resistance",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s lingering_potion[potion_contents={potion:\"strong_regeneration\"}] 3"}
+			}
+		],
+		"metadata": {
+			"icon": "al_chr3_012_stuv"
+		}
+	},
+	"challenge_mestre": {
+		"title": "Mestre Alquimista",
+		"description": [
+			{"text": "Crie 1000 poções."},
+			{"text": ""},
+			{"text": "Recompensa: +15% dano mágico"}
+		],
+		"size": 2,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:brewing_stand"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_damage",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s potion[custom_name='{\"text\":\"Elixir do Mestre\",\"color\":\"light_purple\",\"bold\":true}',potion_contents={potion:\"long_strength\"}] 5"}
+			}
+		],
+		"metadata": {
+			"icon": "al_chr4_013_wxyz"
+		}
+	},
+	"challenge_bruxo": {
+		"title": "Bruxo de Combate",
+		"description": [
+			{"text": "Especialização: Dano Mágico"},
+			{"text": ""},
+			{"text": "+20% dano mágico"},
+			{"text": "-10% resistência mágica"},
+			{"text": ""},
+			{"text": "Incompatível: Curandeiro, Místico"}
+		],
+		"size": 2,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:wither_rose"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_damage",
+					"value": 0.20,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_resistance",
+					"value": -0.10,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s splash_potion[potion_contents={potion:\"strong_harming\"}] 16"}
+			}
+		],
+		"metadata": {
+			"icon": "al_chr5_014_abcd"
+		}
+	},
+	"challenge_curandeiro": {
+		"title": "Curandeiro",
+		"description": [
+			{"text": "Especialização: Cura"},
+			{"text": ""},
+			{"text": "+30% eficácia de cura"},
+			{"text": "+15% resistência mágica"},
+			{"text": ""},
+			{"text": "Incompatível: Bruxo, Místico"}
+		],
+		"size": 2,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:glistering_melon_slice"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:healing",
+					"value": 0.30,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_resistance",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s splash_potion[potion_contents={potion:\"strong_healing\"}] 16"}
+			}
+		],
+		"metadata": {
+			"icon": "al_chr6_015_efgh"
+		}
+	},
+	"challenge_mistico": {
+		"title": "Místico",
+		"description": [
+			{"text": "Especialização: Balanced"},
+			{"text": ""},
+			{"text": "+12% dano mágico"},
+			{"text": "+12% resistência mágica"},
+			{"text": "+10% eficácia de cura"},
+			{"text": ""},
+			{"text": "Incompatível: Bruxo, Curandeiro"}
+		],
+		"size": 2,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:end_crystal"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_damage",
+					"value": 0.12,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_resistance",
+					"value": 0.12,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:healing",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s enchanted_book[stored_enchantments={mending:1}] 1"}
+			}
+		],
+		"metadata": {
+			"icon": "al_chr7_016_ijkl"
+		}
+	},
+	"challenge_arquimago": {
+		"title": "Arquimago",
+		"description": [
+			{"text": "Encante 500 itens."},
+			{"text": ""},
+			{"text": "Recompensa: +25% XP de orbs"}
+		],
+		"size": 2,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:enchanting_table"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:experience",
+					"value": 0.25,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s enchanting_table 1"}
+			}
+		],
+		"metadata": {
+			"icon": "al_chr8_017_mnop"
+		}
+	},
+	"active_pocao_instant": {
+		"title": "Poção Instantânea",
+		"description": [
+			{"text": "Skill Ativa: Ao desbloquear, recebe:"},
+			{"text": "Força II, Velocidade II por 30s"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:fermented_spider_eye"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "effect give @s strength 30 1"}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "effect give @s speed 30 1"}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "tag @s add minefy_pocao_instant"}
+			}
+		],
+		"metadata": {
+			"icon": "al_act1_018_qrst"
+		}
+	},
+	"active_nuvem": {
+		"title": "Nuvem de Veneno",
+		"description": [
+			{"text": "Skill Ativa: Ao desbloquear, recebe:"},
+			{"text": "3 Lingering Potion of Poison II"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:spider_eye"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s lingering_potion[potion_contents={potion:\"strong_poison\"}] 3"}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "tag @s add minefy_nuvem_veneno"}
+			}
+		],
+		"metadata": {
+			"icon": "al_act2_019_uvwx"
+		}
+	},
+	"active_aura": {
+		"title": "Aura Mágica",
+		"description": [
+			{"text": "Skill Ativa: Ao desbloquear, recebe:"},
+			{"text": "Glowing, Resistência I por 60s"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:beacon"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "effect give @s glowing 60 0"}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "effect give @s resistance 60 0"}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "tag @s add minefy_aura_magica"}
+			}
+		],
+		"metadata": {
+			"icon": "al_act3_020_yzab"
+		}
+	},
+	"active_transmutacao": {
+		"title": "Transmutação",
+		"description": [
+			{"text": "Skill Ativa: Ao desbloquear, recebe:"},
+			{"text": "Luck I por 300 segundos"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:emerald"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "effect give @s luck 300 0"}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "tag @s add minefy_transmutacao"}
+			}
+		],
+		"metadata": {
+			"icon": "al_act4_021_cdef"
+		}
+	}
+}
