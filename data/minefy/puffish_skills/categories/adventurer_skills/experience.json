@@ -1,0 +1,159 @@
+{
+  "experience_per_level": {
+    "type": "expression",
+    "data": {
+      "expression": "min(level ^ 2.2 * 3 + 60, 4000)"
+    }
+  },
+  "sources": [
+    {
+      "type": "puffish_skills:kill_entity",
+      "data": {
+        "variables": {
+          "dropped_xp": {
+            "operations": [
+              { "type": "get_dropped_experience" }
+            ]
+          },
+          "max_health": {
+            "operations": [
+              { "type": "get_killed_living_entity" },
+              { "type": "get_max_health" }
+            ]
+          }
+        },
+        "experience": "dropped_xp * 0.5 + max_health / 40",
+        "anti_farming": {
+          "limit_per_chunk": 10,
+          "reset_after_seconds": 300
+        }
+      }
+    },
+    {
+      "type": "puffish_skills:enchant_item",
+      "data": {
+        "variables": {
+          "levels": {
+            "operations": [
+              { "type": "get_levels" }
+            ]
+          }
+        },
+        "experience": "2 * levels"
+      }
+    },
+    {
+      "type": "puffish_skills:fish_item",
+      "data": {
+        "variables": {
+          "is_fish": {
+            "operations": [
+              { "type": "get_fished_item_stack" },
+              {
+                "type": "puffish_skills:test",
+                "data": { "item": "#fishes" }
+              }
+            ]
+          }
+        },
+        "experience": [
+          { "condition": "is_fish", "expression": "5" }
+        ]
+      }
+    },
+    {
+      "type": "puffish_skills:kill_entity",
+      "data": {
+        "variables": {
+          "is_wither": {
+            "operations": [
+              { "type": "get_killed_living_entity" },
+              { "type": "get_type" },
+              {
+                "type": "puffish_skills:test",
+                "data": { "entity_type": "minecraft:wither" }
+              }
+            ]
+          },
+          "is_dragon": {
+            "operations": [
+              { "type": "get_killed_living_entity" },
+              { "type": "get_type" },
+              {
+                "type": "puffish_skills:test",
+                "data": { "entity_type": "minecraft:ender_dragon" }
+              }
+            ]
+          },
+          "is_warden": {
+            "operations": [
+              { "type": "get_killed_living_entity" },
+              { "type": "get_type" },
+              {
+                "type": "puffish_skills:test",
+                "data": { "entity_type": "minecraft:warden" }
+              }
+            ]
+          },
+          "is_elder_guardian": {
+            "operations": [
+              { "type": "get_killed_living_entity" },
+              { "type": "get_type" },
+              {
+                "type": "puffish_skills:test",
+                "data": { "entity_type": "minecraft:elder_guardian" }
+              }
+            ]
+          },
+          "is_ravager": {
+            "operations": [
+              { "type": "get_killed_living_entity" },
+              { "type": "get_type" },
+              {
+                "type": "puffish_skills:test",
+                "data": { "entity_type": "minecraft:ravager" }
+              }
+            ]
+          },
+          "is_evoker": {
+            "operations": [
+              { "type": "get_killed_living_entity" },
+              { "type": "get_type" },
+              {
+                "type": "puffish_skills:test",
+                "data": { "entity_type": "minecraft:evoker" }
+              }
+            ]
+          }
+        },
+        "experience": [
+          { "condition": "is_wither", "expression": "120" },
+          { "condition": "is_dragon", "expression": "200" },
+          { "condition": "is_warden", "expression": "150" },
+          { "condition": "is_elder_guardian", "expression": "70" },
+          { "condition": "is_ravager", "expression": "50" },
+          { "condition": "is_evoker", "expression": "35" }
+        ]
+      }
+    },
+    {
+      "type": "puffish_skills:mine_block",
+      "data": {
+        "variables": {
+          "is_ore": {
+            "operations": [
+              { "type": "get_mined_block_state" },
+              {
+                "type": "puffish_skills:test",
+                "data": { "block": "#c:ores" }
+              }
+            ]
+          }
+        },
+        "experience": [
+          { "condition": "is_ore", "expression": "2" }
+        ]
+      }
+    }
+  ]
+}

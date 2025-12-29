@@ -1,0 +1,122 @@
+{
+	"m001_root_center": {
+		"definition": "primeira_picareta",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"m002_pass_1": {
+		"definition": "velocidade_picareta+2%_1",
+		"x": 0,
+		"y": -68,
+		"root": false
+	},
+	"m003_pass_2": {
+		"definition": "velocidade_picareta+2%_2",
+		"x": 0,
+		"y": -136,
+		"root": false
+	},
+	"m004_pass_3": {
+		"definition": "velocidade_picareta+2%_3",
+		"x": 0,
+		"y": -204,
+		"root": false
+	},
+	"m005_pass_4": {
+		"definition": "fortuna+0.1_1",
+		"x": 0,
+		"y": -272,
+		"root": false
+	},
+	"m006_chal_1": {
+		"definition": "garimpeiro",
+		"x": 0,
+		"y": -340,
+		"root": false
+	},
+	"m007_pass_5": {
+		"definition": "velocidade_picareta+2%_4",
+		"x": 0,
+		"y": -408,
+		"root": false
+	},
+	"m008_pass_6": {
+		"definition": "velocidade_picareta+2%_5",
+		"x": 0,
+		"y": -476,
+		"root": false
+	},
+	"m009_pass_7": {
+		"definition": "fortuna+0.1_2",
+		"x": 0,
+		"y": -544,
+		"root": false
+	},
+	"m010_chal_2": {
+		"definition": "minerador_ferro",
+		"x": 0,
+		"y": -612,
+		"root": false
+	},
+	"m011_pass_8": {
+		"definition": "velocidade_picareta+2%_6",
+		"x": 0,
+		"y": -680,
+		"root": false
+	},
+	"m012_pass_9": {
+		"definition": "velocidade_picareta+2%_7",
+		"x": 0,
+		"y": -748,
+		"root": false
+	},
+	"m013_chal_3": {
+		"definition": "cacador_diamantes",
+		"x": 0,
+		"y": -816,
+		"root": false
+	},
+	"m014_pass_10": {
+		"definition": "velocidade_picareta+2%_8",
+		"x": 0,
+		"y": -884,
+		"root": false
+	},
+	"m015_chal_4": {
+		"definition": "mestre_profundezas",
+		"x": 0,
+		"y": -952,
+		"root": false
+	},
+	"m016_excl_left": {
+		"definition": "visao_mineral",
+		"x": -136,
+		"y": -1020,
+		"root": false
+	},
+	"m017_excl_right": {
+		"definition": "mineracao_rapida",
+		"x": 136,
+		"y": -1020,
+		"root": false
+	},
+	"m018_actv_1": {
+		"definition": "mineracao_3x3",
+		"x": -204,
+		"y": -1088,
+		"root": false
+	},
+	"m019_actv_2": {
+		"definition": "raio_x_temporario",
+		"x": 0,
+		"y": -1088,
+		"root": false
+	},
+	"m020_actv_3": {
+		"definition": "resistencia_cavernas",
+		"x": 204,
+		"y": -1088,
+		"root": false
+	}
+}

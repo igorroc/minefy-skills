@@ -1,0 +1,104 @@
+{
+	"e001_root_center": {
+		"definition": "primeira_pa",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"e002_pass_1": {
+		"definition": "velocidade_pa+2%_1",
+		"x": 0,
+		"y": -68,
+		"root": false
+	},
+	"e003_pass_2": {
+		"definition": "velocidade_pa+2%_2",
+		"x": 0,
+		"y": -136,
+		"root": false
+	},
+	"e004_pass_3": {
+		"definition": "stamina+2%_1",
+		"x": 0,
+		"y": -204,
+		"root": false
+	},
+	"e005_chal_1": {
+		"definition": "escavador_iniciante",
+		"x": 0,
+		"y": -272,
+		"root": false
+	},
+	"e006_pass_4": {
+		"definition": "velocidade_pa+2%_3",
+		"x": 0,
+		"y": -340,
+		"root": false
+	},
+	"e007_pass_5": {
+		"definition": "velocidade_pa+2%_4",
+		"x": 0,
+		"y": -408,
+		"root": false
+	},
+	"e008_chal_2": {
+		"definition": "mestre_areias",
+		"x": 0,
+		"y": -476,
+		"root": false
+	},
+	"e009_pass_6": {
+		"definition": "velocidade_pa+2%_5",
+		"x": 0,
+		"y": -544,
+		"root": false
+	},
+	"e010_pass_7": {
+		"definition": "velocidade_pa+2%_6",
+		"x": 0,
+		"y": -612,
+		"root": false
+	},
+	"e011_pass_8": {
+		"definition": "stamina+2%_2",
+		"x": 0,
+		"y": -680,
+		"root": false
+	},
+	"e012_chal_3": {
+		"definition": "arqueologo",
+		"x": 0,
+		"y": -748,
+		"root": false
+	},
+	"e013_excl_left": {
+		"definition": "terraplenagem",
+		"x": -136,
+		"y": -816,
+		"root": false
+	},
+	"e014_excl_right": {
+		"definition": "coletor_gravidade",
+		"x": 136,
+		"y": -816,
+		"root": false
+	},
+	"e015_actv_1": {
+		"definition": "escavacao_3x3",
+		"x": -204,
+		"y": -884,
+		"root": false
+	},
+	"e016_actv_2": {
+		"definition": "pressa",
+		"x": 0,
+		"y": -884,
+		"root": false
+	},
+	"e017_actv_3": {
+		"definition": "pes_leves",
+		"x": 204,
+		"y": -884,
+		"root": false
+	}
+}

@@ -1,0 +1,726 @@
+{
+	"primeiro_disparo": {
+		"title": "Primeiro Disparo",
+		"description": [
+			{"text": "O começo da sua jornada como arqueiro."}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:bow"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [],
+		"metadata": {
+			"icon": "a_root_001_abcd"
+		}
+	},
+	"passive_ranged_dmg_1": {
+		"title": "Precisão I",
+		"description": [
+			{"text": "+3% de dano à distância"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:arrow"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "a_dmg1_002_efgh"
+		}
+	},
+	"passive_ranged_dmg_2": {
+		"title": "Precisão II",
+		"description": [
+			{"text": "+3% de dano à distância"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:arrow"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "a_dmg2_003_ijkl"
+		}
+	},
+	"passive_ranged_dmg_3": {
+		"title": "Precisão III",
+		"description": [
+			{"text": "+3% de dano à distância"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:spectral_arrow"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "a_dmg3_004_mnop"
+		}
+	},
+	"passive_ranged_dmg_4": {
+		"title": "Precisão IV",
+		"description": [
+			{"text": "+3% de dano à distância"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:spectral_arrow"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "a_dmg4_005_qrst"
+		}
+	},
+	"passive_ranged_dmg_5": {
+		"title": "Precisão V",
+		"description": [
+			{"text": "+3% de dano à distância"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:tipped_arrow"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "a_dmg5_006_uvwx"
+		}
+	},
+	"passive_ranged_dmg_6": {
+		"title": "Precisão VI",
+		"description": [
+			{"text": "+3% de dano à distância"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:tipped_arrow"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "a_dmg6_007_yzab"
+		}
+	},
+	"passive_projectile_1": {
+		"title": "Velocidade I",
+		"description": [
+			{"text": "+25% de velocidade de projétil"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:feather"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:bow_projectile_speed",
+					"value": 0.25,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "a_spd1_008_cdef"
+		}
+	},
+	"passive_projectile_2": {
+		"title": "Velocidade II",
+		"description": [
+			{"text": "+25% de velocidade de projétil"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:feather"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:bow_projectile_speed",
+					"value": 0.25,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "a_spd2_009_ghij"
+		}
+	},
+	"passive_projectile_3": {
+		"title": "Velocidade III",
+		"description": [
+			{"text": "+25% de velocidade de projétil"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:phantom_membrane"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:bow_projectile_speed",
+					"value": 0.25,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "a_spd3_010_klmn"
+		}
+	},
+	"passive_projectile_4": {
+		"title": "Velocidade IV",
+		"description": [
+			{"text": "+25% de velocidade de projétil"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:phantom_membrane"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:bow_projectile_speed",
+					"value": 0.25,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "a_spd4_011_opqr"
+		}
+	},
+	"challenge_atirador": {
+		"title": "Atirador",
+		"description": [
+			{"text": "Derrote 50 mobs à distância."},
+			{"text": ""},
+			{"text": "Recompensa: +5% dano à distância"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:target"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s bow[enchantments={power:2,unbreaking:2}] 1"}
+			}
+		],
+		"metadata": {
+			"icon": "a_chr1_012_stuv"
+		}
+	},
+	"challenge_francotirador": {
+		"title": "Francotirador",
+		"description": [
+			{"text": "Derrote 200 mobs à distância."},
+			{"text": ""},
+			{"text": "Recompensa: +8% dano à distância"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:spyglass"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 0.08,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s bow[enchantments={power:3,flame:1}] 1"}
+			}
+		],
+		"metadata": {
+			"icon": "a_chr2_013_wxyz"
+		}
+	},
+	"challenge_olho_aguia": {
+		"title": "Olho de Águia",
+		"description": [
+			{"text": "Derrote 500 mobs à distância."},
+			{"text": ""},
+			{"text": "Recompensa: +50% velocidade de projétil"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:ender_eye"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:bow_projectile_speed",
+					"value": 0.50,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s arrow 64"}
+			}
+		],
+		"metadata": {
+			"icon": "a_chr3_014_abcd"
+		}
+	},
+	"challenge_mestre_arco": {
+		"title": "Mestre do Arco",
+		"description": [
+			{"text": "Derrote 1000 mobs à distância."},
+			{"text": ""},
+			{"text": "Recompensa: +15% dano à distância"}
+		],
+		"size": 2,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:bow"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s bow[custom_name='{\"text\":\"Arco do Mestre\",\"color\":\"aqua\",\"bold\":true}',enchantments={power:5,flame:1,infinity:1,punch:2}] 1"}
+			}
+		],
+		"metadata": {
+			"icon": "a_chr4_015_efgh"
+		}
+	},
+	"challenge_elite": {
+		"title": "Atirador de Elite",
+		"description": [
+			{"text": "Especialização: Dano Máximo"},
+			{"text": ""},
+			{"text": "+25% dano à distância"},
+			{"text": "-20% velocidade de projétil"},
+			{"text": ""},
+			{"text": "Incompatível: Caçador, Artilheiro"}
+		],
+		"size": 2,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:golden_apple"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 0.25,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:bow_projectile_speed",
+					"value": -0.20,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s bow[enchantments={power:7}] 1"}
+			}
+		],
+		"metadata": {
+			"icon": "a_chr5_016_ijkl"
+		}
+	},
+	"challenge_cacador": {
+		"title": "Caçador",
+		"description": [
+			{"text": "Especialização: Mobilidade"},
+			{"text": ""},
+			{"text": "+15% velocidade de movimento"},
+			{"text": "+10% dano à distância"},
+			{"text": "-5% resistência"},
+			{"text": ""},
+			{"text": "Incompatível: Elite, Artilheiro"}
+		],
+		"size": 2,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:leather_boots"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.movement_speed",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:resistance",
+					"value": -0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s leather_boots[enchantments={feather_falling:4,swift_sneak:3}] 1"}
+			}
+		],
+		"metadata": {
+			"icon": "a_chr6_017_mnop"
+		}
+	},
+	"challenge_artilheiro": {
+		"title": "Artilheiro",
+		"description": [
+			{"text": "Especialização: Bestas"},
+			{"text": ""},
+			{"text": "+30% velocidade projétil besta"},
+			{"text": "+15% dano à distância"},
+			{"text": ""},
+			{"text": "Incompatível: Elite, Caçador"}
+		],
+		"size": 2,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:crossbow"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:crossbow_projectile_speed",
+					"value": 0.30,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s crossbow[enchantments={quick_charge:3,piercing:4,multishot:1}] 1"}
+			}
+		],
+		"metadata": {
+			"icon": "a_chr7_018_qrst"
+		}
+	},
+	"active_visao": {
+		"title": "Visão Aguçada",
+		"description": [
+			{"text": "Skill Ativa: Ao desbloquear, recebe:"},
+			{"text": "Brilho por 60 segundos"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:glowstone_dust"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "effect give @s glowing 60 0"}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "tag @s add minefy_visao_agucada"}
+			}
+		],
+		"metadata": {
+			"icon": "a_act1_019_uvwx"
+		}
+	},
+	"active_flechas_fogo": {
+		"title": "Flechas Flamejantes",
+		"description": [
+			{"text": "Skill Ativa: Ao desbloquear, recebe:"},
+			{"text": "32 flechas flamejantes"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:fire_charge"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "give @s tipped_arrow[potion_contents={potion:\"fire_resistance\"}] 32"}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "tag @s add minefy_flechas_fogo"}
+			}
+		],
+		"metadata": {
+			"icon": "a_act2_020_yzab"
+		}
+	},
+	"active_mira": {
+		"title": "Mira Precisa",
+		"description": [
+			{"text": "Skill Ativa: Ao desbloquear, recebe:"},
+			{"text": "Lentidão I por 30 segundos (mira estável)"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:spider_eye"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "effect give @s slowness 30 0"}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "tag @s add minefy_mira_precisa"}
+			}
+		],
+		"metadata": {
+			"icon": "a_act3_021_cdef"
+		}
+	},
+	"active_rajada": {
+		"title": "Rajada de Flechas",
+		"description": [
+			{"text": "Skill Ativa: Ao desbloquear, recebe:"},
+			{"text": "Pressa II por 20 segundos"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:tnt"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "effect give @s haste 20 1"}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "tag @s add minefy_rajada"}
+			}
+		],
+		"metadata": {
+			"icon": "a_act4_022_ghij"
+		}
+	},
+	"active_recuo": {
+		"title": "Recuo Tático",
+		"description": [
+			{"text": "Skill Ativa: Ao desbloquear, recebe:"},
+			{"text": "Velocidade III por 10 segundos"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:wind_charge"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "effect give @s speed 10 2"}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {"command": "tag @s add minefy_recuo_tatico"}
+			}
+		],
+		"metadata": {
+			"icon": "a_act5_023_klmn"
+		}
+	}
+}

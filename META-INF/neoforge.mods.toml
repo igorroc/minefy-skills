@@ -1,0 +1,10 @@
+modLoader="lowcodefml"
+loaderVersion="[1,)"
+license="Unlicense"
+
+[[mods]]
+modId="minefy"
+version="1.0"
+displayName="MineFy"
+description=""
+authors="Pufferfish's Template Generator"

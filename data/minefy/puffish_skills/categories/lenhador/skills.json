@@ -1,0 +1,110 @@
+{
+	"l001_root_center": {
+		"definition": "primeiro_machado",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"l002_pass_1": {
+		"definition": "velocidade_machado+2%_1",
+		"x": 0,
+		"y": -68,
+		"root": false
+	},
+	"l003_pass_2": {
+		"definition": "velocidade_machado+2%_2",
+		"x": 0,
+		"y": -136,
+		"root": false
+	},
+	"l004_pass_3": {
+		"definition": "movimento+3%_1",
+		"x": 0,
+		"y": -204,
+		"root": false
+	},
+	"l005_chal_1": {
+		"definition": "madeireiro",
+		"x": 0,
+		"y": -272,
+		"root": false
+	},
+	"l006_pass_4": {
+		"definition": "velocidade_machado+2%_3",
+		"x": 0,
+		"y": -340,
+		"root": false
+	},
+	"l007_pass_5": {
+		"definition": "velocidade_machado+2%_4",
+		"x": 0,
+		"y": -408,
+		"root": false
+	},
+	"l008_chal_2": {
+		"definition": "derrubador_arvores",
+		"x": 0,
+		"y": -476,
+		"root": false
+	},
+	"l009_pass_6": {
+		"definition": "velocidade_machado+2%_5",
+		"x": 0,
+		"y": -544,
+		"root": false
+	},
+	"l010_pass_7": {
+		"definition": "velocidade_machado+2%_6",
+		"x": 0,
+		"y": -612,
+		"root": false
+	},
+	"l011_pass_8": {
+		"definition": "movimento+3%_2",
+		"x": 0,
+		"y": -680,
+		"root": false
+	},
+	"l012_pass_9": {
+		"definition": "velocidade_machado+2%_7",
+		"x": 0,
+		"y": -748,
+		"root": false
+	},
+	"l013_chal_3": {
+		"definition": "guardiao_floresta",
+		"x": 0,
+		"y": -816,
+		"root": false
+	},
+	"l014_excl_left": {
+		"definition": "forca_bruta",
+		"x": -136,
+		"y": -884,
+		"root": false
+	},
+	"l015_excl_right": {
+		"definition": "precisao",
+		"x": 136,
+		"y": -884,
+		"root": false
+	},
+	"l016_actv_1": {
+		"definition": "corte_arvore",
+		"x": -204,
+		"y": -952,
+		"root": false
+	},
+	"l017_actv_2": {
+		"definition": "impulso_velocidade",
+		"x": 0,
+		"y": -952,
+		"root": false
+	},
+	"l018_actv_3": {
+		"definition": "folha_leve",
+		"x": 204,
+		"y": -952,
+		"root": false
+	}
+}

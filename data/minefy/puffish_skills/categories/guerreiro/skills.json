@@ -1,0 +1,133 @@
+{
+	"w_root_001_abcd": {
+		"definition": "primeira_batalha",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"w_chr1_014_abcd": {
+		"definition": "challenge_aprendiz",
+		"x": 0,
+		"y": 68
+	},
+	"w_chr2_015_efgh": {
+		"definition": "challenge_combatente",
+		"x": 0,
+		"y": 136
+	},
+	"w_spd4_013_wxyz": {
+		"definition": "passive_atk_speed_4",
+		"x": 0,
+		"y": 204
+	},
+	"w_chr4_017_mnop": {
+		"definition": "challenge_mestre",
+		"x": 0,
+		"y": 272
+	},
+	"w_act2_023_klmn": {
+		"definition": "active_investida",
+		"x": -68,
+		"y": 340
+	},
+	"w_act3_024_opqr": {
+		"definition": "active_grito",
+		"x": 68,
+		"y": 340
+	},
+	"w_dmg1_002_efgh": {
+		"definition": "passive_damage_1",
+		"x": -68,
+		"y": 68
+	},
+	"w_dmg2_003_ijkl": {
+		"definition": "passive_damage_2",
+		"x": -68,
+		"y": 136
+	},
+	"w_dmg3_004_mnop": {
+		"definition": "passive_damage_3",
+		"x": -136,
+		"y": 136
+	},
+	"w_dmg4_005_qrst": {
+		"definition": "passive_damage_4",
+		"x": -136,
+		"y": 204
+	},
+	"w_dmg5_006_uvwx": {
+		"definition": "passive_damage_5",
+		"x": -136,
+		"y": 272
+	},
+	"w_dmg6_007_yzab": {
+		"definition": "passive_damage_6",
+		"x": -136,
+		"y": 340
+	},
+	"w_pen1_008_cdef": {
+		"definition": "passive_armor_pen_1",
+		"x": -68,
+		"y": 204
+	},
+	"w_pen2_009_ghij": {
+		"definition": "passive_armor_pen_2",
+		"x": -68,
+		"y": 272
+	},
+	"w_chr5_018_qrst": {
+		"definition": "challenge_berserker",
+		"x": -136,
+		"y": 408
+	},
+	"w_act1_022_ghij": {
+		"definition": "active_furia",
+		"x": -204,
+		"y": 408
+	},
+	"w_spd1_010_klmn": {
+		"definition": "passive_atk_speed_1",
+		"x": 68,
+		"y": 68
+	},
+	"w_spd2_011_opqr": {
+		"definition": "passive_atk_speed_2",
+		"x": 68,
+		"y": 136
+	},
+	"w_spd3_012_stuv": {
+		"definition": "passive_atk_speed_3",
+		"x": 68,
+		"y": 204
+	},
+	"w_chr6_019_uvwx": {
+		"definition": "challenge_gladiador",
+		"x": 136,
+		"y": 272
+	},
+	"w_act4_025_stuv": {
+		"definition": "active_segunda_resp",
+		"x": 136,
+		"y": 340
+	},
+	"w_chr3_016_ijkl": {
+		"definition": "challenge_duelista",
+		"x": 136,
+		"y": 408
+	},
+	"w_chr7_020_yzab": {
+		"definition": "challenge_assassino",
+		"x": 0,
+		"y": 408
+	},
+	"w_act5_026_wxyz": {
+		"definition": "active_sede",
+		"x": 0,
+		"y": 476
+	},
+	"w_chr8_021_cdef": {
+		"definition": "challenge_espadachim",
+		"x": 0,
+		"y": 544
+	}
+}

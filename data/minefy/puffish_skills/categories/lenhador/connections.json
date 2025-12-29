@@ -1,0 +1,28 @@
+{
+	"exclusive": {
+		"bidirectional": [
+			["l014_excl_left", "l015_excl_right"]
+		]
+	},
+	"normal": {
+		"bidirectional": [
+			["l001_root_center", "l002_pass_1"],
+			["l002_pass_1", "l003_pass_2"],
+			["l003_pass_2", "l004_pass_3"],
+			["l004_pass_3", "l005_chal_1"],
+			["l005_chal_1", "l006_pass_4"],
+			["l006_pass_4", "l007_pass_5"],
+			["l007_pass_5", "l008_chal_2"],
+			["l008_chal_2", "l009_pass_6"],
+			["l009_pass_6", "l010_pass_7"],
+			["l010_pass_7", "l011_pass_8"],
+			["l011_pass_8", "l012_pass_9"],
+			["l012_pass_9", "l013_chal_3"],
+			["l013_chal_3", "l014_excl_left"],
+			["l013_chal_3", "l015_excl_right"],
+			["l014_excl_left", "l016_actv_1"],
+			["l015_excl_right", "l017_actv_2"],
+			["l013_chal_3", "l018_actv_3"]
+		]
+	}
+}

@@ -1,0 +1,146 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(level ^ 2.2 * 3 + 60, 4000)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:kill_entity",
+			"data": {
+				"variables": {
+					"is_zombie": {
+						"operations": [
+							{"type": "get_killed_entity"},
+							{"type": "puffish_skills:test", "data": {"entity": "minecraft:zombie"}}
+						]
+					},
+					"is_skeleton": {
+						"operations": [
+							{"type": "get_killed_entity"},
+							{"type": "puffish_skills:test", "data": {"entity": "minecraft:skeleton"}}
+						]
+					},
+					"is_creeper": {
+						"operations": [
+							{"type": "get_killed_entity"},
+							{"type": "puffish_skills:test", "data": {"entity": "minecraft:creeper"}}
+						]
+					},
+					"is_spider": {
+						"operations": [
+							{"type": "get_killed_entity"},
+							{"type": "puffish_skills:test", "data": {"entity": "minecraft:spider"}}
+						]
+					},
+					"is_enderman": {
+						"operations": [
+							{"type": "get_killed_entity"},
+							{"type": "puffish_skills:test", "data": {"entity": "minecraft:enderman"}}
+						]
+					},
+					"is_blaze": {
+						"operations": [
+							{"type": "get_killed_entity"},
+							{"type": "puffish_skills:test", "data": {"entity": "minecraft:blaze"}}
+						]
+					},
+					"is_wither_skeleton": {
+						"operations": [
+							{"type": "get_killed_entity"},
+							{"type": "puffish_skills:test", "data": {"entity": "minecraft:wither_skeleton"}}
+						]
+					},
+					"is_piglin_brute": {
+						"operations": [
+							{"type": "get_killed_entity"},
+							{"type": "puffish_skills:test", "data": {"entity": "minecraft:piglin_brute"}}
+						]
+					},
+					"is_warden": {
+						"operations": [
+							{"type": "get_killed_entity"},
+							{"type": "puffish_skills:test", "data": {"entity": "minecraft:warden"}}
+						]
+					},
+					"is_wither": {
+						"operations": [
+							{"type": "get_killed_entity"},
+							{"type": "puffish_skills:test", "data": {"entity": "minecraft:wither"}}
+						]
+					},
+					"is_ender_dragon": {
+						"operations": [
+							{"type": "get_killed_entity"},
+							{"type": "puffish_skills:test", "data": {"entity": "minecraft:ender_dragon"}}
+						]
+					},
+					"is_melee": {
+						"operations": [
+							{"type": "get_damage_type"},
+							{"type": "puffish_skills:test", "data": {"damage_type": "#minecraft:is_player_attack"}}
+						]
+					},
+					"from_spawner": {
+						"operations": [
+							{"type": "get_killed_entity"},
+							{"type": "puffish_skills:test", "data": {"nbt": "{PersistenceRequired:0b}"}}
+						]
+					}
+				},
+				"experience": [
+					{"condition": "!is_melee", "expression": "0"},
+					{"condition": "is_wither", "expression": "from_spawner ? 100 : 200"},
+					{"condition": "is_ender_dragon", "expression": "200"},
+					{"condition": "is_warden", "expression": "from_spawner ? 50 : 100"},
+					{"condition": "is_wither_skeleton", "expression": "from_spawner ? 3 : 6"},
+					{"condition": "is_piglin_brute", "expression": "from_spawner ? 3 : 6"},
+					{"condition": "is_blaze", "expression": "from_spawner ? 2.5 : 5"},
+					{"condition": "is_enderman", "expression": "from_spawner ? 2 : 4"},
+					{"condition": "is_zombie", "expression": "from_spawner ? 1.5 : 3"},
+					{"condition": "is_skeleton", "expression": "from_spawner ? 1.5 : 3"},
+					{"condition": "is_creeper", "expression": "from_spawner ? 1.5 : 3"},
+					{"condition": "is_spider", "expression": "from_spawner ? 1.5 : 3"},
+					{"condition": "true", "expression": "from_spawner ? 1.5 : 3"}
+				],
+				"anti_farming": {
+					"limit_per_chunk": 10,
+					"reset_after_seconds": 300
+				}
+			}
+		},
+		{
+			"type": "puffish_skills:damage_entity",
+			"data": {
+				"variables": {
+					"is_melee": {
+						"operations": [
+							{"type": "get_damage_type"},
+							{"type": "puffish_skills:test", "data": {"damage_type": "#minecraft:is_player_attack"}}
+						]
+					},
+					"is_hostile": {
+						"operations": [
+							{"type": "get_damaged_entity"},
+							{"type": "puffish_skills:test", "data": {"entity": "#minecraft:hostile"}}
+						]
+					},
+					"damage_amount": {
+						"operations": [
+							{"type": "get_damage"}
+						]
+					}
+				},
+				"experience": [
+					{"condition": "!is_melee || !is_hostile", "expression": "0"},
+					{"condition": "true", "expression": "damage_amount * 0.1"}
+				],
+				"anti_farming": {
+					"limit": 50,
+					"reset_after_seconds": 60
+				}
+			}
+		}
+	]
+}

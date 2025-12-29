@@ -1,0 +1,648 @@
+{
+	"primeiro_machado": {
+		"title": "Primeiro Machado",
+		"description": [
+			{
+				"text": "Inicie sua jornada cortando árvores"
+			}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:wooden_axe"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [],
+		"metadata": {
+			"icon": "lumber001root0001"
+		}
+	},
+	"velocidade_machado+2%_1": {
+		"title": "+2% Velocidade de Machado",
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:stone_axe"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:axe_speed",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "lumber002pass0001"
+		}
+	},
+	"velocidade_machado+2%_2": {
+		"title": "+2% Velocidade de Machado",
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:stone_axe"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:axe_speed",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "lumber003pass0002"
+		}
+	},
+	"movimento+3%_1": {
+		"title": "+3% Velocidade de Movimento",
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:leather_boots"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "movement_speed",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "lumber004pass0003"
+		}
+	},
+	"madeireiro": {
+		"title": "§9Madeireiro",
+		"description": [
+			{
+				"text": "§7+8% Velocidade de Machado\n§7+5% Velocidade de Movimento\n§e§l+32 Toras de Carvalho"
+			}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:oak_log"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:axe_speed",
+					"value": 0.08,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s oak_log 32"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "lumber005chal0001"
+		}
+	},
+	"velocidade_machado+2%_3": {
+		"title": "+2% Velocidade de Machado",
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_axe"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:axe_speed",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "lumber006pass0004"
+		}
+	},
+	"velocidade_machado+2%_4": {
+		"title": "+2% Velocidade de Machado",
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_axe"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:axe_speed",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "lumber007pass0005"
+		}
+	},
+	"derrubador_arvores": {
+		"title": "§9Derrubador de Árvores",
+		"description": [
+			{
+				"text": "§7+15% Velocidade de Machado\n§7+10% Velocidade de Movimento\n§7+5% Stamina\n§e§l+Machado Eficiência III"
+			}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:birch_log"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:axe_speed",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "movement_speed",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s diamond_axe[enchantments={efficiency:3}] 1"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "lumber008chal0002"
+		}
+	},
+	"velocidade_machado+2%_5": {
+		"title": "+2% Velocidade de Machado",
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_axe"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:axe_speed",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "lumber009pass0006"
+		}
+	},
+	"velocidade_machado+2%_6": {
+		"title": "+2% Velocidade de Machado",
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_axe"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:axe_speed",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "lumber010pass0007"
+		}
+	},
+	"movimento+3%_2": {
+		"title": "+3% Velocidade de Movimento",
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:chainmail_boots"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "movement_speed",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "lumber011pass0008"
+		}
+	},
+	"velocidade_machado+2%_7": {
+		"title": "+2% Velocidade de Machado",
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:netherite_axe"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:axe_speed",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "lumber012pass0009"
+		}
+	},
+	"guardiao_floresta": {
+		"title": "§9Guardião da Floresta",
+		"description": [
+			{
+				"text": "§7+20% Velocidade de Machado\n§7+1 Coração\n§7+0.5 Sorte\n§e§l+16 Mudas"
+			}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:dark_oak_sapling"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:axe_speed",
+					"value": 0.2,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "luck",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s oak_sapling 16"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "lumber013chal0003"
+		}
+	},
+	"forca_bruta": {
+		"title": "§dForça Bruta",
+		"description": [
+			{
+				"text": "§7+30% Velocidade de Machado\n§7+5% Dano Corpo a Corpo\n§e§l+2 Poção Força"
+			}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:netherite_axe"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:axe_speed",
+					"value": 0.3,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:melee_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s potion[potion_contents={potion:\"minecraft:strong_strength\"}] 2"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "lumber014excl0001"
+		}
+	},
+	"precisao": {
+		"title": "§dPrecisão",
+		"description": [
+			{
+				"text": "§7+20% Velocidade de Machado\n§7+15% Velocidade de Ataque\n§7+10% Stamina\n§e§l+2 Poção Velocidade"
+			}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:golden_axe"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:axe_speed",
+					"value": 0.2,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attack_speed",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:stamina",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s potion[potion_contents={potion:\"minecraft:long_swiftness\"}] 2"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "lumber015excl0002"
+		}
+	},
+	"corte_arvore": {
+		"title": "§6Corte em Árvore",
+		"description": [
+			{
+				"text": "§7Corte árvores inteiras de uma vez\n§8(Requer datapack adicional)"
+			}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:oak_sapling"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "tag @s add minefy_tree_chopper"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "lumber016actv0001"
+		}
+	},
+	"impulso_velocidade": {
+		"title": "§6Impulso de Velocidade",
+		"description": [
+			{
+				"text": "§7Receba Velocidade II por 30 segundos ao desbloquear"
+			}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:sugar"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "effect give @s speed 30 1"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "lumber017actv0002"
+		}
+	},
+	"folha_leve": {
+		"title": "§6Folha Leve",
+		"description": [
+			{
+				"text": "§7Receba Queda Suave por 60 segundos ao desbloquear"
+			}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:feather"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "effect give @s slow_falling 60 0"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "lumber018actv0003"
+		}
+	}
+}

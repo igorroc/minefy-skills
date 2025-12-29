@@ -1,0 +1,107 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(level ^ 2.2 * 3 + 60, 4000)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:mine_block",
+			"data": {
+				"variables": {
+					"is_oak_log": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:oak_log"}}
+						]
+					},
+					"is_birch_log": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:birch_log"}}
+						]
+					},
+					"is_spruce_log": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:spruce_log"}}
+						]
+					},
+					"is_jungle_log": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:jungle_log"}}
+						]
+					},
+					"is_acacia_log": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:acacia_log"}}
+						]
+					},
+					"is_dark_oak_log": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:dark_oak_log"}}
+						]
+					},
+					"is_mangrove_log": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:mangrove_log"}}
+						]
+					},
+					"is_cherry_log": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:cherry_log"}}
+						]
+					},
+					"is_crimson_stem": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:crimson_stem"}}
+						]
+					},
+					"is_warped_stem": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:warped_stem"}}
+						]
+					},
+					"is_leaves": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "#minecraft:leaves"}}
+						]
+					},
+					"is_mushroom_block": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "#minecraft:mushroom_blocks"}}
+						]
+					}
+				},
+				"experience": [
+					{"condition": "is_oak_log", "expression": "1"},
+					{"condition": "is_birch_log", "expression": "1"},
+					{"condition": "is_spruce_log", "expression": "1"},
+					{"condition": "is_jungle_log", "expression": "1.5"},
+					{"condition": "is_acacia_log", "expression": "1"},
+					{"condition": "is_dark_oak_log", "expression": "1.5"},
+					{"condition": "is_mangrove_log", "expression": "1"},
+					{"condition": "is_cherry_log", "expression": "1"},
+					{"condition": "is_crimson_stem", "expression": "1.5"},
+					{"condition": "is_warped_stem", "expression": "1.5"},
+					{"condition": "is_leaves", "expression": "0.1"},
+					{"condition": "is_mushroom_block", "expression": "2"}
+				],
+				"anti_farming": {
+					"limit_per_chunk": 30,
+					"reset_after_seconds": 300
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,625 @@
+{
+	"primeira_pa": {
+		"title": "Primeira Pá",
+		"description": [
+			{
+				"text": "Inicie sua jornada escavando a terra"
+			}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:wooden_shovel"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [],
+		"metadata": {
+			"icon": "excav001root0001"
+		}
+	},
+	"velocidade_pa+2%_1": {
+		"title": "+2% Velocidade de Pá",
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:stone_shovel"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:shovel_speed",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "excav002pass0001"
+		}
+	},
+	"velocidade_pa+2%_2": {
+		"title": "+2% Velocidade de Pá",
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:stone_shovel"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:shovel_speed",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "excav003pass0002"
+		}
+	},
+	"stamina+2%_1": {
+		"title": "+2% Stamina",
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:baked_potato"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:stamina",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "excav004pass0003"
+		}
+	},
+	"escavador_iniciante": {
+		"title": "§9Escavador Iniciante",
+		"description": [
+			{
+				"text": "§7+10% Velocidade de Pá\n§7+5% Stamina\n§e§l+32 Areia"
+			}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:sand"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:shovel_speed",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s sand 32"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "excav005chal0001"
+		}
+	},
+	"velocidade_pa+2%_3": {
+		"title": "+2% Velocidade de Pá",
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_shovel"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:shovel_speed",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "excav006pass0004"
+		}
+	},
+	"velocidade_pa+2%_4": {
+		"title": "+2% Velocidade de Pá",
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_shovel"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:shovel_speed",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "excav007pass0005"
+		}
+	},
+	"mestre_areias": {
+		"title": "§9Mestre das Areias",
+		"description": [
+			{
+				"text": "§7+20% Velocidade de Pá\n§7+10% Stamina\n§7+5% Velocidade de Movimento\n§e§l+16 TNT"
+			}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:tnt"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:shovel_speed",
+					"value": 0.2,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:stamina",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s tnt 16"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "excav008chal0002"
+		}
+	},
+	"velocidade_pa+2%_5": {
+		"title": "+2% Velocidade de Pá",
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_shovel"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:shovel_speed",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "excav009pass0006"
+		}
+	},
+	"velocidade_pa+2%_6": {
+		"title": "+2% Velocidade de Pá",
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_shovel"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:shovel_speed",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "excav010pass0007"
+		}
+	},
+	"stamina+2%_2": {
+		"title": "+2% Stamina",
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:cooked_beef"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:stamina",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "excav011pass0008"
+		}
+	},
+	"arqueologo": {
+		"title": "§9Arqueólogo",
+		"description": [
+			{
+				"text": "§7+25% Velocidade de Pá\n§7+2 Sorte\n§7+15% Stamina\n§e§l+Pincel + 8 Areia Suspeita"
+			}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:brush"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:shovel_speed",
+					"value": 0.25,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "luck",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:stamina",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s brush 1"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s suspicious_sand 8"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "excav012chal0003"
+		}
+	},
+	"terraplenagem": {
+		"title": "§dTerraplenagem",
+		"description": [
+			{
+				"text": "§7+35% Velocidade de Pá\n§7+20% Stamina\n§e§l+Pá Eff IV + Unb III"
+			}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:netherite_shovel"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:shovel_speed",
+					"value": 0.35,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:stamina",
+					"value": 0.2,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s netherite_shovel[enchantments={efficiency:4,unbreaking:3}] 1"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "excav013excl0001"
+		}
+	},
+	"coletor_gravidade": {
+		"title": "§dColetor de Gravidade",
+		"description": [
+			{
+				"text": "§7+30% Velocidade de Pá\n§7+3 Sorte\n§7+10% Velocidade de Movimento\n§e§l+4 Poção Sorte"
+			}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:gravel"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:shovel_speed",
+					"value": 0.3,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "luck",
+					"value": 3,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "movement_speed",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s potion[potion_contents={potion:\"minecraft:luck\"}] 4"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "excav014excl0002"
+		}
+	},
+	"escavacao_3x3": {
+		"title": "§6Escavação 3x3",
+		"description": [
+			{
+				"text": "§7Escave blocos em área 3x3\n§8(Requer datapack adicional)"
+			}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:dirt"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "tag @s add minefy_3x3_digging"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "excav015actv0001"
+		}
+	},
+	"pressa": {
+		"title": "§6Pressa",
+		"description": [
+			{
+				"text": "§7Receba Pressa II por 60 segundos ao desbloquear"
+			}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "effect give @s haste 60 1"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "excav016actv0002"
+		}
+	},
+	"pes_leves": {
+		"title": "§6Pés Leves",
+		"description": [
+			{
+				"text": "§7Receba Impulso II por 60 segundos ao desbloquear"
+			}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:rabbit_foot"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "effect give @s jump_boost 60 1"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "excav017actv0003"
+		}
+	}
+}

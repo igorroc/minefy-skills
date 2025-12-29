@@ -1,0 +1,12 @@
+{
+	"schemaVersion": 1,
+	"id": "minefy",
+	"version": "1.0",
+	"name": "MineFy",
+	"description": "",
+	"authors": [
+		"Pufferfish's Template Generator"
+	],
+	"license": "Unlicense",
+	"environment": "*"
+}

@@ -1,0 +1,14 @@
+{
+	"version": 3,
+
+	"categories": [
+		"minerador",
+		"lenhador",
+		"escavador",
+		"guerreiro",
+		"arqueiro",
+		"defensor",
+		"alquimista",
+		"ferreiro"
+	]
+}

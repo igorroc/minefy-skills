@@ -1,0 +1,11 @@
+{
+	"unlocked_by_default": true,
+	"title": "Arqueiro",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "minecraft:bow"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/stone.png"
+}

@@ -1,0 +1,11 @@
+{
+	"unlocked_by_default": true,
+	"title": "Guerreiro",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "minecraft:netherite_sword"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/stone.png"
+}

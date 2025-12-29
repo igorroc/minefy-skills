@@ -1,0 +1,39 @@
+{
+	"exclusive": {
+		"bidirectional": [
+			["w_chr5_018_qrst", "w_chr6_019_uvwx"],
+			["w_chr5_018_qrst", "w_chr7_020_yzab"],
+			["w_chr6_019_uvwx", "w_chr7_020_yzab"]
+		]
+	},
+	"normal": {
+		"bidirectional": [
+			["w_root_001_abcd", "w_chr1_014_abcd"],
+			["w_root_001_abcd", "w_dmg1_002_efgh"],
+			["w_root_001_abcd", "w_spd1_010_klmn"],
+			["w_chr1_014_abcd", "w_chr2_015_efgh"],
+			["w_chr2_015_efgh", "w_spd4_013_wxyz"],
+			["w_spd4_013_wxyz", "w_chr4_017_mnop"],
+			["w_chr4_017_mnop", "w_act2_023_klmn"],
+			["w_chr4_017_mnop", "w_act3_024_opqr"],
+			["w_chr4_017_mnop", "w_chr7_020_yzab"],
+			["w_dmg1_002_efgh", "w_dmg2_003_ijkl"],
+			["w_dmg2_003_ijkl", "w_dmg3_004_mnop"],
+			["w_dmg2_003_ijkl", "w_pen1_008_cdef"],
+			["w_dmg3_004_mnop", "w_dmg4_005_qrst"],
+			["w_dmg4_005_qrst", "w_dmg5_006_uvwx"],
+			["w_dmg5_006_uvwx", "w_dmg6_007_yzab"],
+			["w_pen1_008_cdef", "w_pen2_009_ghij"],
+			["w_pen2_009_ghij", "w_dmg5_006_uvwx"],
+			["w_dmg6_007_yzab", "w_chr5_018_qrst"],
+			["w_chr5_018_qrst", "w_act1_022_ghij"],
+			["w_spd1_010_klmn", "w_spd2_011_opqr"],
+			["w_spd2_011_opqr", "w_spd3_012_stuv"],
+			["w_spd3_012_stuv", "w_chr6_019_uvwx"],
+			["w_chr6_019_uvwx", "w_act4_025_stuv"],
+			["w_act4_025_stuv", "w_chr3_016_ijkl"],
+			["w_chr7_020_yzab", "w_act5_026_wxyz"],
+			["w_act5_026_wxyz", "w_chr8_021_cdef"]
+		]
+	}
+}

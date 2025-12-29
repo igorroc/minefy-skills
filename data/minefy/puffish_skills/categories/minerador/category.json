@@ -1,0 +1,11 @@
+{
+	"unlocked_by_default": true,
+	"title": "Minerador",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "minecraft:diamond_pickaxe"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/stone.png"
+}
