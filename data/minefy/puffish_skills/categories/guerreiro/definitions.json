@@ -260,7 +260,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "minecraft:generic.attack_speed",
+					"attribute": "minecraft:attack_speed",
 					"value": 0.05,
 					"operation": "multiply_total"
 				}
@@ -288,7 +288,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "minecraft:generic.attack_speed",
+					"attribute": "minecraft:attack_speed",
 					"value": 0.05,
 					"operation": "multiply_total"
 				}
@@ -316,7 +316,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "minecraft:generic.attack_speed",
+					"attribute": "minecraft:attack_speed",
 					"value": 0.05,
 					"operation": "multiply_total"
 				}
@@ -344,7 +344,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "minecraft:generic.attack_speed",
+					"attribute": "minecraft:attack_speed",
 					"value": 0.05,
 					"operation": "multiply_total"
 				}
@@ -442,7 +442,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "minecraft:generic.attack_speed",
+					"attribute": "minecraft:attack_speed",
 					"value": 0.10,
 					"operation": "multiply_total"
 				}
@@ -559,7 +559,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "minecraft:generic.attack_speed",
+					"attribute": "minecraft:attack_speed",
 					"value": 0.15,
 					"operation": "multiply_total"
 				}
@@ -621,7 +621,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "minecraft:generic.movement_speed",
+					"attribute": "minecraft:movement_speed",
 					"value": 0.10,
 					"operation": "multiply_total"
 				}

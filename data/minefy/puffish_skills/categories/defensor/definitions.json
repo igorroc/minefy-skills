@@ -36,7 +36,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "minecraft:generic.armor",
+					"attribute": "minecraft:armor",
 					"value": 1,
 					"operation": "addition"
 				}
@@ -64,7 +64,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "minecraft:generic.armor",
+					"attribute": "minecraft:armor",
 					"value": 1,
 					"operation": "addition"
 				}
@@ -92,7 +92,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "minecraft:generic.armor",
+					"attribute": "minecraft:armor",
 					"value": 1,
 					"operation": "addition"
 				}
@@ -120,7 +120,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "minecraft:generic.armor",
+					"attribute": "minecraft:armor",
 					"value": 1,
 					"operation": "addition"
 				}
@@ -260,7 +260,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "minecraft:generic.max_health",
+					"attribute": "minecraft:max_health",
 					"value": 2,
 					"operation": "addition"
 				}
@@ -288,7 +288,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "minecraft:generic.max_health",
+					"attribute": "minecraft:max_health",
 					"value": 2,
 					"operation": "addition"
 				}
@@ -316,7 +316,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "minecraft:generic.max_health",
+					"attribute": "minecraft:max_health",
 					"value": 2,
 					"operation": "addition"
 				}
@@ -344,7 +344,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "minecraft:generic.max_health",
+					"attribute": "minecraft:max_health",
 					"value": 2,
 					"operation": "addition"
 				}
@@ -374,7 +374,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "minecraft:generic.armor",
+					"attribute": "minecraft:armor",
 					"value": 2,
 					"operation": "addition"
 				}
@@ -442,7 +442,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "minecraft:generic.armor",
+					"attribute": "minecraft:armor",
 					"value": 3,
 					"operation": "addition"
 				}
@@ -450,7 +450,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "minecraft:generic.max_health",
+					"attribute": "minecraft:max_health",
 					"value": 4,
 					"operation": "addition"
 				}
@@ -492,7 +492,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "minecraft:generic.max_health",
+					"attribute": "minecraft:max_health",
 					"value": 6,
 					"operation": "addition"
 				}
@@ -529,7 +529,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "minecraft:generic.armor",
+					"attribute": "minecraft:armor",
 					"value": 8,
 					"operation": "addition"
 				}
@@ -537,7 +537,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "minecraft:generic.movement_speed",
+					"attribute": "minecraft:movement_speed",
 					"value": -0.10,
 					"operation": "multiply_total"
 				}
@@ -574,7 +574,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "minecraft:generic.max_health",
+					"attribute": "minecraft:max_health",
 					"value": 16,
 					"operation": "addition"
 				}
@@ -628,7 +628,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "minecraft:generic.armor",
+					"attribute": "minecraft:armor",
 					"value": 4,
 					"operation": "addition"
 				}
@@ -636,7 +636,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "minecraft:generic.max_health",
+					"attribute": "minecraft:max_health",
 					"value": 8,
 					"operation": "addition"
 				}

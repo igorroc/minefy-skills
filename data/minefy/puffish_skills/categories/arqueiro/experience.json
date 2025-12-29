@@ -89,11 +89,7 @@
 					{"condition": "is_creeper", "expression": "from_spawner ? 1.5 : 3"},
 					{"condition": "is_spider", "expression": "from_spawner ? 1.5 : 3"},
 					{"condition": "true", "expression": "from_spawner ? 1.5 : 3"}
-				],
-				"anti_farming": {
-					"limit_per_chunk": 10,
-					"reset_after_seconds": 300
-				}
+				]
 			}
 		}
 	]

@@ -503,7 +503,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "minecraft:generic.movement_speed",
+					"attribute": "minecraft:movement_speed",
 					"value": 0.15,
 					"operation": "multiply_total"
 				}

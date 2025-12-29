@@ -27,11 +27,7 @@
 					{"condition": "is_lingering", "expression": "10"},
 					{"condition": "is_splash", "expression": "7"},
 					{"condition": "true", "expression": "5"}
-				],
-				"anti_farming": {
-					"limit": 20,
-					"reset_after_seconds": 300
-				}
+				]
 			}
 		},
 		{
@@ -46,11 +42,7 @@
 				},
 				"experience": [
 					{"condition": "true", "expression": "enchant_level * 2"}
-				],
-				"anti_farming": {
-					"limit": 50,
-					"reset_after_seconds": 300
-				}
+				]
 			}
 		}
 	]

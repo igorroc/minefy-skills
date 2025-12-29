@@ -110,11 +110,7 @@
 					{"condition": "is_nether_gold_ore", "expression": "3"},
 					{"condition": "is_nether_quartz_ore", "expression": "2"},
 					{"condition": "is_obsidian", "expression": "3"}
-				],
-				"anti_farming": {
-					"limit_per_chunk": 15,
-					"reset_after_seconds": 300
-				}
+				]
 			}
 		}
 	]

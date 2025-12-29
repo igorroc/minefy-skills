@@ -76,10 +76,22 @@
 							{"type": "puffish_skills:test", "data": {"block": "#minecraft:leaves"}}
 						]
 					},
-					"is_mushroom_block": {
+					"is_red_mushroom_block": {
 						"operations": [
 							{"type": "get_mined_block_state"},
-							{"type": "puffish_skills:test", "data": {"block": "#minecraft:mushroom_blocks"}}
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:red_mushroom_block"}}
+						]
+					},
+					"is_brown_mushroom_block": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:brown_mushroom_block"}}
+						]
+					},
+					"is_mushroom_stem": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:mushroom_stem"}}
 						]
 					}
 				},
@@ -95,12 +107,10 @@
 					{"condition": "is_crimson_stem", "expression": "1.5"},
 					{"condition": "is_warped_stem", "expression": "1.5"},
 					{"condition": "is_leaves", "expression": "0.1"},
-					{"condition": "is_mushroom_block", "expression": "2"}
-				],
-				"anti_farming": {
-					"limit_per_chunk": 30,
-					"reset_after_seconds": 300
-				}
+					{"condition": "is_red_mushroom_block", "expression": "2"},
+					{"condition": "is_brown_mushroom_block", "expression": "2"},
+					{"condition": "is_mushroom_stem", "expression": "2"}
+				]
 			}
 		}
 	]

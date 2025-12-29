@@ -25,11 +25,7 @@
 				"experience": [
 					{"condition": "is_self_inflicted", "expression": "0"},
 					{"condition": "true", "expression": "damage_amount * 0.5"}
-				],
-				"anti_farming": {
-					"limit": 50,
-					"reset_after_seconds": 60
-				}
+				]
 			}
 		}
 	]

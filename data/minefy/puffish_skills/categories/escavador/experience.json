@@ -82,11 +82,7 @@
 					{"condition": "is_suspicious_sand", "expression": "5"},
 					{"condition": "is_suspicious_gravel", "expression": "5"},
 					{"condition": "is_snow", "expression": "0.2"}
-				],
-				"anti_farming": {
-					"limit_per_chunk": 40,
-					"reset_after_seconds": 180
-				}
+				]
 			}
 		}
 	]

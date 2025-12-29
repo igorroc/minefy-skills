@@ -11,11 +11,7 @@
 			"data": {
 				"experience": [
 					{"condition": "true", "expression": "3"}
-				],
-				"anti_farming": {
-					"limit": 30,
-					"reset_after_seconds": 300
-				}
+				]
 			}
 		},
 		{
@@ -23,11 +19,7 @@
 			"data": {
 				"experience": [
 					{"condition": "true", "expression": "5"}
-				],
-				"anti_farming": {
-					"limit": 30,
-					"reset_after_seconds": 300
-				}
+				]
 			}
 		},
 		{
@@ -44,11 +36,7 @@
 				"experience": [
 					{"condition": "is_ore", "expression": "1"},
 					{"condition": "true", "expression": "0.5"}
-				],
-				"anti_farming": {
-					"limit": 50,
-					"reset_after_seconds": 300
-				}
+				]
 			}
 		},
 		{
@@ -77,11 +65,7 @@
 				"experience": [
 					{"condition": "is_tool || is_weapon || is_armor", "expression": "2"},
 					{"condition": "true", "expression": "0"}
-				],
-				"anti_farming": {
-					"limit": 30,
-					"reset_after_seconds": 300
-				}
+				]
 			}
 		}
 	]

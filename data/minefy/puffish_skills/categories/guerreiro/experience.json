@@ -103,11 +103,7 @@
 					{"condition": "is_creeper", "expression": "from_spawner ? 1.5 : 3"},
 					{"condition": "is_spider", "expression": "from_spawner ? 1.5 : 3"},
 					{"condition": "true", "expression": "from_spawner ? 1.5 : 3"}
-				],
-				"anti_farming": {
-					"limit_per_chunk": 10,
-					"reset_after_seconds": 300
-				}
+				]
 			}
 		},
 		{
@@ -135,11 +131,7 @@
 				"experience": [
 					{"condition": "!is_melee || !is_hostile", "expression": "0"},
 					{"condition": "true", "expression": "damage_amount * 0.1"}
-				],
-				"anti_farming": {
-					"limit": 50,
-					"reset_after_seconds": 60
-				}
+				]
 			}
 		}
 	]
