@@ -89,34 +89,22 @@
 		"y": -952,
 		"root": false
 	},
-	"m016_excl_left": {
+	"m016_path_left": {
 		"definition": "visao_mineral",
 		"x": -136,
 		"y": -1020,
 		"root": false
 	},
-	"m017_excl_right": {
+	"m017_path_center": {
 		"definition": "mineracao_rapida",
-		"x": 136,
+		"x": 0,
 		"y": -1020,
 		"root": false
 	},
-	"m018_actv_1": {
-		"definition": "mineracao_3x3",
-		"x": -204,
-		"y": -1088,
-		"root": false
-	},
-	"m019_actv_2": {
-		"definition": "raio_x_temporario",
-		"x": 0,
-		"y": -1088,
-		"root": false
-	},
-	"m020_actv_3": {
-		"definition": "resistencia_cavernas",
-		"x": 204,
-		"y": -1088,
+	"m018_path_right": {
+		"definition": "minerador_profundo",
+		"x": 136,
+		"y": -1020,
 		"root": false
 	}
 }

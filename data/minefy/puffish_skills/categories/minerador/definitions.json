@@ -144,7 +144,7 @@
 		"title": "§9Garimpeiro",
 		"description": [
 			{
-				"text": "§7+5% Velocidade de Picareta\n§7+0.5 Fortuna\n§e§l+16 Tocha"
+				"text": "§7+3% Velocidade de Picareta\n§7+0.3 Fortuna\n§e§l+16 Tocha"
 			}
 		],
 		"size": 1,
@@ -165,7 +165,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:pickaxe_speed",
-					"value": 0.05,
+					"value": 0.03,
 					"operation": "multiply_total"
 				}
 			},
@@ -173,7 +173,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:fortune",
-					"value": 0.5,
+					"value": 0.3,
 					"operation": "addition"
 				}
 			},
@@ -279,7 +279,7 @@
 		"title": "§9Minerador de Ferro",
 		"description": [
 			{
-				"text": "§7+8% Velocidade de Picareta\n§7+1 Fortuna\n§7+3% Resistência\n§e§l+8 Ferro"
+				"text": "§7+4% Velocidade de Picareta\n§7+0.5 Fortuna\n§7+2% Resistência\n§e§l+8 Ferro"
 			}
 		],
 		"size": 1,
@@ -300,7 +300,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:pickaxe_speed",
-					"value": 0.08,
+					"value": 0.04,
 					"operation": "multiply_total"
 				}
 			},
@@ -308,7 +308,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:fortune",
-					"value": 1,
+					"value": 0.5,
 					"operation": "addition"
 				}
 			},
@@ -316,7 +316,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:resistance",
-					"value": 0.03,
+					"value": 0.02,
 					"operation": "multiply_total"
 				}
 			},
@@ -393,7 +393,7 @@
 		"title": "§9Caçador de Diamantes",
 		"description": [
 			{
-				"text": "§7+12% Velocidade de Picareta\n§7+2 Fortuna\n§7+5% Resistência\n§e§l+4 Diamante"
+				"text": "§7+6% Velocidade de Picareta\n§7+1 Fortuna\n§7+3% Resistência\n§e§l+4 Diamante"
 			}
 		],
 		"size": 1,
@@ -414,7 +414,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:pickaxe_speed",
-					"value": 0.12,
+					"value": 0.06,
 					"operation": "multiply_total"
 				}
 			},
@@ -422,7 +422,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:fortune",
-					"value": 2,
+					"value": 1,
 					"operation": "addition"
 				}
 			},
@@ -430,7 +430,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:resistance",
-					"value": 0.05,
+					"value": 0.03,
 					"operation": "multiply_total"
 				}
 			},
@@ -478,7 +478,7 @@
 		"title": "§9Mestre das Profundezas",
 		"description": [
 			{
-				"text": "§7+15% Velocidade de Picareta\n§7+3 Fortuna\n§7+1 Coração\n§e§l+2 Ancient Debris"
+				"text": "§7+8% Velocidade de Picareta\n§7+1.5 Fortuna\n§7+1 Coração\n§e§l+2 Ancient Debris\n\n§6Três caminhos disponíveis: Visão Mineral, Mineração Rápida e Minerador Profundo"
 			}
 		],
 		"size": 1,
@@ -499,7 +499,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:pickaxe_speed",
-					"value": 0.15,
+					"value": 0.08,
 					"operation": "multiply_total"
 				}
 			},
@@ -507,7 +507,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:fortune",
-					"value": 3,
+					"value": 1.5,
 					"operation": "addition"
 				}
 			},
@@ -534,7 +534,7 @@
 		"title": "§dVisão Mineral",
 		"description": [
 			{
-				"text": "§7+10% Fortuna\n§7+1 Sorte\n§e§l+2 Poção Visão Noturna"
+				"text": "§6Caminho: Fortuna\n\n§7+5% Fortuna\n§7+1 Sorte\n§e§l+2 Poção Visão Noturna"
 			}
 		],
 		"size": 1,
@@ -555,7 +555,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:fortune",
-					"value": 0.1,
+					"value": 0.05,
 					"operation": "multiply_total"
 				}
 			},
@@ -582,7 +582,7 @@
 		"title": "§dMineração Rápida",
 		"description": [
 			{
-				"text": "§7+25% Velocidade de Picareta\n§7+10% Stamina\n§e§l+2 Poção Pressa"
+				"text": "§6Caminho: Velocidade\n\n§7+12% Velocidade de Picareta\n§7+5% Stamina\n§e§l+2 Poção Pressa"
 			}
 		],
 		"size": 1,
@@ -603,7 +603,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:pickaxe_speed",
-					"value": 0.25,
+					"value": 0.12,
 					"operation": "multiply_total"
 				}
 			},
@@ -611,7 +611,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:stamina",
-					"value": 0.1,
+					"value": 0.05,
 					"operation": "multiply_total"
 				}
 			},
@@ -626,75 +626,11 @@
 			"icon": "miner017excl0002"
 		}
 	},
-	"mineracao_3x3": {
-		"title": "§6Mineração 3x3",
+	"minerador_profundo": {
+		"title": "§dMinerador Profundo",
 		"description": [
 			{
-				"text": "§7Minere blocos em área 3x3\n§8(Requer datapack adicional)"
-			}
-		],
-		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:tnt"
-			}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "goal"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "tag @s add minefy_3x3_mining"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "miner018actv0001"
-		}
-	},
-	"raio_x_temporario": {
-		"title": "§6Raio-X Temporário",
-		"description": [
-			{
-				"text": "§7Receba Brilho por 30 segundos ao desbloquear"
-			}
-		],
-		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:glowstone_dust"
-			}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "goal"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "effect give @s glowing 30 0"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "miner019actv0002"
-		}
-	},
-	"resistencia_cavernas": {
-		"title": "§6Resistência das Cavernas",
-		"description": [
-			{
-				"text": "§7Receba Resistência I por 60 segundos ao desbloquear"
+				"text": "§6Caminho: Sobrevivência\n\n§7+2 Armadura\n§7+5% Resistência\n§7+1 Coração\n§e§l+8 Obsidiana"
 			}
 		],
 		"size": 1,
@@ -707,14 +643,38 @@
 		"frame": {
 			"type": "advancement",
 			"data": {
-				"frame": "goal"
+				"frame": "challenge"
 			}
 		},
 		"rewards": [
 			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "armor",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:resistance",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
 				"type": "puffish_skills:command",
 				"data": {
-					"command": "effect give @s resistance 60 0"
+					"command": "give @s obsidian 8"
 				}
 			}
 		],
