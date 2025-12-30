@@ -21,7 +21,8 @@
 	"passive_damage_1": {
 		"title": "Força I",
 		"description": [
-			{"text": "+3% de dano corpo a corpo"}
+			{"text": "+8% de dano corpo a corpo"},
+			{"text": "+1 coração de vida"}
 		],
 		"size": 1,
 		"icon": {
@@ -37,8 +38,16 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:melee_damage",
-					"value": 0.03,
+					"value": 0.08,
 					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:max_health",
+					"value": 2,
+					"operation": "addition"
 				}
 			}
 		],
@@ -49,7 +58,8 @@
 	"passive_damage_2": {
 		"title": "Força II",
 		"description": [
-			{"text": "+3% de dano corpo a corpo"}
+			{"text": "+8% de dano corpo a corpo"},
+			{"text": "+1 coração de vida"}
 		],
 		"size": 1,
 		"icon": {
@@ -65,8 +75,16 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:melee_damage",
-					"value": 0.03,
+					"value": 0.08,
 					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:max_health",
+					"value": 2,
+					"operation": "addition"
 				}
 			}
 		],
@@ -77,7 +95,8 @@
 	"passive_damage_3": {
 		"title": "Força III",
 		"description": [
-			{"text": "+3% de dano corpo a corpo"}
+			{"text": "+10% de dano corpo a corpo"},
+			{"text": "+1 coração de vida"}
 		],
 		"size": 1,
 		"icon": {
@@ -93,8 +112,16 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:melee_damage",
-					"value": 0.03,
+					"value": 0.10,
 					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:max_health",
+					"value": 2,
+					"operation": "addition"
 				}
 			}
 		],
@@ -105,7 +132,8 @@
 	"passive_damage_4": {
 		"title": "Força IV",
 		"description": [
-			{"text": "+3% de dano corpo a corpo"}
+			{"text": "+10% de dano corpo a corpo"},
+			{"text": "+2 corações de vida"}
 		],
 		"size": 1,
 		"icon": {
@@ -121,8 +149,16 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:melee_damage",
-					"value": 0.03,
+					"value": 0.10,
 					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:max_health",
+					"value": 4,
+					"operation": "addition"
 				}
 			}
 		],
@@ -133,7 +169,8 @@
 	"passive_damage_5": {
 		"title": "Força V",
 		"description": [
-			{"text": "+3% de dano corpo a corpo"}
+			{"text": "+12% de dano corpo a corpo"},
+			{"text": "+2 corações de vida"}
 		],
 		"size": 1,
 		"icon": {
@@ -149,8 +186,16 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:melee_damage",
-					"value": 0.03,
+					"value": 0.12,
 					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:max_health",
+					"value": 4,
+					"operation": "addition"
 				}
 			}
 		],
@@ -161,7 +206,8 @@
 	"passive_damage_6": {
 		"title": "Força VI",
 		"description": [
-			{"text": "+3% de dano corpo a corpo"}
+			{"text": "+15% de dano corpo a corpo"},
+			{"text": "+3 corações de vida"}
 		],
 		"size": 1,
 		"icon": {
@@ -177,8 +223,16 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:melee_damage",
-					"value": 0.03,
+					"value": 0.15,
 					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:max_health",
+					"value": 6,
+					"operation": "addition"
 				}
 			}
 		],
@@ -189,7 +243,7 @@
 	"passive_armor_pen_1": {
 		"title": "Penetração I",
 		"description": [
-			{"text": "+5% de penetração de armadura"}
+			{"text": "+12% de penetração de armadura"}
 		],
 		"size": 1,
 		"icon": {
@@ -205,7 +259,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:armor_shred",
-					"value": 0.05,
+					"value": 0.12,
 					"operation": "multiply_total"
 				}
 			}
@@ -217,7 +271,7 @@
 	"passive_armor_pen_2": {
 		"title": "Penetração II",
 		"description": [
-			{"text": "+5% de penetração de armadura"}
+			{"text": "+15% de penetração de armadura"}
 		],
 		"size": 1,
 		"icon": {
@@ -233,7 +287,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:armor_shred",
-					"value": 0.05,
+					"value": 0.15,
 					"operation": "multiply_total"
 				}
 			}
@@ -245,7 +299,7 @@
 	"passive_atk_speed_1": {
 		"title": "Agilidade I",
 		"description": [
-			{"text": "+5% de velocidade de ataque"}
+			{"text": "+10% de velocidade de ataque"}
 		],
 		"size": 1,
 		"icon": {
@@ -261,7 +315,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "minecraft:attack_speed",
-					"value": 0.05,
+					"value": 0.10,
 					"operation": "multiply_total"
 				}
 			}
@@ -273,7 +327,7 @@
 	"passive_atk_speed_2": {
 		"title": "Agilidade II",
 		"description": [
-			{"text": "+5% de velocidade de ataque"}
+			{"text": "+10% de velocidade de ataque"}
 		],
 		"size": 1,
 		"icon": {
@@ -289,7 +343,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "minecraft:attack_speed",
-					"value": 0.05,
+					"value": 0.10,
 					"operation": "multiply_total"
 				}
 			}
@@ -301,7 +355,7 @@
 	"passive_atk_speed_3": {
 		"title": "Agilidade III",
 		"description": [
-			{"text": "+5% de velocidade de ataque"}
+			{"text": "+12% de velocidade de ataque"}
 		],
 		"size": 1,
 		"icon": {
@@ -317,7 +371,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "minecraft:attack_speed",
-					"value": 0.05,
+					"value": 0.12,
 					"operation": "multiply_total"
 				}
 			}
@@ -329,7 +383,7 @@
 	"passive_atk_speed_4": {
 		"title": "Agilidade IV",
 		"description": [
-			{"text": "+5% de velocidade de ataque"}
+			{"text": "+15% de velocidade de ataque"}
 		],
 		"size": 1,
 		"icon": {
@@ -345,7 +399,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "minecraft:attack_speed",
-					"value": 0.05,
+					"value": 0.15,
 					"operation": "multiply_total"
 				}
 			}
@@ -359,7 +413,8 @@
 		"description": [
 			{"text": "Derrote 50 mobs hostis."},
 			{"text": ""},
-			{"text": "Recompensa: +5% dano corpo a corpo"}
+			{"text": "Recompensa: +12% dano corpo a corpo"},
+			{"text": "+2 corações de vida"}
 		],
 		"size": 1,
 		"icon": {
@@ -375,13 +430,17 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:melee_damage",
-					"value": 0.05,
+					"value": 0.12,
 					"operation": "multiply_total"
 				}
 			},
 			{
-				"type": "puffish_skills:command",
-				"data": {"command": "give @s iron_sword[enchantments={sharpness:2}] 1"}
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:max_health",
+					"value": 4,
+					"operation": "addition"
+				}
 			}
 		],
 		"metadata": {
@@ -393,7 +452,8 @@
 		"description": [
 			{"text": "Derrote 200 mobs hostis."},
 			{"text": ""},
-			{"text": "Recompensa: +8% dano corpo a corpo"}
+			{"text": "Recompensa: +18% dano corpo a corpo"},
+			{"text": "+3 corações de vida"}
 		],
 		"size": 1,
 		"icon": {
@@ -409,13 +469,17 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:melee_damage",
-					"value": 0.08,
+					"value": 0.18,
 					"operation": "multiply_total"
 				}
 			},
 			{
-				"type": "puffish_skills:command",
-				"data": {"command": "give @s diamond_sword[enchantments={sharpness:3}] 1"}
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:max_health",
+					"value": 6,
+					"operation": "addition"
+				}
 			}
 		],
 		"metadata": {
@@ -427,7 +491,8 @@
 		"description": [
 			{"text": "Derrote 500 mobs hostis."},
 			{"text": ""},
-			{"text": "Recompensa: +10% velocidade de ataque"}
+			{"text": "Recompensa: +20% velocidade de ataque"},
+			{"text": "+4 corações de vida"}
 		],
 		"size": 1,
 		"icon": {
@@ -443,13 +508,17 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "minecraft:attack_speed",
-					"value": 0.10,
+					"value": 0.20,
 					"operation": "multiply_total"
 				}
 			},
 			{
-				"type": "puffish_skills:command",
-				"data": {"command": "give @s diamond 8"}
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:max_health",
+					"value": 8,
+					"operation": "addition"
+				}
 			}
 		],
 		"metadata": {
@@ -461,7 +530,9 @@
 		"description": [
 			{"text": "Derrote 1000 mobs hostis."},
 			{"text": ""},
-			{"text": "Recompensa: +15% dano corpo a corpo"}
+			{"text": "Recompensa: +25% dano corpo a corpo"},
+			{"text": "+5 corações de vida"},
+			{"text": "Item: Lâmina do Mestre"}
 		],
 		"size": 2,
 		"icon": {
@@ -477,8 +548,16 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:melee_damage",
-					"value": 0.15,
+					"value": 0.25,
 					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:max_health",
+					"value": 10,
+					"operation": "addition"
 				}
 			},
 			{
@@ -495,7 +574,8 @@
 		"description": [
 			{"text": "Path Ofensivo Exclusivo"},
 			{"text": ""},
-			{"text": "+20% dano corpo a corpo"},
+			{"text": "+35% dano corpo a corpo"},
+			{"text": "+15% velocidade de ataque"},
 			{"text": "-10% resistência"},
 			{"text": ""},
 			{"text": "Incompatível: Gladiador, Assassino"}
@@ -514,7 +594,15 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:melee_damage",
-					"value": 0.20,
+					"value": 0.35,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:attack_speed",
+					"value": 0.15,
 					"operation": "multiply_total"
 				}
 			},
@@ -540,9 +628,9 @@
 		"description": [
 			{"text": "Path Defensivo Exclusivo"},
 			{"text": ""},
-			{"text": "+15% velocidade de ataque"},
-			{"text": "+10% resistência"},
-			{"text": "-5% dano corpo a corpo"},
+			{"text": "+25% velocidade de ataque"},
+			{"text": "+20% resistência"},
+			{"text": "+5 corações de vida"},
 			{"text": ""},
 			{"text": "Incompatível: Berserker, Assassino"}
 		],
@@ -560,7 +648,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "minecraft:attack_speed",
-					"value": 0.15,
+					"value": 0.25,
 					"operation": "multiply_total"
 				}
 			},
@@ -568,16 +656,16 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:resistance",
-					"value": 0.10,
+					"value": 0.20,
 					"operation": "multiply_total"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_attributes:melee_damage",
-					"value": -0.05,
-					"operation": "multiply_total"
+					"attribute": "minecraft:max_health",
+					"value": 10,
+					"operation": "addition"
 				}
 			},
 			{
@@ -594,8 +682,9 @@
 		"description": [
 			{"text": "Path Furtivo Exclusivo"},
 			{"text": ""},
-			{"text": "+25% dano corpo a corpo"},
-			{"text": "+10% velocidade de movimento"},
+			{"text": "+40% dano corpo a corpo"},
+			{"text": "+20% velocidade de movimento"},
+			{"text": "+20% velocidade de ataque"},
 			{"text": "-15% resistência"},
 			{"text": ""},
 			{"text": "Incompatível: Berserker, Gladiador"}
@@ -614,7 +703,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:melee_damage",
-					"value": 0.25,
+					"value": 0.40,
 					"operation": "multiply_total"
 				}
 			},
@@ -622,7 +711,15 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "minecraft:movement_speed",
-					"value": 0.10,
+					"value": 0.20,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:attack_speed",
+					"value": 0.20,
 					"operation": "multiply_total"
 				}
 			},
@@ -644,11 +741,13 @@
 		}
 	},
 	"challenge_espadachim": {
-		"title": "Espadachim",
+		"title": "Espadachim Supremo",
 		"description": [
 			{"text": "Derrote um Wither em combate corpo a corpo."},
 			{"text": ""},
-			{"text": "Recompensa: +20% dano contra bosses"}
+			{"text": "Recompensa: +30% dano corpo a corpo"},
+			{"text": "+8 corações de vida"},
+			{"text": "Item: Nether Star"}
 		],
 		"size": 2,
 		"icon": {
@@ -664,8 +763,16 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:melee_damage",
-					"value": 0.20,
+					"value": 0.30,
 					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:max_health",
+					"value": 16,
+					"operation": "addition"
 				}
 			},
 			{
