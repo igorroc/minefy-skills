@@ -107,9 +107,7 @@
 					{"condition": "is_crimson_stem", "expression": "1.5"},
 					{"condition": "is_warped_stem", "expression": "1.5"},
 					{"condition": "is_leaves", "expression": "0.1"},
-					{"condition": "is_red_mushroom_block", "expression": "2"},
-					{"condition": "is_brown_mushroom_block", "expression": "2"},
-					{"condition": "is_mushroom_stem", "expression": "2"}
+					{"condition": "is_red_mushroom_block || is_brown_mushroom_block || is_mushroom_stem", "expression": "2"}
 				]
 			}
 		}

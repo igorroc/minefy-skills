@@ -12,67 +12,67 @@
 				"variables": {
 					"is_zombie": {
 						"operations": [
-							{"type": "get_killed_entity"},
+							{"type": "get_killed_living_entity"},
 							{"type": "puffish_skills:test", "data": {"entity": "minecraft:zombie"}}
 						]
 					},
 					"is_skeleton": {
 						"operations": [
-							{"type": "get_killed_entity"},
+							{"type": "get_killed_living_entity"},
 							{"type": "puffish_skills:test", "data": {"entity": "minecraft:skeleton"}}
 						]
 					},
 					"is_creeper": {
 						"operations": [
-							{"type": "get_killed_entity"},
+							{"type": "get_killed_living_entity"},
 							{"type": "puffish_skills:test", "data": {"entity": "minecraft:creeper"}}
 						]
 					},
 					"is_spider": {
 						"operations": [
-							{"type": "get_killed_entity"},
+							{"type": "get_killed_living_entity"},
 							{"type": "puffish_skills:test", "data": {"entity": "minecraft:spider"}}
 						]
 					},
 					"is_enderman": {
 						"operations": [
-							{"type": "get_killed_entity"},
+							{"type": "get_killed_living_entity"},
 							{"type": "puffish_skills:test", "data": {"entity": "minecraft:enderman"}}
 						]
 					},
 					"is_blaze": {
 						"operations": [
-							{"type": "get_killed_entity"},
+							{"type": "get_killed_living_entity"},
 							{"type": "puffish_skills:test", "data": {"entity": "minecraft:blaze"}}
 						]
 					},
 					"is_wither_skeleton": {
 						"operations": [
-							{"type": "get_killed_entity"},
+							{"type": "get_killed_living_entity"},
 							{"type": "puffish_skills:test", "data": {"entity": "minecraft:wither_skeleton"}}
 						]
 					},
 					"is_wither": {
 						"operations": [
-							{"type": "get_killed_entity"},
+							{"type": "get_killed_living_entity"},
 							{"type": "puffish_skills:test", "data": {"entity": "minecraft:wither"}}
 						]
 					},
 					"is_ender_dragon": {
 						"operations": [
-							{"type": "get_killed_entity"},
+							{"type": "get_killed_living_entity"},
 							{"type": "puffish_skills:test", "data": {"entity": "minecraft:ender_dragon"}}
 						]
 					},
 					"is_ranged": {
 						"operations": [
-							{"type": "get_damage_type"},
+							{"type": "get_damage_source"},
 							{"type": "puffish_skills:test", "data": {"damage_type": "#minecraft:is_projectile"}}
 						]
 					},
 					"from_spawner": {
 						"operations": [
-							{"type": "get_killed_entity"},
+							{"type": "get_killed_living_entity"},
 							{"type": "puffish_skills:test", "data": {"nbt": "{PersistenceRequired:0b}"}}
 						]
 					}
