@@ -1,0 +1,709 @@
+{
+	"iniciante": {
+		"title": "Iniciante",
+		"description": [
+			{"text": "Bem-vindo ao caminho do Fazendeiro!"},
+			{"text": "Desbloqueie esta skill para começar sua jornada."}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:wooden_hoe"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [],
+		"metadata": {
+			"icon": "f_root_001"
+		}
+	},
+	"maos_calejadas_1": {
+		"title": "Mãos Calejadas I",
+		"description": [
+			{"text": "+8% de velocidade de colheita"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:stone_hoe"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:block_break_speed",
+					"value": 0.08,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "f_spd1_002"
+		}
+	},
+	"polegar_verde_1": {
+		"title": "Polegar Verde I",
+		"description": [
+			{"text": "+1 de Sorte ao colher"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:wheat"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:luck",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "f_lck1_003"
+		}
+	},
+	"maos_calejadas_2": {
+		"title": "Mãos Calejadas II",
+		"description": [
+			{"text": "+12% de velocidade de colheita"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:iron_hoe"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:block_break_speed",
+					"value": 0.12,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "f_spd2_004"
+		}
+	},
+	"polegar_verde_2": {
+		"title": "Polegar Verde II",
+		"description": [
+			{"text": "+1.5 de Sorte ao colher"},
+			{"text": "+1 coração de vida"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:melon"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:luck",
+					"value": 1.5,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "f_lck2_005"
+		}
+	},
+	"agricultor_experiente_1": {
+		"title": "Agricultor Experiente I",
+		"description": [
+			{"text": "+5% de velocidade de movimento"},
+			{"text": "+1 coração de vida"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:golden_hoe"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "f_mov1_006"
+		}
+	},
+	"maos_calejadas_3": {
+		"title": "Mãos Calejadas III",
+		"description": [
+			{"text": "+15% de velocidade de colheita"},
+			{"text": "+1 coração de vida"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:diamond_hoe"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:block_break_speed",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "f_spd3_007"
+		}
+	},
+	"polegar_verde_3": {
+		"title": "Polegar Verde III",
+		"description": [
+			{"text": "+2 de Sorte ao colher"},
+			{"text": "+2 corações de vida"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:pumpkin"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:luck",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "f_lck3_008"
+		}
+	},
+	"desafio_trabalhador": {
+		"title": "Trabalhador Incansável",
+		"description": [
+			{"text": "Desafio: Prove sua dedicação"},
+			{"text": ""},
+			{"text": "+20% de velocidade de colheita"},
+			{"text": "+2 de Sorte"},
+			{"text": "+2 corações de vida"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:netherite_hoe"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:block_break_speed",
+					"value": 0.20,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:luck",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "f_chr1_009"
+		}
+	},
+	"escolha_especializacao": {
+		"title": "Escolha sua Especialização",
+		"description": [
+			{"text": "Escolha um dos três caminhos:"},
+			{"text": "Agricultor, Pecuarista ou Pescador"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:compass"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "goal"}
+		},
+		"rewards": [],
+		"metadata": {
+			"icon": "f_choice_010"
+		}
+	},
+	"caminho_agricultor": {
+		"title": "Agricultor Especialista",
+		"description": [
+			{"text": "Caminho do Agricultor"},
+			{"text": ""},
+			{"text": "+25% de velocidade de colheita"},
+			{"text": "+3 de Sorte"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:hay_block"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:block_break_speed",
+					"value": 0.25,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:luck",
+					"value": 3,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "f_agr1_011"
+		}
+	},
+	"agricultor_avancado": {
+		"title": "Agricultor Avançado",
+		"description": [
+			{"text": "+3 de Sorte ao colher"},
+			{"text": "+2 corações de vida"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:golden_carrot"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:luck",
+					"value": 3,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "f_agr2_012"
+		}
+	},
+	"mestre_dos_cultivos": {
+		"title": "Mestre dos Cultivos",
+		"description": [
+			{"text": "O ápice da agricultura!"},
+			{"text": ""},
+			{"text": "+35% de velocidade de colheita"},
+			{"text": "+5 de Sorte"},
+			{"text": "+4 corações de vida"},
+			{"text": ""},
+			{"text": "Recompensa: Enxada do Mestre Agricultor"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:enchanted_golden_apple"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:block_break_speed",
+					"value": 0.35,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:luck",
+					"value": 5,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:max_health",
+					"value": 8,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s diamond_hoe[custom_name='{\"text\":\"Enxada do Mestre Agricultor\",\"color\":\"green\",\"italic\":false}',enchantments={efficiency:5,fortune:3,unbreaking:3}] 1"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "f_agr3_013"
+		}
+	},
+	"caminho_pecuarista": {
+		"title": "Pecuarista Especialista",
+		"description": [
+			{"text": "Caminho do Pecuarista"},
+			{"text": ""},
+			{"text": "+10% de velocidade de movimento"},
+			{"text": "+2 corações de vida"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:lead"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:movement_speed",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "f_pec1_014"
+		}
+	},
+	"pecuarista_avancado": {
+		"title": "Pecuarista Avançado",
+		"description": [
+			{"text": "+3 corações de vida"},
+			{"text": "+2 de Sorte"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:cooked_beef"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:max_health",
+					"value": 6,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:luck",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "f_pec2_015"
+		}
+	},
+	"mestre_dos_animais": {
+		"title": "Mestre dos Animais",
+		"description": [
+			{"text": "O ápice da pecuária!"},
+			{"text": ""},
+			{"text": "+15% de velocidade de movimento"},
+			{"text": "+5 corações de vida"},
+			{"text": "+3 de Sorte"},
+			{"text": ""},
+			{"text": "Recompensa: 64 Cenouras Douradas"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:saddle"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:movement_speed",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:max_health",
+					"value": 10,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:luck",
+					"value": 3,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s golden_carrot[custom_name='{\"text\":\"Cenoura Dourada do Mestre\",\"color\":\"gold\",\"italic\":false}'] 64"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "f_pec3_016"
+		}
+	},
+	"caminho_pescador": {
+		"title": "Pescador Especialista",
+		"description": [
+			{"text": "Caminho do Pescador"},
+			{"text": ""},
+			{"text": "+4 de Sorte"},
+			{"text": "+1 coração de vida"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:fishing_rod"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:luck",
+					"value": 4,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "f_pes1_017"
+		}
+	},
+	"pescador_avancado": {
+		"title": "Pescador Avançado",
+		"description": [
+			{"text": "+4 de Sorte"},
+			{"text": "+2 corações de vida"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:cod"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "task"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:luck",
+					"value": 4,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "f_pes2_018"
+		}
+	},
+	"mestre_da_pesca": {
+		"title": "Mestre da Pesca",
+		"description": [
+			{"text": "O ápice da pesca!"},
+			{"text": ""},
+			{"text": "+8 de Sorte"},
+			{"text": "+3 corações de vida"},
+			{"text": ""},
+			{"text": "Recompensa: Vara do Mestre Pescador"}
+		],
+		"size": 1,
+		"icon": {
+			"type": "item",
+			"data": {"item": "minecraft:trident"}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {"frame": "challenge"}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:luck",
+					"value": 8,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:max_health",
+					"value": 6,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s fishing_rod[custom_name='{\"text\":\"Vara do Mestre Pescador\",\"color\":\"aqua\",\"italic\":false}',enchantments={lure:3,luck_of_the_sea:3,unbreaking:3,mending:1}] 1"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "f_pes3_019"
+		}
+	}
+}

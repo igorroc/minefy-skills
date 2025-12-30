@@ -1,0 +1,153 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(level ^ 2.0 * 4 + 40, 3000)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:mine_block",
+			"data": {
+				"variables": {
+					"is_wheat": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:wheat"}}
+						]
+					},
+					"is_carrots": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:carrots"}}
+						]
+					},
+					"is_potatoes": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:potatoes"}}
+						]
+					},
+					"is_beetroots": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:beetroots"}}
+						]
+					},
+					"is_melon": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:melon"}}
+						]
+					},
+					"is_pumpkin": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:pumpkin"}}
+						]
+					},
+					"is_sugar_cane": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:sugar_cane"}}
+						]
+					},
+					"is_bamboo": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:bamboo"}}
+						]
+					},
+					"is_cactus": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:cactus"}}
+						]
+					},
+					"is_cocoa": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:cocoa"}}
+						]
+					},
+					"is_nether_wart": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:nether_wart"}}
+						]
+					},
+					"is_sweet_berry_bush": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:sweet_berry_bush"}}
+						]
+					},
+					"is_cave_vines": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:cave_vines"}}
+						]
+					},
+					"is_cave_vines_plant": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:cave_vines_plant"}}
+						]
+					}
+				},
+				"experience": [
+					{"condition": "is_wheat", "expression": "1"},
+					{"condition": "is_carrots", "expression": "1"},
+					{"condition": "is_potatoes", "expression": "1"},
+					{"condition": "is_beetroots", "expression": "1"},
+					{"condition": "is_melon", "expression": "0.8"},
+					{"condition": "is_pumpkin", "expression": "2"},
+					{"condition": "is_sugar_cane", "expression": "0.5"},
+					{"condition": "is_bamboo", "expression": "0.3"},
+					{"condition": "is_cactus", "expression": "0.5"},
+					{"condition": "is_cocoa", "expression": "1.5"},
+					{"condition": "is_nether_wart", "expression": "2"},
+					{"condition": "is_sweet_berry_bush", "expression": "1"},
+					{"condition": "is_cave_vines | is_cave_vines_plant", "expression": "1.2"}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:craft_item",
+			"data": {
+				"variables": {
+					"is_bread": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:bread"}}
+						]
+					},
+					"is_cake": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:cake"}}
+						]
+					},
+					"is_pumpkin_pie": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:pumpkin_pie"}}
+						]
+					},
+					"is_cookie": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:cookie"}}
+						]
+					}
+				},
+				"experience": [
+					{"condition": "is_bread", "expression": "2"},
+					{"condition": "is_cake", "expression": "5"},
+					{"condition": "is_pumpkin_pie", "expression": "3"},
+					{"condition": "is_cookie", "expression": "1.5"}
+				]
+			}
+		}
+	]
+}

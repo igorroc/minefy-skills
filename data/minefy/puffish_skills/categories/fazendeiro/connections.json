@@ -1,0 +1,31 @@
+{
+	"exclusive": {
+		"bidirectional": [
+			["f_agr1_011", "f_pec1_014"],
+			["f_agr1_011", "f_pes1_017"],
+			["f_pec1_014", "f_pes1_017"]
+		]
+	},
+	"normal": {
+		"bidirectional": [
+			["f_root_001", "f_spd1_002"],
+			["f_spd1_002", "f_lck1_003"],
+			["f_lck1_003", "f_spd2_004"],
+			["f_spd2_004", "f_lck2_005"],
+			["f_lck2_005", "f_mov1_006"],
+			["f_mov1_006", "f_spd3_007"],
+			["f_spd3_007", "f_lck3_008"],
+			["f_lck3_008", "f_chr1_009"],
+			["f_chr1_009", "f_choice_010"],
+			["f_choice_010", "f_agr1_011"],
+			["f_choice_010", "f_pec1_014"],
+			["f_choice_010", "f_pes1_017"],
+			["f_agr1_011", "f_agr2_012"],
+			["f_agr2_012", "f_agr3_013"],
+			["f_pec1_014", "f_pec2_015"],
+			["f_pec2_015", "f_pec3_016"],
+			["f_pes1_017", "f_pes2_018"],
+			["f_pes2_018", "f_pes3_019"]
+		]
+	}
+}

@@ -1,0 +1,98 @@
+{
+	"f_root_001": {
+		"definition": "iniciante",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"f_spd1_002": {
+		"definition": "maos_calejadas_1",
+		"x": 0,
+		"y": 68
+	},
+	"f_lck1_003": {
+		"definition": "polegar_verde_1",
+		"x": 0,
+		"y": 136
+	},
+	"f_spd2_004": {
+		"definition": "maos_calejadas_2",
+		"x": 0,
+		"y": 204
+	},
+	"f_lck2_005": {
+		"definition": "polegar_verde_2",
+		"x": 0,
+		"y": 272
+	},
+	"f_mov1_006": {
+		"definition": "agricultor_experiente_1",
+		"x": 0,
+		"y": 340
+	},
+	"f_spd3_007": {
+		"definition": "maos_calejadas_3",
+		"x": 0,
+		"y": 408
+	},
+	"f_lck3_008": {
+		"definition": "polegar_verde_3",
+		"x": 0,
+		"y": 476
+	},
+	"f_chr1_009": {
+		"definition": "desafio_trabalhador",
+		"x": 0,
+		"y": 544
+	},
+	"f_choice_010": {
+		"definition": "escolha_especializacao",
+		"x": 0,
+		"y": 612
+	},
+	"f_agr1_011": {
+		"definition": "caminho_agricultor",
+		"x": -204,
+		"y": 680
+	},
+	"f_agr2_012": {
+		"definition": "agricultor_avancado",
+		"x": -204,
+		"y": 748
+	},
+	"f_agr3_013": {
+		"definition": "mestre_dos_cultivos",
+		"x": -204,
+		"y": 816
+	},
+	"f_pec1_014": {
+		"definition": "caminho_pecuarista",
+		"x": 0,
+		"y": 680
+	},
+	"f_pec2_015": {
+		"definition": "pecuarista_avancado",
+		"x": 0,
+		"y": 748
+	},
+	"f_pec3_016": {
+		"definition": "mestre_dos_animais",
+		"x": 0,
+		"y": 816
+	},
+	"f_pes1_017": {
+		"definition": "caminho_pescador",
+		"x": 204,
+		"y": 680
+	},
+	"f_pes2_018": {
+		"definition": "pescador_avancado",
+		"x": 204,
+		"y": 748
+	},
+	"f_pes3_019": {
+		"definition": "mestre_da_pesca",
+		"x": 204,
+		"y": 816
+	}
+}
