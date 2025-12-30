@@ -9,7 +9,196 @@
 		{
 			"type": "puffish_skills:craft_item",
 			"data": {
-				"experience": "2"
+				"variables": {
+					"is_sword": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "#minecraft:swords"}}
+						]
+					},
+					"is_axe": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "#minecraft:axes"}}
+						]
+					},
+					"is_pickaxe": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "#minecraft:pickaxes"}}
+						]
+					},
+					"is_shovel": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "#minecraft:shovels"}}
+						]
+					},
+					"is_hoe": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "#minecraft:hoes"}}
+						]
+					},
+					"is_helmet": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:leather_helmet"}}
+						]
+					},
+					"is_helmet2": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:chainmail_helmet"}}
+						]
+					},
+					"is_helmet3": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:iron_helmet"}}
+						]
+					},
+					"is_helmet4": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:golden_helmet"}}
+						]
+					},
+					"is_helmet5": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:diamond_helmet"}}
+						]
+					},
+					"is_helmet6": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:netherite_helmet"}}
+						]
+					},
+					"is_chestplate": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:leather_chestplate"}}
+						]
+					},
+					"is_chestplate2": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:chainmail_chestplate"}}
+						]
+					},
+					"is_chestplate3": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:iron_chestplate"}}
+						]
+					},
+					"is_chestplate4": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:golden_chestplate"}}
+						]
+					},
+					"is_chestplate5": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:diamond_chestplate"}}
+						]
+					},
+					"is_chestplate6": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:netherite_chestplate"}}
+						]
+					},
+					"is_leggings": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:leather_leggings"}}
+						]
+					},
+					"is_leggings2": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:chainmail_leggings"}}
+						]
+					},
+					"is_leggings3": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:iron_leggings"}}
+						]
+					},
+					"is_leggings4": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:golden_leggings"}}
+						]
+					},
+					"is_leggings5": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:diamond_leggings"}}
+						]
+					},
+					"is_leggings6": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:netherite_leggings"}}
+						]
+					},
+					"is_boots": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:leather_boots"}}
+						]
+					},
+					"is_boots2": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:chainmail_boots"}}
+						]
+					},
+					"is_boots3": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:iron_boots"}}
+						]
+					},
+					"is_boots4": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:golden_boots"}}
+						]
+					},
+					"is_boots5": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:diamond_boots"}}
+						]
+					},
+					"is_boots6": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:netherite_boots"}}
+						]
+					},
+					"is_shield": {
+						"operations": [
+							{"type": "get_crafted_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:shield"}}
+						]
+					}
+				},
+				"experience": [
+					{"condition": "is_sword || is_axe || is_pickaxe || is_shovel || is_hoe", "expression": "4"},
+					{"condition": "is_helmet || is_helmet2 || is_helmet3 || is_helmet4 || is_helmet5 || is_helmet6", "expression": "5"},
+					{"condition": "is_chestplate || is_chestplate2 || is_chestplate3 || is_chestplate4 || is_chestplate5 || is_chestplate6", "expression": "8"},
+					{"condition": "is_leggings || is_leggings2 || is_leggings3 || is_leggings4 || is_leggings5 || is_leggings6", "expression": "7"},
+					{"condition": "is_boots || is_boots2 || is_boots3 || is_boots4 || is_boots5 || is_boots6", "expression": "4"},
+					{"condition": "is_shield", "expression": "5"}
+				]
 			}
 		}
 	]

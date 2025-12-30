@@ -9,7 +9,31 @@
 		{
 			"type": "puffish_skills:mine_block",
 			"data": {
-				"experience": "1"
+				"variables": {
+					"is_log": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "#minecraft:logs"}}
+						]
+					},
+					"is_leaves": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "#minecraft:leaves"}}
+						]
+					},
+					"is_mushroom": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "#minecraft:mushroom_grow_block"}}
+						]
+					}
+				},
+				"experience": [
+					{"condition": "is_log", "expression": "3"},
+					{"condition": "is_leaves", "expression": "0.5"},
+					{"condition": "is_mushroom", "expression": "2"}
+				]
 			}
 		}
 	]
