@@ -10,86 +10,19 @@
 			"type": "puffish_skills:kill_entity",
 			"data": {
 				"variables": {
-					"is_zombie": {
+					"dropped_xp": {
 						"operations": [
-							{"type": "get_killed_living_entity"},
-							{"type": "puffish_skills:test", "data": {"entity": "minecraft:zombie"}}
+							{"type": "get_dropped_experience"}
 						]
 					},
-					"is_skeleton": {
+					"max_health": {
 						"operations": [
 							{"type": "get_killed_living_entity"},
-							{"type": "puffish_skills:test", "data": {"entity": "minecraft:skeleton"}}
-						]
-					},
-					"is_creeper": {
-						"operations": [
-							{"type": "get_killed_living_entity"},
-							{"type": "puffish_skills:test", "data": {"entity": "minecraft:creeper"}}
-						]
-					},
-					"is_spider": {
-						"operations": [
-							{"type": "get_killed_living_entity"},
-							{"type": "puffish_skills:test", "data": {"entity": "minecraft:spider"}}
-						]
-					},
-					"is_enderman": {
-						"operations": [
-							{"type": "get_killed_living_entity"},
-							{"type": "puffish_skills:test", "data": {"entity": "minecraft:enderman"}}
-						]
-					},
-					"is_blaze": {
-						"operations": [
-							{"type": "get_killed_living_entity"},
-							{"type": "puffish_skills:test", "data": {"entity": "minecraft:blaze"}}
-						]
-					},
-					"is_wither_skeleton": {
-						"operations": [
-							{"type": "get_killed_living_entity"},
-							{"type": "puffish_skills:test", "data": {"entity": "minecraft:wither_skeleton"}}
-						]
-					},
-					"is_wither": {
-						"operations": [
-							{"type": "get_killed_living_entity"},
-							{"type": "puffish_skills:test", "data": {"entity": "minecraft:wither"}}
-						]
-					},
-					"is_ender_dragon": {
-						"operations": [
-							{"type": "get_killed_living_entity"},
-							{"type": "puffish_skills:test", "data": {"entity": "minecraft:ender_dragon"}}
-						]
-					},
-					"is_ranged": {
-						"operations": [
-							{"type": "get_damage_source"},
-							{"type": "puffish_skills:test", "data": {"damage_type": "#minecraft:is_projectile"}}
-						]
-					},
-					"from_spawner": {
-						"operations": [
-							{"type": "get_killed_living_entity"},
-							{"type": "puffish_skills:test", "data": {"nbt": "{PersistenceRequired:0b}"}}
+							{"type": "get_max_health"}
 						]
 					}
 				},
-				"experience": [
-					{"condition": "!is_ranged", "expression": "0"},
-					{"condition": "is_wither", "expression": "from_spawner ? 100 : 200"},
-					{"condition": "is_ender_dragon", "expression": "200"},
-					{"condition": "is_wither_skeleton", "expression": "from_spawner ? 3 : 6"},
-					{"condition": "is_blaze", "expression": "from_spawner ? 2.5 : 5"},
-					{"condition": "is_enderman", "expression": "from_spawner ? 2 : 4"},
-					{"condition": "is_zombie", "expression": "from_spawner ? 1.5 : 3"},
-					{"condition": "is_skeleton", "expression": "from_spawner ? 1.5 : 3"},
-					{"condition": "is_creeper", "expression": "from_spawner ? 1.5 : 3"},
-					{"condition": "is_spider", "expression": "from_spawner ? 1.5 : 3"},
-					{"condition": "true", "expression": "from_spawner ? 1.5 : 3"}
-				]
+				"experience": "dropped_xp + max_health / 20"
 			}
 		}
 	]

@@ -10,22 +10,13 @@
 			"type": "puffish_skills:take_damage",
 			"data": {
 				"variables": {
-					"is_self_inflicted": {
-						"operations": [
-							{"type": "get_damage_source"},
-							{"type": "puffish_skills:test", "data": {"damage_type": "#minecraft:bypasses_armor"}}
-						]
-					},
-					"damage_amount": {
+					"damage": {
 						"operations": [
 							{"type": "get_taken_damage"}
 						]
 					}
 				},
-				"experience": [
-					{"condition": "is_self_inflicted", "expression": "0"},
-					{"condition": "true", "expression": "damage_amount * 0.5"}
-				]
+				"experience": "damage * 0.25"
 			}
 		}
 	]
