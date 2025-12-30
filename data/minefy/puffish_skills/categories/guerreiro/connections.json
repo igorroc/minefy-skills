@@ -1,11 +1,4 @@
 {
-	"exclusive": {
-		"bidirectional": [
-			["w_chr5_018_qrst", "w_chr6_019_uvwx"],
-			["w_chr5_018_qrst", "w_chr7_020_yzab"],
-			["w_chr6_019_uvwx", "w_chr7_020_yzab"]
-		]
-	},
 	"normal": {
 		"bidirectional": [
 			["w_root_001_abcd", "w_chr1_014_abcd"],
