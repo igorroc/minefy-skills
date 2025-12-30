@@ -300,9 +300,9 @@
 		}
 	},
 	"escolha_especializacao": {
-		"title": "Escolha sua Especialização",
+		"title": "Caminhos de Especialização",
 		"description": [
-			{"text": "Escolha um dos três caminhos:"},
+			{"text": "Três caminhos disponíveis:"},
 			{"text": "Agricultor, Pecuarista ou Pescador"}
 		],
 		"size": 1,
