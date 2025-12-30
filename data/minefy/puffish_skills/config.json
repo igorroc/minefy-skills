@@ -2,12 +2,12 @@
 	"version": 3,
 
 	"categories": [
+		"guerreiro",
+		"defensor",
 		"minerador",
+		"arqueiro",
 		"lenhador",
 		"escavador",
-		"guerreiro",
-		"arqueiro",
-		"defensor",
 		"ferreiro",
 		"fazendeiro"
 	]
