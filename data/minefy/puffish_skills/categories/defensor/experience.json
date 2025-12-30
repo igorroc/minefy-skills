@@ -7,18 +7,18 @@
 	},
 	"sources": [
 		{
-			"type": "puffish_skills:get_hurt",
+			"type": "puffish_skills:take_damage",
 			"data": {
 				"variables": {
 					"is_self_inflicted": {
 						"operations": [
-							{"type": "get_damage_type"},
+							{"type": "get_damage_source"},
 							{"type": "puffish_skills:test", "data": {"damage_type": "#minecraft:bypasses_armor"}}
 						]
 					},
 					"damage_amount": {
 						"operations": [
-							{"type": "get_damage"}
+							{"type": "get_taken_damage"}
 						]
 					}
 				},

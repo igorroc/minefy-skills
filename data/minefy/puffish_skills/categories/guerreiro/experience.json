@@ -107,7 +107,7 @@
 			}
 		},
 		{
-			"type": "puffish_skills:damage_entity",
+			"type": "puffish_skills:deal_damage",
 			"data": {
 				"variables": {
 					"is_melee": {
@@ -124,7 +124,7 @@
 					},
 					"damage_amount": {
 						"operations": [
-							{"type": "get_damage"}
+							{"type": "get_dealt_damage"}
 						]
 					}
 				},
