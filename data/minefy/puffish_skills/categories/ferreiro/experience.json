@@ -192,11 +192,11 @@
 					}
 				},
 				"experience": [
-					{"condition": "is_sword || is_axe || is_pickaxe || is_shovel || is_hoe", "expression": "4"},
-					{"condition": "is_helmet || is_helmet2 || is_helmet3 || is_helmet4 || is_helmet5 || is_helmet6", "expression": "5"},
-					{"condition": "is_chestplate || is_chestplate2 || is_chestplate3 || is_chestplate4 || is_chestplate5 || is_chestplate6", "expression": "8"},
-					{"condition": "is_leggings || is_leggings2 || is_leggings3 || is_leggings4 || is_leggings5 || is_leggings6", "expression": "7"},
-					{"condition": "is_boots || is_boots2 || is_boots3 || is_boots4 || is_boots5 || is_boots6", "expression": "4"},
+					{"condition": "is_sword | is_axe | is_pickaxe | is_shovel | is_hoe", "expression": "4"},
+					{"condition": "is_helmet | is_helmet2 | is_helmet3 | is_helmet4 | is_helmet5 | is_helmet6", "expression": "5"},
+					{"condition": "is_chestplate | is_chestplate2 | is_chestplate3 | is_chestplate4 | is_chestplate5 | is_chestplate6", "expression": "8"},
+					{"condition": "is_leggings | is_leggings2 | is_leggings3 | is_leggings4 | is_leggings5 | is_leggings6", "expression": "7"},
+					{"condition": "is_boots | is_boots2 | is_boots3 | is_boots4 | is_boots5 | is_boots6", "expression": "4"},
 					{"condition": "is_shield", "expression": "5"}
 				]
 			}
