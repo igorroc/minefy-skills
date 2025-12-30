@@ -1,11 +1,4 @@
 {
-	"exclusive": {
-		"bidirectional": [
-			["f_agr1_011", "f_pec1_014"],
-			["f_agr1_011", "f_pes1_017"],
-			["f_pec1_014", "f_pes1_017"]
-		]
-	},
 	"normal": {
 		"bidirectional": [
 			["f_root_001", "f_spd1_002"],
