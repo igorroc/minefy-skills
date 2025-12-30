@@ -60,11 +60,6 @@
 		"x": -136,
 		"y": 408
 	},
-	"f_act1_017_mnop": {
-		"definition": "active_reparo",
-		"x": -204,
-		"y": 340
-	},
 	"f_dur1_008_cdef": {
 		"definition": "passive_durability_1",
 		"x": 68,
@@ -77,21 +72,11 @@
 	},
 	"f_chr6_015_efgh": {
 		"definition": "challenge_armaduras",
-		"x": 68,
-		"y": 272
+		"x": 136,
+		"y": 408
 	},
 	"f_chr7_016_ijkl": {
 		"definition": "challenge_engenheiro",
-		"x": 0,
-		"y": 340
-	},
-	"f_act2_018_qrst": {
-		"definition": "active_forja_rapida",
-		"x": -68,
-		"y": 340
-	},
-	"f_act3_019_uvwx": {
-		"definition": "active_bencao",
 		"x": 0,
 		"y": 408
 	}

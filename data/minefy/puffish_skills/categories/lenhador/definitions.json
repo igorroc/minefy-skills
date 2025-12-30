@@ -115,7 +115,7 @@
 		"title": "§9Madeireiro",
 		"description": [
 			{
-				"text": "§7+8% Velocidade de Machado\n§7+5% Velocidade de Movimento\n§e§l+32 Toras de Carvalho"
+				"text": "§7+4% Velocidade de Machado\n§7+3% Velocidade de Movimento\n§e§l+32 Toras de Carvalho"
 			}
 		],
 		"size": 1,
@@ -136,7 +136,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:axe_speed",
-					"value": 0.08,
+					"value": 0.04,
 					"operation": "multiply_total"
 				}
 			},
@@ -144,7 +144,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "movement_speed",
-					"value": 0.05,
+					"value": 0.03,
 					"operation": "multiply_total"
 				}
 			},
@@ -221,7 +221,7 @@
 		"title": "§9Derrubador de Árvores",
 		"description": [
 			{
-				"text": "§7+15% Velocidade de Machado\n§7+10% Velocidade de Movimento\n§7+5% Stamina\n§e§l+Machado Eficiência III"
+				"text": "§7+7% Velocidade de Machado\n§7+5% Velocidade de Movimento\n§7+3% Stamina\n§e§l+Machado Eficiência III"
 			}
 		],
 		"size": 1,
@@ -242,7 +242,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:axe_speed",
-					"value": 0.15,
+					"value": 0.07,
 					"operation": "multiply_total"
 				}
 			},
@@ -250,7 +250,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "movement_speed",
-					"value": 0.1,
+					"value": 0.05,
 					"operation": "multiply_total"
 				}
 			},
@@ -258,7 +258,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:stamina",
-					"value": 0.05,
+					"value": 0.03,
 					"operation": "multiply_total"
 				}
 			},
@@ -393,7 +393,7 @@
 		"title": "§9Guardião da Floresta",
 		"description": [
 			{
-				"text": "§7+20% Velocidade de Machado\n§7+1 Coração\n§7+0.5 Sorte\n§e§l+16 Mudas"
+				"text": "§7+10% Velocidade de Machado\n§7+1 Coração\n§7+0.5 Sorte\n§e§l+16 Mudas\n\n§6Dois caminhos disponíveis: Força Bruta e Precisão"
 			}
 		],
 		"size": 1,
@@ -414,7 +414,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:axe_speed",
-					"value": 0.2,
+					"value": 0.10,
 					"operation": "multiply_total"
 				}
 			},
@@ -449,7 +449,7 @@
 		"title": "§dForça Bruta",
 		"description": [
 			{
-				"text": "§7+30% Velocidade de Machado\n§7+5% Dano Corpo a Corpo\n§e§l+2 Poção Força"
+				"text": "§6Caminho: Força\n\n§7+15% Velocidade de Machado\n§7+5% Dano Corpo a Corpo\n§e§l+2 Poção Força"
 			}
 		],
 		"size": 1,
@@ -470,7 +470,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:axe_speed",
-					"value": 0.3,
+					"value": 0.15,
 					"operation": "multiply_total"
 				}
 			},
@@ -497,7 +497,7 @@
 		"title": "§dPrecisão",
 		"description": [
 			{
-				"text": "§7+20% Velocidade de Machado\n§7+15% Velocidade de Ataque\n§7+10% Stamina\n§e§l+2 Poção Velocidade"
+				"text": "§6Caminho: Agilidade\n\n§7+10% Velocidade de Machado\n§7+8% Velocidade de Ataque\n§7+5% Stamina\n§e§l+2 Poção Velocidade"
 			}
 		],
 		"size": 1,
@@ -518,7 +518,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:axe_speed",
-					"value": 0.2,
+					"value": 0.10,
 					"operation": "multiply_total"
 				}
 			},
@@ -526,7 +526,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "attack_speed",
-					"value": 0.15,
+					"value": 0.08,
 					"operation": "multiply_total"
 				}
 			},
@@ -534,7 +534,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:stamina",
-					"value": 0.1,
+					"value": 0.05,
 					"operation": "multiply_total"
 				}
 			},
@@ -547,102 +547,6 @@
 		],
 		"metadata": {
 			"icon": "lumber015excl0002"
-		}
-	},
-	"corte_arvore": {
-		"title": "§6Corte em Árvore",
-		"description": [
-			{
-				"text": "§7Corte árvores inteiras de uma vez\n§8(Requer datapack adicional)"
-			}
-		],
-		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:oak_sapling"
-			}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "goal"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "tag @s add minefy_tree_chopper"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "lumber016actv0001"
-		}
-	},
-	"impulso_velocidade": {
-		"title": "§6Impulso de Velocidade",
-		"description": [
-			{
-				"text": "§7Receba Velocidade II por 30 segundos ao desbloquear"
-			}
-		],
-		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:sugar"
-			}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "goal"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "effect give @s speed 30 1"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "lumber017actv0002"
-		}
-	},
-	"folha_leve": {
-		"title": "§6Folha Leve",
-		"description": [
-			{
-				"text": "§7Receba Queda Suave por 60 segundos ao desbloquear"
-			}
-		],
-		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:feather"
-			}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "goal"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "effect give @s slow_falling 60 0"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "lumber018actv0003"
 		}
 	}
 }

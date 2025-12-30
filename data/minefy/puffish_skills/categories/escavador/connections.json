@@ -1,9 +1,4 @@
 {
-	"exclusive": {
-		"bidirectional": [
-			["e013_excl_left", "e014_excl_right"]
-		]
-	},
 	"normal": {
 		"bidirectional": [
 			["e001_root_center", "e002_pass_1"],
@@ -18,10 +13,7 @@
 			["e010_pass_7", "e011_pass_8"],
 			["e011_pass_8", "e012_chal_3"],
 			["e012_chal_3", "e013_excl_left"],
-			["e012_chal_3", "e014_excl_right"],
-			["e013_excl_left", "e015_actv_1"],
-			["e014_excl_right", "e016_actv_2"],
-			["e012_chal_3", "e017_actv_3"]
+			["e012_chal_3", "e014_excl_right"]
 		]
 	}
 }

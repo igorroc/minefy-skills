@@ -115,7 +115,7 @@
 		"title": "§9Escavador Iniciante",
 		"description": [
 			{
-				"text": "§7+10% Velocidade de Pá\n§7+5% Stamina\n§e§l+32 Areia"
+				"text": "§7+5% Velocidade de Pá\n§7+3% Stamina\n§e§l+32 Areia"
 			}
 		],
 		"size": 1,
@@ -136,7 +136,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:shovel_speed",
-					"value": 0.1,
+					"value": 0.05,
 					"operation": "multiply_total"
 				}
 			},
@@ -144,7 +144,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:stamina",
-					"value": 0.05,
+					"value": 0.03,
 					"operation": "multiply_total"
 				}
 			},
@@ -221,7 +221,7 @@
 		"title": "§9Mestre das Areias",
 		"description": [
 			{
-				"text": "§7+20% Velocidade de Pá\n§7+10% Stamina\n§7+5% Velocidade de Movimento\n§e§l+16 TNT"
+				"text": "§7+10% Velocidade de Pá\n§7+5% Stamina\n§7+3% Velocidade de Movimento\n§e§l+16 TNT"
 			}
 		],
 		"size": 1,
@@ -242,7 +242,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:shovel_speed",
-					"value": 0.2,
+					"value": 0.10,
 					"operation": "multiply_total"
 				}
 			},
@@ -250,7 +250,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:stamina",
-					"value": 0.1,
+					"value": 0.05,
 					"operation": "multiply_total"
 				}
 			},
@@ -258,7 +258,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "movement_speed",
-					"value": 0.05,
+					"value": 0.03,
 					"operation": "multiply_total"
 				}
 			},
@@ -364,7 +364,7 @@
 		"title": "§9Arqueólogo",
 		"description": [
 			{
-				"text": "§7+25% Velocidade de Pá\n§7+2 Sorte\n§7+15% Stamina\n§e§l+Pincel + 8 Areia Suspeita"
+				"text": "§7+12% Velocidade de Pá\n§7+1 Sorte\n§7+8% Stamina\n§e§l+Pincel + 8 Areia Suspeita\n\n§6Dois caminhos disponíveis: Terraplenagem e Coletor de Gravidade"
 			}
 		],
 		"size": 1,
@@ -385,7 +385,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:shovel_speed",
-					"value": 0.25,
+					"value": 0.12,
 					"operation": "multiply_total"
 				}
 			},
@@ -393,7 +393,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "luck",
-					"value": 2,
+					"value": 1,
 					"operation": "addition"
 				}
 			},
@@ -401,7 +401,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:stamina",
-					"value": 0.15,
+					"value": 0.08,
 					"operation": "multiply_total"
 				}
 			},
@@ -426,7 +426,7 @@
 		"title": "§dTerraplenagem",
 		"description": [
 			{
-				"text": "§7+35% Velocidade de Pá\n§7+20% Stamina\n§e§l+Pá Eff IV + Unb III"
+				"text": "§6Caminho: Velocidade\n\n§7+18% Velocidade de Pá\n§7+10% Stamina\n§e§l+Pá Eff IV + Unb III"
 			}
 		],
 		"size": 1,
@@ -447,7 +447,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:shovel_speed",
-					"value": 0.35,
+					"value": 0.18,
 					"operation": "multiply_total"
 				}
 			},
@@ -455,7 +455,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:stamina",
-					"value": 0.2,
+					"value": 0.10,
 					"operation": "multiply_total"
 				}
 			},
@@ -474,7 +474,7 @@
 		"title": "§dColetor de Gravidade",
 		"description": [
 			{
-				"text": "§7+30% Velocidade de Pá\n§7+3 Sorte\n§7+10% Velocidade de Movimento\n§e§l+4 Poção Sorte"
+				"text": "§6Caminho: Sorte\n\n§7+15% Velocidade de Pá\n§7+2 Sorte\n§7+5% Velocidade de Movimento\n§e§l+4 Poção Sorte"
 			}
 		],
 		"size": 1,
@@ -495,7 +495,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:shovel_speed",
-					"value": 0.3,
+					"value": 0.15,
 					"operation": "multiply_total"
 				}
 			},
@@ -503,7 +503,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "luck",
-					"value": 3,
+					"value": 2,
 					"operation": "addition"
 				}
 			},
@@ -511,7 +511,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "movement_speed",
-					"value": 0.1,
+					"value": 0.05,
 					"operation": "multiply_total"
 				}
 			},
@@ -524,102 +524,6 @@
 		],
 		"metadata": {
 			"icon": "excav014excl0002"
-		}
-	},
-	"escavacao_3x3": {
-		"title": "§6Escavação 3x3",
-		"description": [
-			{
-				"text": "§7Escave blocos em área 3x3\n§8(Requer datapack adicional)"
-			}
-		],
-		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:dirt"
-			}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "goal"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "tag @s add minefy_3x3_digging"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "excav015actv0001"
-		}
-	},
-	"pressa": {
-		"title": "§6Pressa",
-		"description": [
-			{
-				"text": "§7Receba Pressa II por 60 segundos ao desbloquear"
-			}
-		],
-		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:redstone"
-			}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "goal"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "effect give @s haste 60 1"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "excav016actv0002"
-		}
-	},
-	"pes_leves": {
-		"title": "§6Pés Leves",
-		"description": [
-			{
-				"text": "§7Receba Impulso II por 60 segundos ao desbloquear"
-			}
-		],
-		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:rabbit_foot"
-			}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "goal"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "effect give @s jump_boost 60 1"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "excav017actv0003"
 		}
 	}
 }

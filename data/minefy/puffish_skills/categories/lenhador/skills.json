@@ -88,23 +88,5 @@
 		"x": 136,
 		"y": -884,
 		"root": false
-	},
-	"l016_actv_1": {
-		"definition": "corte_arvore",
-		"x": -204,
-		"y": -952,
-		"root": false
-	},
-	"l017_actv_2": {
-		"definition": "impulso_velocidade",
-		"x": 0,
-		"y": -952,
-		"root": false
-	},
-	"l018_actv_3": {
-		"definition": "folha_leve",
-		"x": 204,
-		"y": -952,
-		"root": false
 	}
 }

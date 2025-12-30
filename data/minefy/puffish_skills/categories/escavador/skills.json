@@ -82,23 +82,5 @@
 		"x": 136,
 		"y": -816,
 		"root": false
-	},
-	"e015_actv_1": {
-		"definition": "escavacao_3x3",
-		"x": -204,
-		"y": -884,
-		"root": false
-	},
-	"e016_actv_2": {
-		"definition": "pressa",
-		"x": 0,
-		"y": -884,
-		"root": false
-	},
-	"e017_actv_3": {
-		"definition": "pes_leves",
-		"x": 204,
-		"y": -884,
-		"root": false
 	}
 }
