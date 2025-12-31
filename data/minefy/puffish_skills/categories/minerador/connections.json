@@ -45,7 +45,6 @@
 			["m_chr5_029", "m_detect1_030"],
 			["m_chr5_029", "m_treasure1_032"],
 			["m_chr5_029", "m_deep1_034"],
-			["m_chr5_029", "m_chr8_040"],
 
 			["m_detect1_030", "m_detect2_031"],
 			["m_detect2_031", "m_hard1_036"],
@@ -63,8 +62,8 @@
 			["m_treasure1_032", "m_deep1_034"],
 			["m_treasure2_033", "m_deep2_035"],
 
-			["m_chr6_038", "m_final1_041"],
-			["m_chr7_039", "m_final2_042"],
+			["m_chr6_038", "m_chr8_040"],
+			["m_chr7_039", "m_chr8_040"],
 			["m_chr8_040", "m_final1_041"],
 			["m_chr8_040", "m_final2_042"]
 		]

@@ -45,7 +45,6 @@
 
 			["g_chr5_029", "g_lifesteal1_030"],
 			["g_chr5_029", "g_knockback1_032"],
-			["g_chr5_029", "g_chr8_042"],
 
 			["g_lifesteal1_030", "g_lifesteal2_031"],
 			["g_lifesteal2_031", "g_armor1_036"],
@@ -65,8 +64,8 @@
 
 			["g_crit1_038", "g_crit2_039"],
 
-			["g_chr6_040", "g_final1_043"],
-			["g_chr7_041", "g_final2_044"],
+			["g_chr6_040", "g_chr8_042"],
+			["g_chr7_041", "g_chr8_042"],
 			["g_chr8_042", "g_final1_043"],
 			["g_chr8_042", "g_final2_044"]
 		]

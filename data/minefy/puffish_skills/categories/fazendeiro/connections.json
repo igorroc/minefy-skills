@@ -45,7 +45,6 @@
 			["f_chr5_029", "f_fish1_030"],
 			["f_chr5_029", "f_breed1_032"],
 			["f_chr5_029", "f_food1_034"],
-			["f_chr5_029", "f_chr8_040"],
 
 			["f_fish1_030", "f_fish2_031"],
 			["f_fish2_031", "f_compost1_036"],
@@ -63,8 +62,8 @@
 			["f_breed1_032", "f_food1_034"],
 			["f_breed2_033", "f_food2_035"],
 
-			["f_chr6_038", "f_final1_041"],
-			["f_chr7_039", "f_final2_042"],
+			["f_chr6_038", "f_chr8_040"],
+			["f_chr7_039", "f_chr8_040"],
 			["f_chr8_040", "f_final1_041"],
 			["f_chr8_040", "f_final2_042"]
 		]

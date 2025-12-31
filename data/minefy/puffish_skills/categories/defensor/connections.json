@@ -45,7 +45,6 @@
 			["d_chr5_029", "d_shield1_030"],
 			["d_chr5_029", "d_knockres1_032"],
 			["d_chr5_029", "d_thorns1_034"],
-			["d_chr5_029", "d_chr8_040"],
 
 			["d_shield1_030", "d_shield2_031"],
 			["d_shield2_031", "d_absorb1_036"],
@@ -63,8 +62,8 @@
 			["d_knockres1_032", "d_thorns1_034"],
 			["d_knockres2_033", "d_thorns2_035"],
 
-			["d_chr6_038", "d_final1_041"],
-			["d_chr7_039", "d_final2_042"],
+			["d_chr6_038", "d_chr8_040"],
+			["d_chr7_039", "d_chr8_040"],
 			["d_chr8_040", "d_final1_041"],
 			["d_chr8_040", "d_final2_042"]
 		]

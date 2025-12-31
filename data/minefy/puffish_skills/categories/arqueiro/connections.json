@@ -44,7 +44,6 @@
 
 			["a_chr5_029", "a_pierce1_030"],
 			["a_chr5_029", "a_draw1_032"],
-			["a_chr5_029", "a_chr8_040"],
 
 			["a_pierce1_030", "a_pierce2_031"],
 			["a_pierce2_031", "a_resist1_036"],
@@ -56,10 +55,13 @@
 			["a_ammo1_034", "a_ammo2_035"],
 			["a_ammo2_035", "a_chr7_039"],
 
-			["a_chr6_038", "a_final1_041"],
+			["a_chr6_038", "a_chr8_040"],
+			["a_chr7_039", "a_chr8_040"],
+
+			["a_chr8_040", "a_final1_041"],
 			["a_final1_041", "a_final2_042"],
 
-			["a_chr7_039", "a_final3_043"],
+			["a_chr8_040", "a_final3_043"],
 			["a_final3_043", "a_final4_044"],
 
 			["a_chr8_040", "a_final5_045"],

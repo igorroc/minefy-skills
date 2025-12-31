@@ -45,7 +45,6 @@
 			["e_chr5_029", "e_light1_030"],
 			["e_chr5_029", "e_water1_032"],
 			["e_chr5_029", "e_grav1_034"],
-			["e_chr5_029", "e_chr8_040"],
 
 			["e_light1_030", "e_light2_031"],
 			["e_light2_031", "e_reach1_036"],
@@ -63,8 +62,8 @@
 			["e_water1_032", "e_grav1_034"],
 			["e_water2_033", "e_grav2_035"],
 
-			["e_chr6_038", "e_final1_041"],
-			["e_chr7_039", "e_final2_042"],
+			["e_chr6_038", "e_chr8_040"],
+			["e_chr7_039", "e_chr8_040"],
 			["e_chr8_040", "e_final1_041"],
 			["e_chr8_040", "e_final2_042"]
 		]
