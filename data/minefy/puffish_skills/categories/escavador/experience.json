@@ -7,81 +7,106 @@
 	},
 	"sources": [
 		{
-			"type": "puffish_skills:break_block",
+			"type": "puffish_skills:mine_block",
 			"data": {
 				"variables": {
 					"is_dirt": {
 						"operations": [
-							{"type": "get_broken_block_state"},
+							{"type": "get_mined_block_state"},
 							{"type": "puffish_skills:test", "data": {"block": "minecraft:dirt"}}
+						]
+					},
+					"is_coarse_dirt": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:coarse_dirt"}}
+						]
+					},
+					"is_rooted_dirt": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:rooted_dirt"}}
 						]
 					},
 					"is_grass": {
 						"operations": [
-							{"type": "get_broken_block_state"},
+							{"type": "get_mined_block_state"},
 							{"type": "puffish_skills:test", "data": {"block": "minecraft:grass_block"}}
 						]
 					},
 					"is_sand": {
 						"operations": [
-							{"type": "get_broken_block_state"},
+							{"type": "get_mined_block_state"},
 							{"type": "puffish_skills:test", "data": {"block": "minecraft:sand"}}
+						]
+					},
+					"is_red_sand": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:red_sand"}}
 						]
 					},
 					"is_gravel": {
 						"operations": [
-							{"type": "get_broken_block_state"},
+							{"type": "get_mined_block_state"},
 							{"type": "puffish_skills:test", "data": {"block": "minecraft:gravel"}}
 						]
 					},
 					"is_clay": {
 						"operations": [
-							{"type": "get_broken_block_state"},
+							{"type": "get_mined_block_state"},
 							{"type": "puffish_skills:test", "data": {"block": "minecraft:clay"}}
 						]
 					},
 					"is_soul_sand": {
 						"operations": [
-							{"type": "get_broken_block_state"},
+							{"type": "get_mined_block_state"},
 							{"type": "puffish_skills:test", "data": {"block": "minecraft:soul_sand"}}
 						]
 					},
 					"is_soul_soil": {
 						"operations": [
-							{"type": "get_broken_block_state"},
+							{"type": "get_mined_block_state"},
 							{"type": "puffish_skills:test", "data": {"block": "minecraft:soul_soil"}}
 						]
 					},
 					"is_suspicious_sand": {
 						"operations": [
-							{"type": "get_broken_block_state"},
+							{"type": "get_mined_block_state"},
 							{"type": "puffish_skills:test", "data": {"block": "minecraft:suspicious_sand"}}
 						]
 					},
 					"is_suspicious_gravel": {
 						"operations": [
-							{"type": "get_broken_block_state"},
+							{"type": "get_mined_block_state"},
 							{"type": "puffish_skills:test", "data": {"block": "minecraft:suspicious_gravel"}}
 						]
 					},
 					"is_snow": {
 						"operations": [
-							{"type": "get_broken_block_state"},
+							{"type": "get_mined_block_state"},
 							{"type": "puffish_skills:test", "data": {"block": "#minecraft:snow"}}
+						]
+					},
+					"is_mud": {
+						"operations": [
+							{"type": "get_mined_block_state"},
+							{"type": "puffish_skills:test", "data": {"block": "minecraft:mud"}}
 						]
 					}
 				},
 				"experience": [
-					{"condition": "is_dirt", "expression": "0.3"},
-					{"condition": "is_grass", "expression": "0.3"},
-					{"condition": "is_sand", "expression": "0.5"},
+					{"condition": "is_dirt | is_coarse_dirt | is_rooted_dirt", "expression": "0.5"},
+					{"condition": "is_grass", "expression": "0.5"},
+					{"condition": "is_sand | is_red_sand", "expression": "0.5"},
 					{"condition": "is_gravel", "expression": "0.5"},
-					{"condition": "is_clay", "expression": "0.8"},
-					{"condition": "is_soul_sand", "expression": "1"},
-					{"condition": "is_soul_soil", "expression": "1"},
+					{"condition": "is_clay", "expression": "1"},
+					{"condition": "is_soul_sand", "expression": "1.5"},
+					{"condition": "is_soul_soil", "expression": "1.5"},
 					{"condition": "is_suspicious_sand", "expression": "5"},
 					{"condition": "is_suspicious_gravel", "expression": "5"},
-					{"condition": "is_snow", "expression": "0.2"}
+					{"condition": "is_snow", "expression": "0.5"},
+					{"condition": "is_mud", "expression": "0.5"}
 				]
 			}
 		}
