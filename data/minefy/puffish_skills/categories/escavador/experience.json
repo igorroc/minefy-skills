@@ -96,17 +96,17 @@
 					}
 				},
 				"experience": [
-					{"condition": "is_dirt | is_coarse_dirt | is_rooted_dirt", "expression": "0.5"},
-					{"condition": "is_grass", "expression": "0.5"},
-					{"condition": "is_sand | is_red_sand", "expression": "0.5"},
-					{"condition": "is_gravel", "expression": "0.5"},
-					{"condition": "is_clay", "expression": "1"},
-					{"condition": "is_soul_sand", "expression": "1.5"},
-					{"condition": "is_soul_soil", "expression": "1.5"},
-					{"condition": "is_suspicious_sand", "expression": "5"},
-					{"condition": "is_suspicious_gravel", "expression": "5"},
-					{"condition": "is_snow", "expression": "0.5"},
-					{"condition": "is_mud", "expression": "0.5"}
+					{"condition": "is_dirt | is_coarse_dirt | is_rooted_dirt", "expression": "1"},
+					{"condition": "is_grass", "expression": "1"},
+					{"condition": "is_sand | is_red_sand", "expression": "1"},
+					{"condition": "is_gravel", "expression": "1"},
+					{"condition": "is_clay", "expression": "2"},
+					{"condition": "is_soul_sand", "expression": "2"},
+					{"condition": "is_soul_soil", "expression": "2"},
+					{"condition": "is_suspicious_sand", "expression": "10"},
+					{"condition": "is_suspicious_gravel", "expression": "10"},
+					{"condition": "is_snow", "expression": "1"},
+					{"condition": "is_mud", "expression": "1"}
 				]
 			}
 		}

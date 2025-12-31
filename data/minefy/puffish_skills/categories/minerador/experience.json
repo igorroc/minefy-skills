@@ -96,8 +96,8 @@
 					}
 				},
 				"experience": [
-					{"condition": "is_stone", "expression": "0.5"},
-					{"condition": "is_deepslate", "expression": "0.5"},
+					{"condition": "is_stone", "expression": "1"},
+					{"condition": "is_deepslate", "expression": "1"},
 					{"condition": "is_coal_ore", "expression": "2"},
 					{"condition": "is_copper_ore", "expression": "2"},
 					{"condition": "is_iron_ore", "expression": "2"},

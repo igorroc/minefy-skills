@@ -31,7 +31,7 @@
 				},
 				"experience": [
 					{"condition": "is_log", "expression": "3"},
-					{"condition": "is_leaves", "expression": "0.5"},
+					{"condition": "is_leaves", "expression": "1"},
 					{"condition": "is_mushroom", "expression": "2"}
 				]
 			}

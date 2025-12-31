@@ -100,15 +100,15 @@
 					{"condition": "is_carrots", "expression": "1"},
 					{"condition": "is_potatoes", "expression": "1"},
 					{"condition": "is_beetroots", "expression": "1"},
-					{"condition": "is_melon", "expression": "0.8"},
+					{"condition": "is_melon", "expression": "1"},
 					{"condition": "is_pumpkin", "expression": "2"},
-					{"condition": "is_sugar_cane", "expression": "0.5"},
-					{"condition": "is_bamboo", "expression": "0.3"},
-					{"condition": "is_cactus", "expression": "0.5"},
-					{"condition": "is_cocoa", "expression": "1.5"},
+					{"condition": "is_sugar_cane", "expression": "1"},
+					{"condition": "is_bamboo", "expression": "1"},
+					{"condition": "is_cactus", "expression": "1"},
+					{"condition": "is_cocoa", "expression": "2"},
 					{"condition": "is_nether_wart", "expression": "2"},
 					{"condition": "is_sweet_berry_bush", "expression": "1"},
-					{"condition": "is_cave_vines | is_cave_vines_plant", "expression": "1.2"}
+					{"condition": "is_cave_vines | is_cave_vines_plant", "expression": "1"}
 				]
 			}
 		},
@@ -145,7 +145,7 @@
 					{"condition": "is_bread", "expression": "2"},
 					{"condition": "is_cake", "expression": "5"},
 					{"condition": "is_pumpkin_pie", "expression": "3"},
-					{"condition": "is_cookie", "expression": "1.5"}
+					{"condition": "is_cookie", "expression": "2"}
 				]
 			}
 		}

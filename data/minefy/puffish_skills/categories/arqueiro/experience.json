@@ -74,7 +74,7 @@
 					}
 				},
 				"experience": [
-					{"condition": "is_bow | is_crossbow | is_trident", "expression": "damage_amount * 0.4"}
+					{"condition": "is_bow | is_crossbow | is_trident", "expression": "damage_amount / 2"}
 				]
 			}
 		}
