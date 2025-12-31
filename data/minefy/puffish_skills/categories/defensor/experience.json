@@ -16,7 +16,7 @@
 						]
 					}
 				},
-				"experience": "damage * 0.8"
+				"experience": "damage"
 			}
 		}
 	]
