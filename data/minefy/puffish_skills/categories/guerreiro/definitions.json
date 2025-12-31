@@ -352,20 +352,20 @@
 	},
 	"passive_crit_1": {
 		"title": "Golpe Crítico I",
-		"description": [{"text": "+3% chance de crítico"}],
+		"description": [{"text": "+2% dano de ataque"}],
 		"size": 1,
 		"icon": {"type": "item", "data": {"item": "minecraft:redstone"}},
 		"frame": {"type": "advancement", "data": {"frame": "task"}},
-		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:critical_hit_chance", "value": 0.03, "operation": "add_value"}}],
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "attack_damage", "value": 2, "operation": "addition"}}],
 		"metadata": {"icon": "g_crit1_038"}
 	},
 	"passive_crit_2": {
 		"title": "Golpe Crítico II",
-		"description": [{"text": "+5% chance de crítico"}],
+		"description": [{"text": "+3% dano de ataque"}],
 		"size": 1,
 		"icon": {"type": "item", "data": {"item": "minecraft:glowstone_dust"}},
 		"frame": {"type": "advancement", "data": {"frame": "goal"}},
-		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:critical_hit_chance", "value": 0.05, "operation": "add_value"}}],
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "attack_damage", "value": 3, "operation": "addition"}}],
 		"metadata": {"icon": "g_crit2_039"}
 	},
 	"challenge_berserker": {
@@ -413,13 +413,13 @@
 	},
 	"passive_final_dmg": {
 		"title": "Destruição Total",
-		"description": [{"text": "+10% dano corpo a corpo\n§e§l+10% dano crítico"}],
+		"description": [{"text": "+20% dano corpo a corpo\n§e§l+5 dano de ataque"}],
 		"size": 1,
 		"icon": {"type": "item", "data": {"item": "minecraft:tnt"}},
 		"frame": {"type": "advancement", "data": {"frame": "goal"}},
 		"rewards": [
-			{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:melee_damage", "value": 0.10, "operation": "multiply_total"}},
-			{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:critical_hit_damage", "value": 0.10, "operation": "multiply_total"}}
+			{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:melee_damage", "value": 0.20, "operation": "multiply_total"}},
+			{"type": "puffish_skills:attribute", "data": {"attribute": "attack_damage", "value": 5, "operation": "addition"}}
 		],
 		"metadata": {"icon": "g_final1_043"}
 	},

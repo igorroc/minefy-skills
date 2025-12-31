@@ -86,7 +86,7 @@
 		"size": 1,
 		"icon": {"type": "item", "data": {"item": "minecraft:redstone"}},
 		"frame": {"type": "advancement", "data": {"frame": "task"}},
-		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:critical_hit_chance", "value": 0.01, "operation": "add_value"}}],
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:ranged_damage", "value": 0.01, "operation": "multiply_total"}}],
 		"metadata": {"icon": "a_crit1_010"}
 	},
 	"passive_critical_2": {
@@ -95,7 +95,7 @@
 		"size": 1,
 		"icon": {"type": "item", "data": {"item": "minecraft:redstone"}},
 		"frame": {"type": "advancement", "data": {"frame": "task"}},
-		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:critical_hit_chance", "value": 0.02, "operation": "add_value"}}],
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:ranged_damage", "value": 0.02, "operation": "multiply_total"}}],
 		"metadata": {"icon": "a_crit2_011"}
 	},
 	"passive_critical_3": {
@@ -104,7 +104,7 @@
 		"size": 1,
 		"icon": {"type": "item", "data": {"item": "minecraft:glowstone_dust"}},
 		"frame": {"type": "advancement", "data": {"frame": "task"}},
-		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:critical_hit_chance", "value": 0.03, "operation": "add_value"}}],
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:ranged_damage", "value": 0.03, "operation": "multiply_total"}}],
 		"metadata": {"icon": "a_crit3_012"}
 	},
 	"passive_critical_4": {
@@ -113,7 +113,7 @@
 		"size": 1,
 		"icon": {"type": "item", "data": {"item": "minecraft:glowstone_dust"}},
 		"frame": {"type": "advancement", "data": {"frame": "task"}},
-		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:critical_hit_chance", "value": 0.04, "operation": "add_value"}}],
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:ranged_damage", "value": 0.04, "operation": "multiply_total"}}],
 		"metadata": {"icon": "a_crit4_013"}
 	},
 	"passive_critical_5": {
@@ -122,7 +122,7 @@
 		"size": 1,
 		"icon": {"type": "item", "data": {"item": "minecraft:blaze_powder"}},
 		"frame": {"type": "advancement", "data": {"frame": "goal"}},
-		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:critical_hit_chance", "value": 0.05, "operation": "add_value"}}],
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:ranged_damage", "value": 0.05, "operation": "multiply_total"}}],
 		"metadata": {"icon": "a_crit5_014"}
 	},
 	"passive_projectile_1": {
@@ -430,7 +430,7 @@
 		"size": 1,
 		"icon": {"type": "item", "data": {"item": "minecraft:nether_star"}},
 		"frame": {"type": "advancement", "data": {"frame": "goal"}},
-		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:critical_hit_chance", "value": 0.06, "operation": "add_value"}}],
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:ranged_damage", "value": 0.06, "operation": "multiply_total"}}],
 		"metadata": {"icon": "a_final5_045"}
 	},
 	"passive_final_crit_2": {
@@ -440,8 +440,8 @@
 		"icon": {"type": "item", "data": {"item": "minecraft:nether_star"}},
 		"frame": {"type": "advancement", "data": {"frame": "goal"}},
 		"rewards": [
-			{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:critical_hit_chance", "value": 0.08, "operation": "add_value"}},
-			{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:critical_hit_damage", "value": 0.15, "operation": "multiply_total"}}
+			{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:ranged_damage", "value": 0.08, "operation": "multiply_total"}},
+			{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:ranged_damage", "value": 0.15, "operation": "multiply_total"}}
 		],
 		"metadata": {"icon": "a_final6_046"}
 	}

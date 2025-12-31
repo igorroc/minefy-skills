@@ -181,38 +181,38 @@
 	},
 	"passive_regen_1": {
 		"title": "Regeneração I",
-		"description": [{"text": "+1% XP de defensor"}],
+		"description": [{"text": "+0.5 Sorte"}],
 		"size": 1,
 		"icon": {"type": "item", "data": {"item": "minecraft:glistering_melon_slice"}},
 		"frame": {"type": "advancement", "data": {"frame": "task"}},
-		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:experience_multiplier", "value": 0.01, "operation": "multiply_total"}}],
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 0.5, "operation": "addition"}}],
 		"metadata": {"icon": "d_regen1_021"}
 	},
 	"passive_regen_2": {
 		"title": "Regeneração II",
-		"description": [{"text": "+2% XP de defensor"}],
+		"description": [{"text": "+0.5 Sorte"}],
 		"size": 1,
 		"icon": {"type": "item", "data": {"item": "minecraft:glistering_melon_slice"}},
 		"frame": {"type": "advancement", "data": {"frame": "task"}},
-		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:experience_multiplier", "value": 0.02, "operation": "multiply_total"}}],
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 0.5, "operation": "addition"}}],
 		"metadata": {"icon": "d_regen2_022"}
 	},
 	"passive_regen_3": {
 		"title": "Regeneração III",
-		"description": [{"text": "+3% XP de defensor"}],
+		"description": [{"text": "+1 Sorte"}],
 		"size": 1,
 		"icon": {"type": "item", "data": {"item": "minecraft:golden_carrot"}},
 		"frame": {"type": "advancement", "data": {"frame": "task"}},
-		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:experience_multiplier", "value": 0.03, "operation": "multiply_total"}}],
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 1, "operation": "addition"}}],
 		"metadata": {"icon": "d_regen3_023"}
 	},
 	"passive_regen_4": {
 		"title": "Regeneração IV",
-		"description": [{"text": "+5% XP de defensor"}],
+		"description": [{"text": "+1.5 Sorte"}],
 		"size": 1,
 		"icon": {"type": "item", "data": {"item": "minecraft:golden_carrot"}},
 		"frame": {"type": "advancement", "data": {"frame": "goal"}},
-		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:experience_multiplier", "value": 0.05, "operation": "multiply_total"}}],
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 1.5, "operation": "addition"}}],
 		"metadata": {"icon": "d_regen4_024"}
 	},
 	"challenge_guarda": {

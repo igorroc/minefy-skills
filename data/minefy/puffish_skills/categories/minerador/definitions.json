@@ -131,7 +131,7 @@
 		"size": 1,
 		"icon": {"type": "item", "data": {"item": "minecraft:coal"}},
 		"frame": {"type": "advancement", "data": {"frame": "task"}},
-		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:experience_multiplier", "value": 0.05, "operation": "multiply_total"}}],
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 0.05, "operation": "multiply_total"}}],
 		"metadata": {"icon": "m_eff1_015"}
 	},
 	"passive_efficiency_2": {
@@ -140,7 +140,7 @@
 		"size": 1,
 		"icon": {"type": "item", "data": {"item": "minecraft:copper_ingot"}},
 		"frame": {"type": "advancement", "data": {"frame": "task"}},
-		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:experience_multiplier", "value": 0.05, "operation": "multiply_total"}}],
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 0.05, "operation": "multiply_total"}}],
 		"metadata": {"icon": "m_eff2_016"}
 	},
 	"passive_efficiency_3": {
@@ -149,7 +149,7 @@
 		"size": 1,
 		"icon": {"type": "item", "data": {"item": "minecraft:iron_ingot"}},
 		"frame": {"type": "advancement", "data": {"frame": "task"}},
-		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:experience_multiplier", "value": 0.1, "operation": "multiply_total"}}],
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 0.1, "operation": "multiply_total"}}],
 		"metadata": {"icon": "m_eff3_017"}
 	},
 	"passive_efficiency_4": {
@@ -158,7 +158,7 @@
 		"size": 1,
 		"icon": {"type": "item", "data": {"item": "minecraft:gold_ingot"}},
 		"frame": {"type": "advancement", "data": {"frame": "task"}},
-		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:experience_multiplier", "value": 0.1, "operation": "multiply_total"}}],
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 0.1, "operation": "multiply_total"}}],
 		"metadata": {"icon": "m_eff4_018"}
 	},
 	"passive_efficiency_5": {
@@ -167,7 +167,7 @@
 		"size": 1,
 		"icon": {"type": "item", "data": {"item": "minecraft:redstone"}},
 		"frame": {"type": "advancement", "data": {"frame": "task"}},
-		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:experience_multiplier", "value": 0.15, "operation": "multiply_total"}}],
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 0.15, "operation": "multiply_total"}}],
 		"metadata": {"icon": "m_eff5_019"}
 	},
 	"passive_efficiency_6": {
@@ -176,7 +176,7 @@
 		"size": 1,
 		"icon": {"type": "item", "data": {"item": "minecraft:diamond"}},
 		"frame": {"type": "advancement", "data": {"frame": "goal"}},
-		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:experience_multiplier", "value": 0.15, "operation": "multiply_total"}}],
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 0.15, "operation": "multiply_total"}}],
 		"metadata": {"icon": "m_eff6_020"}
 	},
 	"passive_durability_1": {
