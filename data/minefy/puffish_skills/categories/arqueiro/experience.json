@@ -38,14 +38,11 @@
 							{"type": "get_weapon_item_stack"},
 							{"type": "puffish_skills:test", "data": {"item": "minecraft:trident"}}
 						]
-					},
-					"is_ranged": {
-						"operations": [
-							{"type": "get_number", "data": {"number": "is_bow + is_crossbow + is_trident"}}
-						]
 					}
 				},
-				"experience": "(dropped_xp * 2 + max_health / 10) * is_ranged"
+				"experience": [
+					{"condition": "is_bow | is_crossbow | is_trident", "expression": "dropped_xp * 2 + max_health / 10"}
+				]
 			}
 		},
 		{
@@ -74,14 +71,11 @@
 							{"type": "get_weapon_item_stack"},
 							{"type": "puffish_skills:test", "data": {"item": "minecraft:trident"}}
 						]
-					},
-					"is_ranged": {
-						"operations": [
-							{"type": "get_number", "data": {"number": "is_bow + is_crossbow + is_trident"}}
-						]
 					}
 				},
-				"experience": "damage_amount * 0.4 * is_ranged"
+				"experience": [
+					{"condition": "is_bow | is_crossbow | is_trident", "expression": "damage_amount * 0.4"}
+				]
 			}
 		}
 	]
