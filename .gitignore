@@ -1,3 +1,6 @@
 teste-template/
 
 *.zip
+
+.claude
+.idea
