@@ -185,7 +185,7 @@
 		"size": 1,
 		"icon": {"type": "item", "data": {"item": "minecraft:bone_meal"}},
 		"frame": {"type": "advancement", "data": {"frame": "task"}},
-		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 0.05, "operation": "multiply_total"}}],
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 1, "operation": "addition"}}],
 		"metadata": {"icon": "f_grow1_021"}
 	},
 	"passive_growth_2": {
@@ -194,7 +194,7 @@
 		"size": 1,
 		"icon": {"type": "item", "data": {"item": "minecraft:bone_meal"}},
 		"frame": {"type": "advancement", "data": {"frame": "task"}},
-		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 0.05, "operation": "multiply_total"}}],
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 1, "operation": "addition"}}],
 		"metadata": {"icon": "f_grow2_022"}
 	},
 	"passive_growth_3": {
@@ -203,7 +203,7 @@
 		"size": 1,
 		"icon": {"type": "item", "data": {"item": "minecraft:composter"}},
 		"frame": {"type": "advancement", "data": {"frame": "task"}},
-		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 0.1, "operation": "multiply_total"}}],
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 1.5, "operation": "addition"}}],
 		"metadata": {"icon": "f_grow3_023"}
 	},
 	"passive_growth_4": {
@@ -212,7 +212,7 @@
 		"size": 1,
 		"icon": {"type": "item", "data": {"item": "minecraft:composter"}},
 		"frame": {"type": "advancement", "data": {"frame": "goal"}},
-		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 0.1, "operation": "multiply_total"}}],
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 1.5, "operation": "addition"}}],
 		"metadata": {"icon": "f_grow4_024"}
 	},
 	"challenge_aprendiz": {
@@ -301,7 +301,7 @@
 		"size": 1,
 		"icon": {"type": "item", "data": {"item": "minecraft:wheat"}},
 		"frame": {"type": "advancement", "data": {"frame": "task"}},
-		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 0.1, "operation": "multiply_total"}}],
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 1.5, "operation": "addition"}}],
 		"metadata": {"icon": "f_breed1_032"}
 	},
 	"passive_breeding_2": {
@@ -310,7 +310,7 @@
 		"size": 1,
 		"icon": {"type": "item", "data": {"item": "minecraft:golden_carrot"}},
 		"frame": {"type": "advancement", "data": {"frame": "task"}},
-		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 0.15, "operation": "multiply_total"}}],
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 2, "operation": "addition"}}],
 		"metadata": {"icon": "f_breed2_033"}
 	},
 	"passive_food_efficiency_1": {
@@ -368,7 +368,7 @@
 		"icon": {"type": "item", "data": {"item": "minecraft:lead"}},
 		"frame": {"type": "advancement", "data": {"frame": "challenge"}},
 		"rewards": [
-			{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 0.25, "operation": "multiply_total"}},
+			{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 3, "operation": "addition"}},
 			{"type": "puffish_skills:command", "data": {"command": "give @s golden_carrot 8"}}
 		],
 		"metadata": {"icon": "f_chr7_039"}
