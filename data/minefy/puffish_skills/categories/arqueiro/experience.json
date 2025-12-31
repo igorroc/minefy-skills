@@ -20,9 +20,68 @@
 							{"type": "get_killed_living_entity"},
 							{"type": "get_max_health"}
 						]
+					},
+					"is_bow": {
+						"operations": [
+							{"type": "get_weapon_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:bow"}}
+						]
+					},
+					"is_crossbow": {
+						"operations": [
+							{"type": "get_weapon_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:crossbow"}}
+						]
+					},
+					"is_trident": {
+						"operations": [
+							{"type": "get_weapon_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:trident"}}
+						]
+					},
+					"is_ranged": {
+						"operations": [
+							{"type": "get_number", "data": {"number": "is_bow + is_crossbow + is_trident"}}
+						]
 					}
 				},
-				"experience": "dropped_xp * 2 + max_health / 10"
+				"experience": "(dropped_xp * 2 + max_health / 10) * is_ranged"
+			}
+		},
+		{
+			"type": "puffish_skills:deal_damage",
+			"data": {
+				"variables": {
+					"damage_amount": {
+						"operations": [
+							{"type": "get_dealt_damage"}
+						]
+					},
+					"is_bow": {
+						"operations": [
+							{"type": "get_weapon_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:bow"}}
+						]
+					},
+					"is_crossbow": {
+						"operations": [
+							{"type": "get_weapon_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:crossbow"}}
+						]
+					},
+					"is_trident": {
+						"operations": [
+							{"type": "get_weapon_item_stack"},
+							{"type": "puffish_skills:test", "data": {"item": "minecraft:trident"}}
+						]
+					},
+					"is_ranged": {
+						"operations": [
+							{"type": "get_number", "data": {"number": "is_bow + is_crossbow + is_trident"}}
+						]
+					}
+				},
+				"experience": "damage_amount * 0.4 * is_ranged"
 			}
 		}
 	]
