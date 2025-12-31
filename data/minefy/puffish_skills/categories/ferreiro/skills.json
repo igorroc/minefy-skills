@@ -1,83 +1,44 @@
 {
-	"f_root_001_abcd": {
-		"definition": "primeira_forja",
-		"x": 0,
-		"y": 0,
-		"root": true
-	},
-	"f_chr1_010_klmn": {
-		"definition": "challenge_aprendiz",
-		"x": 0,
-		"y": 68
-	},
-	"f_chr2_011_opqr": {
-		"definition": "challenge_artesao",
-		"x": 0,
-		"y": 136
-	},
-	"f_chr3_012_stuv": {
-		"definition": "challenge_mestre",
-		"x": 0,
-		"y": 204
-	},
-	"f_chr4_013_wxyz": {
-		"definition": "challenge_lendario",
-		"x": 0,
-		"y": 272
-	},
-	"f_rep1_002_efgh": {
-		"definition": "passive_repair_1",
-		"x": -68,
-		"y": 68
-	},
-	"f_rep2_003_ijkl": {
-		"definition": "passive_repair_2",
-		"x": -68,
-		"y": 136
-	},
-	"f_rep3_004_mnop": {
-		"definition": "passive_repair_3",
-		"x": -136,
-		"y": 136
-	},
-	"f_rep4_005_qrst": {
-		"definition": "passive_repair_4",
-		"x": -136,
-		"y": 204
-	},
-	"f_rep5_006_uvwx": {
-		"definition": "passive_repair_5",
-		"x": -136,
-		"y": 272
-	},
-	"f_rep6_007_yzab": {
-		"definition": "passive_repair_6",
-		"x": -136,
-		"y": 340
-	},
-	"f_chr5_014_abcd": {
-		"definition": "challenge_armas",
-		"x": -136,
-		"y": 408
-	},
-	"f_dur1_008_cdef": {
-		"definition": "passive_durability_1",
-		"x": 68,
-		"y": 136
-	},
-	"f_dur2_009_ghij": {
-		"definition": "passive_durability_2",
-		"x": 68,
-		"y": 204
-	},
-	"f_chr6_015_efgh": {
-		"definition": "challenge_armaduras",
-		"x": 136,
-		"y": 408
-	},
-	"f_chr7_016_ijkl": {
-		"definition": "challenge_engenheiro",
-		"x": 0,
-		"y": 408
-	}
+	"f_root_001": {"definition": "primeira_forja", "x": 0, "y": 0, "root": true},
+	"f_rep1_002": {"definition": "passive_repair_1", "x": -68, "y": 68},
+	"f_rep2_003": {"definition": "passive_repair_2", "x": -68, "y": 136},
+	"f_rep3_004": {"definition": "passive_repair_3", "x": -102, "y": 170},
+	"f_rep4_005": {"definition": "passive_repair_4", "x": -102, "y": 238},
+	"f_rep5_006": {"definition": "passive_repair_5", "x": -136, "y": 272},
+	"f_rep6_007": {"definition": "passive_repair_6", "x": -136, "y": 340},
+	"f_rep7_008": {"definition": "passive_repair_7", "x": -170, "y": 374},
+	"f_rep8_009": {"definition": "passive_repair_8", "x": -170, "y": 442},
+	"f_dura1_010": {"definition": "passive_durability_1", "x": -34, "y": 102},
+	"f_dura2_011": {"definition": "passive_durability_2", "x": -34, "y": 170},
+	"f_dura3_012": {"definition": "passive_durability_3", "x": -34, "y": 238},
+	"f_dura4_013": {"definition": "passive_durability_4", "x": -68, "y": 272},
+	"f_dura5_014": {"definition": "passive_durability_5", "x": -68, "y": 340},
+	"f_craft1_015": {"definition": "passive_craft_speed_1", "x": 68, "y": 68},
+	"f_craft2_016": {"definition": "passive_craft_speed_2", "x": 68, "y": 136},
+	"f_craft3_017": {"definition": "passive_craft_speed_3", "x": 102, "y": 170},
+	"f_craft4_018": {"definition": "passive_craft_speed_4", "x": 102, "y": 238},
+	"f_craft5_019": {"definition": "passive_craft_speed_5", "x": 136, "y": 272},
+	"f_craft6_020": {"definition": "passive_craft_speed_6", "x": 136, "y": 340},
+	"f_ench1_021": {"definition": "passive_enchanting_1", "x": 34, "y": 102},
+	"f_ench2_022": {"definition": "passive_enchanting_2", "x": 34, "y": 170},
+	"f_ench3_023": {"definition": "passive_enchanting_3", "x": 34, "y": 238},
+	"f_ench4_024": {"definition": "passive_enchanting_4", "x": 68, "y": 272},
+	"f_chr1_025": {"definition": "challenge_aprendiz", "x": 0, "y": 68},
+	"f_chr2_026": {"definition": "challenge_artesao", "x": 0, "y": 136},
+	"f_chr3_027": {"definition": "challenge_mestre", "x": 0, "y": 204},
+	"f_chr4_028": {"definition": "challenge_forjador", "x": 0, "y": 272},
+	"f_chr5_029": {"definition": "challenge_lendario", "x": 0, "y": 340},
+	"f_dmg1_030": {"definition": "passive_weapon_dmg_1", "x": -34, "y": 374},
+	"f_dmg2_031": {"definition": "passive_weapon_dmg_2", "x": -34, "y": 442},
+	"f_arm1_032": {"definition": "passive_armor_craft_1", "x": 34, "y": 374},
+	"f_arm2_033": {"definition": "passive_armor_craft_2", "x": 34, "y": 442},
+	"f_tool1_034": {"definition": "passive_tool_eff_1", "x": 102, "y": 374},
+	"f_tool2_035": {"definition": "passive_tool_eff_2", "x": 102, "y": 442},
+	"f_smelt1_036": {"definition": "passive_smelt_speed_1", "x": -102, "y": 374},
+	"f_smelt2_037": {"definition": "passive_smelt_speed_2", "x": -102, "y": 442},
+	"f_chr6_038": {"definition": "challenge_mestre_armas", "x": -136, "y": 476},
+	"f_chr7_039": {"definition": "challenge_mestre_armaduras", "x": 136, "y": 476},
+	"f_chr8_040": {"definition": "challenge_grande_mestre", "x": 0, "y": 510},
+	"f_final1_041": {"definition": "passive_final_craft", "x": -170, "y": 510},
+	"f_final2_042": {"definition": "passive_final_economy", "x": 170, "y": 510}
 }

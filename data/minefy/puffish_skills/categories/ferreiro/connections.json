@@ -1,23 +1,72 @@
 {
 	"normal": {
 		"bidirectional": [
-			["f_root_001_abcd", "f_chr1_010_klmn"],
-			["f_root_001_abcd", "f_rep1_002_efgh"],
-			["f_chr1_010_klmn", "f_chr2_011_opqr"],
-			["f_chr2_011_opqr", "f_chr3_012_stuv"],
-			["f_chr2_011_opqr", "f_dur1_008_cdef"],
-			["f_chr3_012_stuv", "f_chr4_013_wxyz"],
-			["f_chr4_013_wxyz", "f_chr5_014_abcd"],
-			["f_chr4_013_wxyz", "f_chr6_015_efgh"],
-			["f_chr4_013_wxyz", "f_chr7_016_ijkl"],
-			["f_rep1_002_efgh", "f_rep2_003_ijkl"],
-			["f_rep2_003_ijkl", "f_rep3_004_mnop"],
-			["f_rep3_004_mnop", "f_rep4_005_qrst"],
-			["f_rep4_005_qrst", "f_rep5_006_uvwx"],
-			["f_rep5_006_uvwx", "f_rep6_007_yzab"],
-			["f_rep6_007_yzab", "f_chr5_014_abcd"],
-			["f_dur1_008_cdef", "f_dur2_009_ghij"],
-			["f_dur2_009_ghij", "f_chr6_015_efgh"]
+			["f_root_001", "f_chr1_025"],
+			["f_root_001", "f_rep1_002"],
+			["f_root_001", "f_craft1_015"],
+
+			["f_rep1_002", "f_rep2_003"],
+			["f_rep1_002", "f_dura1_010"],
+			["f_rep2_003", "f_rep3_004"],
+			["f_rep2_003", "f_dura2_011"],
+			["f_rep3_004", "f_rep4_005"],
+			["f_rep3_004", "f_dura3_012"],
+			["f_rep4_005", "f_rep5_006"],
+			["f_rep4_005", "f_dura4_013"],
+			["f_rep5_006", "f_rep6_007"],
+			["f_rep6_007", "f_rep7_008"],
+			["f_rep7_008", "f_rep8_009"],
+
+			["f_dura1_010", "f_dura2_011"],
+			["f_dura2_011", "f_dura3_012"],
+			["f_dura3_012", "f_dura4_013"],
+			["f_dura4_013", "f_dura5_014"],
+			["f_dura5_014", "f_rep6_007"],
+
+			["f_craft1_015", "f_craft2_016"],
+			["f_craft1_015", "f_ench1_021"],
+			["f_craft2_016", "f_craft3_017"],
+			["f_craft2_016", "f_ench2_022"],
+			["f_craft3_017", "f_craft4_018"],
+			["f_craft3_017", "f_ench3_023"],
+			["f_craft4_018", "f_craft5_019"],
+			["f_craft5_019", "f_craft6_020"],
+
+			["f_ench1_021", "f_ench2_022"],
+			["f_ench2_022", "f_ench3_023"],
+			["f_ench3_023", "f_ench4_024"],
+			["f_ench4_024", "f_craft4_018"],
+
+			["f_chr1_025", "f_chr2_026"],
+			["f_chr2_026", "f_chr3_027"],
+			["f_chr3_027", "f_chr4_028"],
+			["f_chr4_028", "f_chr5_029"],
+
+			["f_chr5_029", "f_dmg1_030"],
+			["f_chr5_029", "f_arm1_032"],
+			["f_chr5_029", "f_tool1_034"],
+			["f_chr5_029", "f_chr8_040"],
+
+			["f_dmg1_030", "f_dmg2_031"],
+			["f_dmg2_031", "f_smelt1_036"],
+			["f_smelt1_036", "f_smelt2_037"],
+			["f_smelt2_037", "f_chr6_038"],
+
+			["f_arm1_032", "f_arm2_033"],
+
+			["f_tool1_034", "f_tool2_035"],
+			["f_tool2_035", "f_chr7_039"],
+
+			["f_rep7_008", "f_smelt1_036"],
+			["f_rep8_009", "f_smelt2_037"],
+
+			["f_arm1_032", "f_tool1_034"],
+			["f_arm2_033", "f_tool2_035"],
+
+			["f_chr6_038", "f_final1_041"],
+			["f_chr7_039", "f_final2_042"],
+			["f_chr8_040", "f_final1_041"],
+			["f_chr8_040", "f_final2_042"]
 		]
 	}
 }

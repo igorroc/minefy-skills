@@ -1,19 +1,72 @@
 {
 	"normal": {
 		"bidirectional": [
-			["e001_root_center", "e002_pass_1"],
-			["e002_pass_1", "e003_pass_2"],
-			["e003_pass_2", "e004_pass_3"],
-			["e004_pass_3", "e005_chal_1"],
-			["e005_chal_1", "e006_pass_4"],
-			["e006_pass_4", "e007_pass_5"],
-			["e007_pass_5", "e008_chal_2"],
-			["e008_chal_2", "e009_pass_6"],
-			["e009_pass_6", "e010_pass_7"],
-			["e010_pass_7", "e011_pass_8"],
-			["e011_pass_8", "e012_chal_3"],
-			["e012_chal_3", "e013_excl_left"],
-			["e012_chal_3", "e014_excl_right"]
+			["e_root_001", "e_chr1_025"],
+			["e_root_001", "e_spd1_002"],
+			["e_root_001", "e_move1_015"],
+
+			["e_spd1_002", "e_spd2_003"],
+			["e_spd1_002", "e_eff1_010"],
+			["e_spd2_003", "e_spd3_004"],
+			["e_spd2_003", "e_eff2_011"],
+			["e_spd3_004", "e_spd4_005"],
+			["e_spd3_004", "e_eff3_012"],
+			["e_spd4_005", "e_spd5_006"],
+			["e_spd4_005", "e_eff4_013"],
+			["e_spd5_006", "e_spd6_007"],
+			["e_spd6_007", "e_spd7_008"],
+			["e_spd7_008", "e_spd8_009"],
+
+			["e_eff1_010", "e_eff2_011"],
+			["e_eff2_011", "e_eff3_012"],
+			["e_eff3_012", "e_eff4_013"],
+			["e_eff4_013", "e_eff5_014"],
+			["e_eff5_014", "e_spd6_007"],
+
+			["e_move1_015", "e_move2_016"],
+			["e_move1_015", "e_stam1_021"],
+			["e_move2_016", "e_move3_017"],
+			["e_move2_016", "e_stam2_022"],
+			["e_move3_017", "e_move4_018"],
+			["e_move3_017", "e_stam3_023"],
+			["e_move4_018", "e_move5_019"],
+			["e_move5_019", "e_move6_020"],
+
+			["e_stam1_021", "e_stam2_022"],
+			["e_stam2_022", "e_stam3_023"],
+			["e_stam3_023", "e_stam4_024"],
+			["e_stam4_024", "e_move4_018"],
+
+			["e_chr1_025", "e_chr2_026"],
+			["e_chr2_026", "e_chr3_027"],
+			["e_chr3_027", "e_chr4_028"],
+			["e_chr4_028", "e_chr5_029"],
+
+			["e_chr5_029", "e_light1_030"],
+			["e_chr5_029", "e_water1_032"],
+			["e_chr5_029", "e_grav1_034"],
+			["e_chr5_029", "e_chr8_040"],
+
+			["e_light1_030", "e_light2_031"],
+			["e_light2_031", "e_reach1_036"],
+			["e_reach1_036", "e_reach2_037"],
+			["e_reach2_037", "e_chr6_038"],
+
+			["e_water1_032", "e_water2_033"],
+
+			["e_grav1_034", "e_grav2_035"],
+			["e_grav2_035", "e_chr7_039"],
+
+			["e_spd7_008", "e_reach1_036"],
+			["e_spd8_009", "e_reach2_037"],
+
+			["e_water1_032", "e_grav1_034"],
+			["e_water2_033", "e_grav2_035"],
+
+			["e_chr6_038", "e_final1_041"],
+			["e_chr7_039", "e_final2_042"],
+			["e_chr8_040", "e_final1_041"],
+			["e_chr8_040", "e_final2_042"]
 		]
 	}
 }

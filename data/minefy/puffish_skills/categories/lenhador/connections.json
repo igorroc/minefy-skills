@@ -1,20 +1,72 @@
 {
 	"normal": {
 		"bidirectional": [
-			["l001_root_center", "l002_pass_1"],
-			["l002_pass_1", "l003_pass_2"],
-			["l003_pass_2", "l004_pass_3"],
-			["l004_pass_3", "l005_chal_1"],
-			["l005_chal_1", "l006_pass_4"],
-			["l006_pass_4", "l007_pass_5"],
-			["l007_pass_5", "l008_chal_2"],
-			["l008_chal_2", "l009_pass_6"],
-			["l009_pass_6", "l010_pass_7"],
-			["l010_pass_7", "l011_pass_8"],
-			["l011_pass_8", "l012_pass_9"],
-			["l012_pass_9", "l013_chal_3"],
-			["l013_chal_3", "l014_excl_left"],
-			["l013_chal_3", "l015_excl_right"]
+			["l_root_001", "l_chr1_025"],
+			["l_root_001", "l_spd1_002"],
+			["l_root_001", "l_move1_015"],
+
+			["l_spd1_002", "l_spd2_003"],
+			["l_spd1_002", "l_luck1_010"],
+			["l_spd2_003", "l_spd3_004"],
+			["l_spd2_003", "l_luck2_011"],
+			["l_spd3_004", "l_spd4_005"],
+			["l_spd3_004", "l_luck3_012"],
+			["l_spd4_005", "l_spd5_006"],
+			["l_spd4_005", "l_luck4_013"],
+			["l_spd5_006", "l_spd6_007"],
+			["l_spd6_007", "l_spd7_008"],
+			["l_spd7_008", "l_spd8_009"],
+
+			["l_luck1_010", "l_luck2_011"],
+			["l_luck2_011", "l_luck3_012"],
+			["l_luck3_012", "l_luck4_013"],
+			["l_luck4_013", "l_luck5_014"],
+			["l_luck5_014", "l_spd6_007"],
+
+			["l_move1_015", "l_move2_016"],
+			["l_move1_015", "l_stam1_021"],
+			["l_move2_016", "l_move3_017"],
+			["l_move2_016", "l_stam2_022"],
+			["l_move3_017", "l_move4_018"],
+			["l_move3_017", "l_stam3_023"],
+			["l_move4_018", "l_move5_019"],
+			["l_move5_019", "l_move6_020"],
+
+			["l_stam1_021", "l_stam2_022"],
+			["l_stam2_022", "l_stam3_023"],
+			["l_stam3_023", "l_stam4_024"],
+			["l_stam4_024", "l_move4_018"],
+
+			["l_chr1_025", "l_chr2_026"],
+			["l_chr2_026", "l_chr3_027"],
+			["l_chr3_027", "l_chr4_028"],
+			["l_chr4_028", "l_chr5_029"],
+
+			["l_chr5_029", "l_eff1_030"],
+			["l_chr5_029", "l_dura1_032"],
+			["l_chr5_029", "l_dmg1_034"],
+			["l_chr5_029", "l_chr8_040"],
+
+			["l_eff1_030", "l_eff2_031"],
+			["l_eff2_031", "l_atk1_036"],
+			["l_atk1_036", "l_atk2_037"],
+			["l_atk2_037", "l_chr6_038"],
+
+			["l_dura1_032", "l_dura2_033"],
+
+			["l_dmg1_034", "l_dmg2_035"],
+			["l_dmg2_035", "l_chr7_039"],
+
+			["l_spd7_008", "l_atk1_036"],
+			["l_spd8_009", "l_atk2_037"],
+
+			["l_dura1_032", "l_dmg1_034"],
+			["l_dura2_033", "l_dmg2_035"],
+
+			["l_chr6_038", "l_final1_041"],
+			["l_chr7_039", "l_final2_042"],
+			["l_chr8_040", "l_final1_041"],
+			["l_chr8_040", "l_final2_042"]
 		]
 	}
 }

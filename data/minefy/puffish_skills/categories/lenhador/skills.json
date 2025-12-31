@@ -1,92 +1,44 @@
 {
-	"l001_root_center": {
-		"definition": "primeiro_machado",
-		"x": 0,
-		"y": 0,
-		"root": true
-	},
-	"l002_pass_1": {
-		"definition": "velocidade_machado+2%_1",
-		"x": 0,
-		"y": -68,
-		"root": false
-	},
-	"l003_pass_2": {
-		"definition": "velocidade_machado+2%_2",
-		"x": 0,
-		"y": -136,
-		"root": false
-	},
-	"l004_pass_3": {
-		"definition": "movimento+3%_1",
-		"x": 0,
-		"y": -204,
-		"root": false
-	},
-	"l005_chal_1": {
-		"definition": "madeireiro",
-		"x": 0,
-		"y": -272,
-		"root": false
-	},
-	"l006_pass_4": {
-		"definition": "velocidade_machado+2%_3",
-		"x": 0,
-		"y": -340,
-		"root": false
-	},
-	"l007_pass_5": {
-		"definition": "velocidade_machado+2%_4",
-		"x": 0,
-		"y": -408,
-		"root": false
-	},
-	"l008_chal_2": {
-		"definition": "derrubador_arvores",
-		"x": 0,
-		"y": -476,
-		"root": false
-	},
-	"l009_pass_6": {
-		"definition": "velocidade_machado+2%_5",
-		"x": 0,
-		"y": -544,
-		"root": false
-	},
-	"l010_pass_7": {
-		"definition": "velocidade_machado+2%_6",
-		"x": 0,
-		"y": -612,
-		"root": false
-	},
-	"l011_pass_8": {
-		"definition": "movimento+3%_2",
-		"x": 0,
-		"y": -680,
-		"root": false
-	},
-	"l012_pass_9": {
-		"definition": "velocidade_machado+2%_7",
-		"x": 0,
-		"y": -748,
-		"root": false
-	},
-	"l013_chal_3": {
-		"definition": "guardiao_floresta",
-		"x": 0,
-		"y": -816,
-		"root": false
-	},
-	"l014_excl_left": {
-		"definition": "forca_bruta",
-		"x": -136,
-		"y": -884,
-		"root": false
-	},
-	"l015_excl_right": {
-		"definition": "precisao",
-		"x": 136,
-		"y": -884,
-		"root": false
-	}
+	"l_root_001": {"definition": "primeiro_machado", "x": 0, "y": 0, "root": true},
+	"l_spd1_002": {"definition": "passive_chop_spd_1", "x": -68, "y": 68},
+	"l_spd2_003": {"definition": "passive_chop_spd_2", "x": -68, "y": 136},
+	"l_spd3_004": {"definition": "passive_chop_spd_3", "x": -102, "y": 170},
+	"l_spd4_005": {"definition": "passive_chop_spd_4", "x": -102, "y": 238},
+	"l_spd5_006": {"definition": "passive_chop_spd_5", "x": -136, "y": 272},
+	"l_spd6_007": {"definition": "passive_chop_spd_6", "x": -136, "y": 340},
+	"l_spd7_008": {"definition": "passive_chop_spd_7", "x": -170, "y": 374},
+	"l_spd8_009": {"definition": "passive_chop_spd_8", "x": -170, "y": 442},
+	"l_luck1_010": {"definition": "passive_luck_1", "x": -34, "y": 102},
+	"l_luck2_011": {"definition": "passive_luck_2", "x": -34, "y": 170},
+	"l_luck3_012": {"definition": "passive_luck_3", "x": -34, "y": 238},
+	"l_luck4_013": {"definition": "passive_luck_4", "x": -68, "y": 272},
+	"l_luck5_014": {"definition": "passive_luck_5", "x": -68, "y": 340},
+	"l_move1_015": {"definition": "passive_movement_1", "x": 68, "y": 68},
+	"l_move2_016": {"definition": "passive_movement_2", "x": 68, "y": 136},
+	"l_move3_017": {"definition": "passive_movement_3", "x": 102, "y": 170},
+	"l_move4_018": {"definition": "passive_movement_4", "x": 102, "y": 238},
+	"l_move5_019": {"definition": "passive_movement_5", "x": 136, "y": 272},
+	"l_move6_020": {"definition": "passive_movement_6", "x": 136, "y": 340},
+	"l_stam1_021": {"definition": "passive_stamina_1", "x": 34, "y": 102},
+	"l_stam2_022": {"definition": "passive_stamina_2", "x": 34, "y": 170},
+	"l_stam3_023": {"definition": "passive_stamina_3", "x": 34, "y": 238},
+	"l_stam4_024": {"definition": "passive_stamina_4", "x": 68, "y": 272},
+	"l_chr1_025": {"definition": "challenge_madeireiro", "x": 0, "y": 68},
+	"l_chr2_026": {"definition": "challenge_lenhador", "x": 0, "y": 136},
+	"l_chr3_027": {"definition": "challenge_silvicultor", "x": 0, "y": 204},
+	"l_chr4_028": {"definition": "challenge_guardiao", "x": 0, "y": 272},
+	"l_chr5_029": {"definition": "challenge_mestre_floresta", "x": 0, "y": 340},
+	"l_eff1_030": {"definition": "passive_efficiency_1", "x": -34, "y": 374},
+	"l_eff2_031": {"definition": "passive_efficiency_2", "x": -34, "y": 442},
+	"l_dura1_032": {"definition": "passive_durability_1", "x": 34, "y": 374},
+	"l_dura2_033": {"definition": "passive_durability_2", "x": 34, "y": 442},
+	"l_dmg1_034": {"definition": "passive_damage_1", "x": 102, "y": 374},
+	"l_dmg2_035": {"definition": "passive_damage_2", "x": 102, "y": 442},
+	"l_atk1_036": {"definition": "passive_attack_speed_1", "x": -102, "y": 374},
+	"l_atk2_037": {"definition": "passive_attack_speed_2", "x": -102, "y": 442},
+	"l_chr6_038": {"definition": "challenge_titã_madeira", "x": -136, "y": 476},
+	"l_chr7_039": {"definition": "challenge_espírito_bosque", "x": 136, "y": 476},
+	"l_chr8_040": {"definition": "challenge_senhor_árvores", "x": 0, "y": 510},
+	"l_final1_041": {"definition": "passive_final_power", "x": -170, "y": 510},
+	"l_final2_042": {"definition": "passive_final_speed", "x": 170, "y": 510}
 }

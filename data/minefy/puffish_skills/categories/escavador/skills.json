@@ -1,86 +1,44 @@
 {
-	"e001_root_center": {
-		"definition": "primeira_pa",
-		"x": 0,
-		"y": 0,
-		"root": true
-	},
-	"e002_pass_1": {
-		"definition": "velocidade_pa+2%_1",
-		"x": 0,
-		"y": -68,
-		"root": false
-	},
-	"e003_pass_2": {
-		"definition": "velocidade_pa+2%_2",
-		"x": 0,
-		"y": -136,
-		"root": false
-	},
-	"e004_pass_3": {
-		"definition": "stamina+2%_1",
-		"x": 0,
-		"y": -204,
-		"root": false
-	},
-	"e005_chal_1": {
-		"definition": "escavador_iniciante",
-		"x": 0,
-		"y": -272,
-		"root": false
-	},
-	"e006_pass_4": {
-		"definition": "velocidade_pa+2%_3",
-		"x": 0,
-		"y": -340,
-		"root": false
-	},
-	"e007_pass_5": {
-		"definition": "velocidade_pa+2%_4",
-		"x": 0,
-		"y": -408,
-		"root": false
-	},
-	"e008_chal_2": {
-		"definition": "mestre_areias",
-		"x": 0,
-		"y": -476,
-		"root": false
-	},
-	"e009_pass_6": {
-		"definition": "velocidade_pa+2%_5",
-		"x": 0,
-		"y": -544,
-		"root": false
-	},
-	"e010_pass_7": {
-		"definition": "velocidade_pa+2%_6",
-		"x": 0,
-		"y": -612,
-		"root": false
-	},
-	"e011_pass_8": {
-		"definition": "stamina+2%_2",
-		"x": 0,
-		"y": -680,
-		"root": false
-	},
-	"e012_chal_3": {
-		"definition": "arqueologo",
-		"x": 0,
-		"y": -748,
-		"root": false
-	},
-	"e013_excl_left": {
-		"definition": "terraplenagem",
-		"x": -136,
-		"y": -816,
-		"root": false
-	},
-	"e014_excl_right": {
-		"definition": "coletor_gravidade",
-		"x": 136,
-		"y": -816,
-		"root": false
-	}
+	"e_root_001": {"definition": "primeira_pa", "x": 0, "y": 0, "root": true},
+	"e_spd1_002": {"definition": "passive_dig_spd_1", "x": -68, "y": 68},
+	"e_spd2_003": {"definition": "passive_dig_spd_2", "x": -68, "y": 136},
+	"e_spd3_004": {"definition": "passive_dig_spd_3", "x": -102, "y": 170},
+	"e_spd4_005": {"definition": "passive_dig_spd_4", "x": -102, "y": 238},
+	"e_spd5_006": {"definition": "passive_dig_spd_5", "x": -136, "y": 272},
+	"e_spd6_007": {"definition": "passive_dig_spd_6", "x": -136, "y": 340},
+	"e_spd7_008": {"definition": "passive_dig_spd_7", "x": -170, "y": 374},
+	"e_spd8_009": {"definition": "passive_dig_spd_8", "x": -170, "y": 442},
+	"e_eff1_010": {"definition": "passive_efficiency_1", "x": -34, "y": 102},
+	"e_eff2_011": {"definition": "passive_efficiency_2", "x": -34, "y": 170},
+	"e_eff3_012": {"definition": "passive_efficiency_3", "x": -34, "y": 238},
+	"e_eff4_013": {"definition": "passive_efficiency_4", "x": -68, "y": 272},
+	"e_eff5_014": {"definition": "passive_efficiency_5", "x": -68, "y": 340},
+	"e_move1_015": {"definition": "passive_movement_1", "x": 68, "y": 68},
+	"e_move2_016": {"definition": "passive_movement_2", "x": 68, "y": 136},
+	"e_move3_017": {"definition": "passive_movement_3", "x": 102, "y": 170},
+	"e_move4_018": {"definition": "passive_movement_4", "x": 102, "y": 238},
+	"e_move5_019": {"definition": "passive_movement_5", "x": 136, "y": 272},
+	"e_move6_020": {"definition": "passive_movement_6", "x": 136, "y": 340},
+	"e_stam1_021": {"definition": "passive_stamina_1", "x": 34, "y": 102},
+	"e_stam2_022": {"definition": "passive_stamina_2", "x": 34, "y": 170},
+	"e_stam3_023": {"definition": "passive_stamina_3", "x": 34, "y": 238},
+	"e_stam4_024": {"definition": "passive_stamina_4", "x": 68, "y": 272},
+	"e_chr1_025": {"definition": "challenge_cavador", "x": 0, "y": 68},
+	"e_chr2_026": {"definition": "challenge_escavador", "x": 0, "y": 136},
+	"e_chr3_027": {"definition": "challenge_mestre_areia", "x": 0, "y": 204},
+	"e_chr4_028": {"definition": "challenge_arqueologo", "x": 0, "y": 272},
+	"e_chr5_029": {"definition": "challenge_terraplanador", "x": 0, "y": 340},
+	"e_light1_030": {"definition": "passive_night_vision_1", "x": -34, "y": 374},
+	"e_light2_031": {"definition": "passive_night_vision_2", "x": -34, "y": 442},
+	"e_water1_032": {"definition": "passive_water_work_1", "x": 34, "y": 374},
+	"e_water2_033": {"definition": "passive_water_work_2", "x": 34, "y": 442},
+	"e_grav1_034": {"definition": "passive_gravity_1", "x": 102, "y": 374},
+	"e_grav2_035": {"definition": "passive_gravity_2", "x": 102, "y": 442},
+	"e_reach1_036": {"definition": "passive_reach_1", "x": -102, "y": 374},
+	"e_reach2_037": {"definition": "passive_reach_2", "x": -102, "y": 442},
+	"e_chr6_038": {"definition": "challenge_velocista", "x": -136, "y": 476},
+	"e_chr7_039": {"definition": "challenge_explorador", "x": 136, "y": 476},
+	"e_chr8_040": {"definition": "challenge_mestre_terra", "x": 0, "y": 510},
+	"e_final1_041": {"definition": "passive_final_speed", "x": -170, "y": 510},
+	"e_final2_042": {"definition": "passive_final_movement", "x": 170, "y": 510}
 }
