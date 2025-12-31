@@ -1,31 +1,72 @@
 {
 	"normal": {
 		"bidirectional": [
-			["d_root_001_abcd", "d_chr1_014_abcd"],
-			["d_root_001_abcd", "d_arm1_002_efgh"],
-			["d_root_001_abcd", "d_res1_006_uvwx"],
-			["d_chr1_014_abcd", "d_chr2_015_efgh"],
-			["d_chr2_015_efgh", "d_chr3_016_ijkl"],
-			["d_chr3_016_ijkl", "d_chr4_017_mnop"],
-			["d_chr4_017_mnop", "d_hp1_010_klmn"],
-			["d_arm1_002_efgh", "d_arm2_003_ijkl"],
-			["d_arm2_003_ijkl", "d_arm3_004_mnop"],
-			["d_arm3_004_mnop", "d_arm4_005_qrst"],
-			["d_arm4_005_qrst", "d_chr5_018_qrst"],
-			["d_arm4_005_qrst", "d_act1_021_cdef"],
-			["d_chr5_018_qrst", "d_act4_024_opqr"],
-			["d_res1_006_uvwx", "d_res2_007_yzab"],
-			["d_res2_007_yzab", "d_res3_008_cdef"],
-			["d_res3_008_cdef", "d_res4_009_ghij"],
-			["d_res4_009_ghij", "d_chr7_020_yzab"],
-			["d_chr7_020_yzab", "d_act5_025_stuv"],
-			["d_hp1_010_klmn", "d_hp2_011_opqr"],
-			["d_hp1_010_klmn", "d_hp4_013_wxyz"],
-			["d_hp2_011_opqr", "d_hp3_012_stuv"],
-			["d_hp3_012_stuv", "d_hp4_013_wxyz"],
-			["d_hp4_013_wxyz", "d_chr6_019_uvwx"],
-			["d_chr6_019_uvwx", "d_act2_022_ghij"],
-			["d_chr6_019_uvwx", "d_act3_023_klmn"]
+			["d_root_001", "d_chr1_025"],
+			["d_root_001", "d_arm1_002"],
+			["d_root_001", "d_hp1_015"],
+
+			["d_arm1_002", "d_arm2_003"],
+			["d_arm1_002", "d_tough1_010"],
+			["d_arm2_003", "d_arm3_004"],
+			["d_arm2_003", "d_tough2_011"],
+			["d_arm3_004", "d_arm4_005"],
+			["d_arm3_004", "d_tough3_012"],
+			["d_arm4_005", "d_arm5_006"],
+			["d_arm4_005", "d_tough4_013"],
+			["d_arm5_006", "d_arm6_007"],
+			["d_arm6_007", "d_arm7_008"],
+			["d_arm7_008", "d_arm8_009"],
+
+			["d_tough1_010", "d_tough2_011"],
+			["d_tough2_011", "d_tough3_012"],
+			["d_tough3_012", "d_tough4_013"],
+			["d_tough4_013", "d_tough5_014"],
+			["d_tough5_014", "d_arm6_007"],
+
+			["d_hp1_015", "d_hp2_016"],
+			["d_hp1_015", "d_regen1_021"],
+			["d_hp2_016", "d_hp3_017"],
+			["d_hp2_016", "d_regen2_022"],
+			["d_hp3_017", "d_hp4_018"],
+			["d_hp3_017", "d_regen3_023"],
+			["d_hp4_018", "d_hp5_019"],
+			["d_hp5_019", "d_hp6_020"],
+
+			["d_regen1_021", "d_regen2_022"],
+			["d_regen2_022", "d_regen3_023"],
+			["d_regen3_023", "d_regen4_024"],
+			["d_regen4_024", "d_hp4_018"],
+
+			["d_chr1_025", "d_chr2_026"],
+			["d_chr2_026", "d_chr3_027"],
+			["d_chr3_027", "d_chr4_028"],
+			["d_chr4_028", "d_chr5_029"],
+
+			["d_chr5_029", "d_shield1_030"],
+			["d_chr5_029", "d_knockres1_032"],
+			["d_chr5_029", "d_thorns1_034"],
+			["d_chr5_029", "d_chr8_040"],
+
+			["d_shield1_030", "d_shield2_031"],
+			["d_shield2_031", "d_absorb1_036"],
+			["d_absorb1_036", "d_absorb2_037"],
+			["d_absorb2_037", "d_chr6_038"],
+
+			["d_knockres1_032", "d_knockres2_033"],
+
+			["d_thorns1_034", "d_thorns2_035"],
+			["d_thorns2_035", "d_chr7_039"],
+
+			["d_arm7_008", "d_absorb1_036"],
+			["d_arm8_009", "d_absorb2_037"],
+
+			["d_knockres1_032", "d_thorns1_034"],
+			["d_knockres2_033", "d_thorns2_035"],
+
+			["d_chr6_038", "d_final1_041"],
+			["d_chr7_039", "d_final2_042"],
+			["d_chr8_040", "d_final1_041"],
+			["d_chr8_040", "d_final2_042"]
 		]
 	}
 }
