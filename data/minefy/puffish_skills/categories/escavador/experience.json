@@ -7,66 +7,66 @@
 	},
 	"sources": [
 		{
-			"type": "puffish_skills:mine_block",
+			"type": "puffish_skills:break_block",
 			"data": {
 				"variables": {
 					"is_dirt": {
 						"operations": [
-							{"type": "get_mined_block_state"},
+							{"type": "get_broken_block_state"},
 							{"type": "puffish_skills:test", "data": {"block": "minecraft:dirt"}}
 						]
 					},
 					"is_grass": {
 						"operations": [
-							{"type": "get_mined_block_state"},
+							{"type": "get_broken_block_state"},
 							{"type": "puffish_skills:test", "data": {"block": "minecraft:grass_block"}}
 						]
 					},
 					"is_sand": {
 						"operations": [
-							{"type": "get_mined_block_state"},
+							{"type": "get_broken_block_state"},
 							{"type": "puffish_skills:test", "data": {"block": "minecraft:sand"}}
 						]
 					},
 					"is_gravel": {
 						"operations": [
-							{"type": "get_mined_block_state"},
+							{"type": "get_broken_block_state"},
 							{"type": "puffish_skills:test", "data": {"block": "minecraft:gravel"}}
 						]
 					},
 					"is_clay": {
 						"operations": [
-							{"type": "get_mined_block_state"},
+							{"type": "get_broken_block_state"},
 							{"type": "puffish_skills:test", "data": {"block": "minecraft:clay"}}
 						]
 					},
 					"is_soul_sand": {
 						"operations": [
-							{"type": "get_mined_block_state"},
+							{"type": "get_broken_block_state"},
 							{"type": "puffish_skills:test", "data": {"block": "minecraft:soul_sand"}}
 						]
 					},
 					"is_soul_soil": {
 						"operations": [
-							{"type": "get_mined_block_state"},
+							{"type": "get_broken_block_state"},
 							{"type": "puffish_skills:test", "data": {"block": "minecraft:soul_soil"}}
 						]
 					},
 					"is_suspicious_sand": {
 						"operations": [
-							{"type": "get_mined_block_state"},
+							{"type": "get_broken_block_state"},
 							{"type": "puffish_skills:test", "data": {"block": "minecraft:suspicious_sand"}}
 						]
 					},
 					"is_suspicious_gravel": {
 						"operations": [
-							{"type": "get_mined_block_state"},
+							{"type": "get_broken_block_state"},
 							{"type": "puffish_skills:test", "data": {"block": "minecraft:suspicious_gravel"}}
 						]
 					},
 					"is_snow": {
 						"operations": [
-							{"type": "get_mined_block_state"},
+							{"type": "get_broken_block_state"},
 							{"type": "puffish_skills:test", "data": {"block": "#minecraft:snow"}}
 						]
 					}
