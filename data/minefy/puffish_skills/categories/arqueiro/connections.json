@@ -1,25 +1,69 @@
 {
 	"normal": {
 		"bidirectional": [
-			["a_root_001_abcd", "a_chr1_012_stuv"],
-			["a_root_001_abcd", "a_dmg1_002_efgh"],
-			["a_root_001_abcd", "a_spd1_008_cdef"],
-			["a_chr1_012_stuv", "a_chr2_013_wxyz"],
-			["a_chr2_013_wxyz", "a_chr3_014_abcd"],
-			["a_chr3_014_abcd", "a_chr4_015_efgh"],
-			["a_chr4_015_efgh", "a_chr5_016_ijkl"],
-			["a_chr4_015_efgh", "a_chr6_017_mnop"],
-			["a_chr4_015_efgh", "a_chr7_018_qrst"],
-			["a_dmg1_002_efgh", "a_dmg2_003_ijkl"],
-			["a_dmg2_003_ijkl", "a_dmg3_004_mnop"],
-			["a_dmg3_004_mnop", "a_dmg4_005_qrst"],
-			["a_dmg4_005_qrst", "a_dmg5_006_uvwx"],
-			["a_dmg5_006_uvwx", "a_dmg6_007_yzab"],
-			["a_dmg6_007_yzab", "a_chr5_016_ijkl"],
-			["a_spd1_008_cdef", "a_spd2_009_ghij"],
-			["a_spd2_009_ghij", "a_spd3_010_klmn"],
-			["a_spd3_010_klmn", "a_spd4_011_opqr"],
-			["a_spd4_011_opqr", "a_chr6_017_mnop"]
+			["a_root_001", "a_chr1_025"],
+			["a_root_001", "a_dmg1_002"],
+			["a_root_001", "a_spd1_015"],
+
+			["a_dmg1_002", "a_dmg2_003"],
+			["a_dmg1_002", "a_crit1_010"],
+			["a_dmg2_003", "a_dmg3_004"],
+			["a_dmg2_003", "a_crit2_011"],
+			["a_dmg3_004", "a_dmg4_005"],
+			["a_dmg3_004", "a_crit3_012"],
+			["a_dmg4_005", "a_dmg5_006"],
+			["a_dmg4_005", "a_crit4_013"],
+			["a_dmg5_006", "a_dmg6_007"],
+			["a_dmg6_007", "a_dmg7_008"],
+			["a_dmg7_008", "a_dmg8_009"],
+
+			["a_crit1_010", "a_crit2_011"],
+			["a_crit2_011", "a_crit3_012"],
+			["a_crit3_012", "a_crit4_013"],
+			["a_crit4_013", "a_crit5_014"],
+			["a_crit5_014", "a_dmg6_007"],
+
+			["a_spd1_015", "a_spd2_016"],
+			["a_spd1_015", "a_hp1_021"],
+			["a_spd2_016", "a_spd3_017"],
+			["a_spd2_016", "a_hp2_022"],
+			["a_spd3_017", "a_spd4_018"],
+			["a_spd3_017", "a_hp3_023"],
+			["a_spd4_018", "a_spd5_019"],
+			["a_spd5_019", "a_spd6_020"],
+
+			["a_hp1_021", "a_hp2_022"],
+			["a_hp2_022", "a_hp3_023"],
+			["a_hp3_023", "a_hp4_024"],
+			["a_hp4_024", "a_spd5_019"],
+
+			["a_chr1_025", "a_chr2_026"],
+			["a_chr2_026", "a_chr3_027"],
+			["a_chr3_027", "a_chr4_028"],
+			["a_chr4_028", "a_chr5_029"],
+
+			["a_chr5_029", "a_pierce1_030"],
+			["a_chr5_029", "a_draw1_032"],
+			["a_chr5_029", "a_chr8_040"],
+
+			["a_pierce1_030", "a_pierce2_031"],
+			["a_pierce2_031", "a_resist1_036"],
+			["a_resist1_036", "a_resist2_037"],
+			["a_resist2_037", "a_chr6_038"],
+
+			["a_draw1_032", "a_draw2_033"],
+			["a_draw2_033", "a_ammo1_034"],
+			["a_ammo1_034", "a_ammo2_035"],
+			["a_ammo2_035", "a_chr7_039"],
+
+			["a_chr6_038", "a_final1_041"],
+			["a_final1_041", "a_final2_042"],
+
+			["a_chr7_039", "a_final3_043"],
+			["a_final3_043", "a_final4_044"],
+
+			["a_chr8_040", "a_final5_045"],
+			["a_final5_045", "a_final6_046"]
 		]
 	}
 }

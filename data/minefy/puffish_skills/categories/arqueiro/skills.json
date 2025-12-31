@@ -1,93 +1,61 @@
 {
-	"a_root_001_abcd": {
-		"definition": "primeiro_disparo",
-		"x": 0,
-		"y": 0,
-		"root": true
-	},
-	"a_chr1_012_stuv": {
-		"definition": "challenge_atirador",
-		"x": 0,
-		"y": 68
-	},
-	"a_chr2_013_wxyz": {
-		"definition": "challenge_francotirador",
-		"x": 0,
-		"y": 136
-	},
-	"a_chr3_014_abcd": {
-		"definition": "challenge_olho_aguia",
-		"x": 0,
-		"y": 204
-	},
-	"a_chr4_015_efgh": {
-		"definition": "challenge_mestre_arco",
-		"x": 0,
-		"y": 272
-	},
-	"a_dmg1_002_efgh": {
-		"definition": "passive_ranged_dmg_1",
-		"x": -68,
-		"y": 68
-	},
-	"a_dmg2_003_ijkl": {
-		"definition": "passive_ranged_dmg_2",
-		"x": -68,
-		"y": 136
-	},
-	"a_dmg3_004_mnop": {
-		"definition": "passive_ranged_dmg_3",
-		"x": -136,
-		"y": 136
-	},
-	"a_dmg4_005_qrst": {
-		"definition": "passive_ranged_dmg_4",
-		"x": -136,
-		"y": 204
-	},
-	"a_dmg5_006_uvwx": {
-		"definition": "passive_ranged_dmg_5",
-		"x": -136,
-		"y": 272
-	},
-	"a_dmg6_007_yzab": {
-		"definition": "passive_ranged_dmg_6",
-		"x": -136,
-		"y": 340
-	},
-	"a_chr5_016_ijkl": {
-		"definition": "challenge_elite",
-		"x": -136,
-		"y": 408
-	},
-	"a_spd1_008_cdef": {
-		"definition": "passive_projectile_1",
-		"x": 68,
-		"y": 68
-	},
-	"a_spd2_009_ghij": {
-		"definition": "passive_projectile_2",
-		"x": 68,
-		"y": 136
-	},
-	"a_spd3_010_klmn": {
-		"definition": "passive_projectile_3",
-		"x": 136,
-		"y": 136
-	},
-	"a_spd4_011_opqr": {
-		"definition": "passive_projectile_4",
-		"x": 136,
-		"y": 204
-	},
-	"a_chr6_017_mnop": {
-		"definition": "challenge_cacador",
-		"x": 136,
-		"y": 340
-	},
-	"a_chr7_018_qrst": {
-		"definition": "challenge_artilheiro",
-		"x": 0,
-		"y": 408
-	}
+	"a_root_001": {"definition": "primeiro_disparo", "x": 0, "y": 0, "root": true},
+
+	"a_dmg1_002": {"definition": "passive_ranged_dmg_1", "x": -68, "y": 68},
+	"a_dmg2_003": {"definition": "passive_ranged_dmg_2", "x": -68, "y": 136},
+	"a_dmg3_004": {"definition": "passive_ranged_dmg_3", "x": -102, "y": 170},
+	"a_dmg4_005": {"definition": "passive_ranged_dmg_4", "x": -102, "y": 238},
+	"a_dmg5_006": {"definition": "passive_ranged_dmg_5", "x": -136, "y": 272},
+	"a_dmg6_007": {"definition": "passive_ranged_dmg_6", "x": -136, "y": 340},
+	"a_dmg7_008": {"definition": "passive_ranged_dmg_7", "x": -170, "y": 374},
+	"a_dmg8_009": {"definition": "passive_ranged_dmg_8", "x": -170, "y": 442},
+
+	"a_crit1_010": {"definition": "passive_critical_1", "x": -34, "y": 102},
+	"a_crit2_011": {"definition": "passive_critical_2", "x": -34, "y": 170},
+	"a_crit3_012": {"definition": "passive_critical_3", "x": -34, "y": 238},
+	"a_crit4_013": {"definition": "passive_critical_4", "x": -68, "y": 272},
+	"a_crit5_014": {"definition": "passive_critical_5", "x": -68, "y": 340},
+
+	"a_spd1_015": {"definition": "passive_projectile_1", "x": 68, "y": 68},
+	"a_spd2_016": {"definition": "passive_projectile_2", "x": 68, "y": 136},
+	"a_spd3_017": {"definition": "passive_projectile_3", "x": 102, "y": 170},
+	"a_spd4_018": {"definition": "passive_projectile_4", "x": 102, "y": 238},
+	"a_spd5_019": {"definition": "passive_projectile_5", "x": 136, "y": 272},
+	"a_spd6_020": {"definition": "passive_projectile_6", "x": 136, "y": 340},
+
+	"a_hp1_021": {"definition": "passive_health_1", "x": 34, "y": 102},
+	"a_hp2_022": {"definition": "passive_health_2", "x": 34, "y": 170},
+	"a_hp3_023": {"definition": "passive_health_3", "x": 34, "y": 238},
+	"a_hp4_024": {"definition": "passive_health_4", "x": 68, "y": 272},
+
+	"a_chr1_025": {"definition": "challenge_atirador", "x": 0, "y": 68},
+	"a_chr2_026": {"definition": "challenge_francotirador", "x": 0, "y": 136},
+	"a_chr3_027": {"definition": "challenge_olho_aguia", "x": 0, "y": 204},
+	"a_chr4_028": {"definition": "challenge_sentinela", "x": 0, "y": 272},
+	"a_chr5_029": {"definition": "challenge_mestre_arco", "x": 0, "y": 340},
+
+	"a_pierce1_030": {"definition": "passive_pierce_1", "x": -34, "y": 374},
+	"a_pierce2_031": {"definition": "passive_pierce_2", "x": -34, "y": 442},
+
+	"a_draw1_032": {"definition": "passive_draw_1", "x": 34, "y": 374},
+	"a_draw2_033": {"definition": "passive_draw_2", "x": 34, "y": 442},
+
+	"a_ammo1_034": {"definition": "passive_ammo_1", "x": 102, "y": 374},
+	"a_ammo2_035": {"definition": "passive_ammo_2", "x": 102, "y": 442},
+
+	"a_resist1_036": {"definition": "passive_resist_1", "x": -102, "y": 374},
+	"a_resist2_037": {"definition": "passive_resist_2", "x": -102, "y": 442},
+
+	"a_chr6_038": {"definition": "challenge_elite", "x": -136, "y": 476},
+	"a_chr7_039": {"definition": "challenge_cacador", "x": 136, "y": 476},
+	"a_chr8_040": {"definition": "challenge_artilheiro", "x": 0, "y": 510},
+
+	"a_final1_041": {"definition": "passive_final_dmg_1", "x": -170, "y": 510},
+	"a_final2_042": {"definition": "passive_final_dmg_2", "x": -170, "y": 578},
+
+	"a_final3_043": {"definition": "passive_final_spd_1", "x": 170, "y": 510},
+	"a_final4_044": {"definition": "passive_final_spd_2", "x": 170, "y": 578},
+
+	"a_final5_045": {"definition": "passive_final_crit_1", "x": 0, "y": 578},
+	"a_final6_046": {"definition": "passive_final_crit_2", "x": 0, "y": 646}
 }
