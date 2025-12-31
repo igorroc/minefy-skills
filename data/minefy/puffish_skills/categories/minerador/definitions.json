@@ -1,685 +1,405 @@
 {
 	"primeira_picareta": {
 		"title": "Primeira Picareta",
-		"description": [
-			{
-				"text": "Inicie sua jornada como minerador nas profundezas"
-			}
-		],
+		"description": [{"text": "O começo da sua jornada como minerador."}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:wooden_pickaxe"
-			}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "challenge"
-			}
-		},
+		"icon": {"type": "item", "data": {"item": "minecraft:wooden_pickaxe"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
 		"rewards": [],
-		"metadata": {
-			"icon": "miner001root0001"
-		}
+		"metadata": {"icon": "m_root_001"}
 	},
-	"velocidade_picareta+2%_1": {
-		"title": "+2% Velocidade de Picareta",
+	"passive_mining_spd_1": {
+		"title": "Velocidade de Mineração I",
+		"description": [{"text": "+1% velocidade de mineração"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:stone_pickaxe"
-			}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "task"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:pickaxe_speed",
-					"value": 0.02,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "miner002pass0001"
-		}
+		"icon": {"type": "item", "data": {"item": "minecraft:stone_pickaxe"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:pickaxe_speed", "value": 0.01, "operation": "multiply_total"}}],
+		"metadata": {"icon": "m_spd1_002"}
 	},
-	"velocidade_picareta+2%_2": {
-		"title": "+2% Velocidade de Picareta",
+	"passive_mining_spd_2": {
+		"title": "Velocidade de Mineração II",
+		"description": [{"text": "+1% velocidade de mineração"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:stone_pickaxe"
-			}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "task"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:pickaxe_speed",
-					"value": 0.02,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "miner003pass0002"
-		}
+		"icon": {"type": "item", "data": {"item": "minecraft:stone_pickaxe"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:pickaxe_speed", "value": 0.01, "operation": "multiply_total"}}],
+		"metadata": {"icon": "m_spd2_003"}
 	},
-	"velocidade_picareta+2%_3": {
-		"title": "+2% Velocidade de Picareta",
+	"passive_mining_spd_3": {
+		"title": "Velocidade de Mineração III",
+		"description": [{"text": "+2% velocidade de mineração"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:iron_pickaxe"
-			}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "task"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:pickaxe_speed",
-					"value": 0.02,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "miner004pass0003"
-		}
+		"icon": {"type": "item", "data": {"item": "minecraft:iron_pickaxe"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:pickaxe_speed", "value": 0.02, "operation": "multiply_total"}}],
+		"metadata": {"icon": "m_spd3_004"}
 	},
-	"fortuna+0.1_1": {
-		"title": "+0.1 Fortuna",
+	"passive_mining_spd_4": {
+		"title": "Velocidade de Mineração IV",
+		"description": [{"text": "+2% velocidade de mineração"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:coal"
-			}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "task"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:fortune",
-					"value": 0.1,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "miner005pass0004"
-		}
+		"icon": {"type": "item", "data": {"item": "minecraft:iron_pickaxe"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:pickaxe_speed", "value": 0.02, "operation": "multiply_total"}}],
+		"metadata": {"icon": "m_spd4_005"}
 	},
-	"garimpeiro": {
+	"passive_mining_spd_5": {
+		"title": "Velocidade de Mineração V",
+		"description": [{"text": "+3% velocidade de mineração"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:golden_pickaxe"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:pickaxe_speed", "value": 0.03, "operation": "multiply_total"}}],
+		"metadata": {"icon": "m_spd5_006"}
+	},
+	"passive_mining_spd_6": {
+		"title": "Velocidade de Mineração VI",
+		"description": [{"text": "+3% velocidade de mineração"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:golden_pickaxe"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:pickaxe_speed", "value": 0.03, "operation": "multiply_total"}}],
+		"metadata": {"icon": "m_spd6_007"}
+	},
+	"passive_mining_spd_7": {
+		"title": "Velocidade de Mineração VII",
+		"description": [{"text": "+4% velocidade de mineração"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:diamond_pickaxe"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:pickaxe_speed", "value": 0.04, "operation": "multiply_total"}}],
+		"metadata": {"icon": "m_spd7_008"}
+	},
+	"passive_mining_spd_8": {
+		"title": "Velocidade de Mineração VIII",
+		"description": [{"text": "+5% velocidade de mineração"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:diamond_pickaxe"}},
+		"frame": {"type": "advancement", "data": {"frame": "goal"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:pickaxe_speed", "value": 0.05, "operation": "multiply_total"}}],
+		"metadata": {"icon": "m_spd8_009"}
+	},
+	"passive_fortune_1": {
+		"title": "Fortuna I",
+		"description": [{"text": "+0.1 Fortuna"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:lapis_lazuli"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:fortune", "value": 0.1, "operation": "addition"}}],
+		"metadata": {"icon": "m_fort1_010"}
+	},
+	"passive_fortune_2": {
+		"title": "Fortuna II",
+		"description": [{"text": "+0.1 Fortuna"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:redstone"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:fortune", "value": 0.1, "operation": "addition"}}],
+		"metadata": {"icon": "m_fort2_011"}
+	},
+	"passive_fortune_3": {
+		"title": "Fortuna III",
+		"description": [{"text": "+0.2 Fortuna"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:emerald"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:fortune", "value": 0.2, "operation": "addition"}}],
+		"metadata": {"icon": "m_fort3_012"}
+	},
+	"passive_fortune_4": {
+		"title": "Fortuna IV",
+		"description": [{"text": "+0.2 Fortuna"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:diamond"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:fortune", "value": 0.2, "operation": "addition"}}],
+		"metadata": {"icon": "m_fort4_013"}
+	},
+	"passive_fortune_5": {
+		"title": "Fortuna V",
+		"description": [{"text": "+0.3 Fortuna"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:diamond"}},
+		"frame": {"type": "advancement", "data": {"frame": "goal"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:fortune", "value": 0.3, "operation": "addition"}}],
+		"metadata": {"icon": "m_fort5_014"}
+	},
+	"passive_efficiency_1": {
+		"title": "Eficiência I",
+		"description": [{"text": "+5% XP de mineração"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:coal"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:experience_multiplier", "value": 0.05, "operation": "multiply_total"}}],
+		"metadata": {"icon": "m_eff1_015"}
+	},
+	"passive_efficiency_2": {
+		"title": "Eficiência II",
+		"description": [{"text": "+5% XP de mineração"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:copper_ingot"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:experience_multiplier", "value": 0.05, "operation": "multiply_total"}}],
+		"metadata": {"icon": "m_eff2_016"}
+	},
+	"passive_efficiency_3": {
+		"title": "Eficiência III",
+		"description": [{"text": "+10% XP de mineração"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:iron_ingot"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:experience_multiplier", "value": 0.1, "operation": "multiply_total"}}],
+		"metadata": {"icon": "m_eff3_017"}
+	},
+	"passive_efficiency_4": {
+		"title": "Eficiência IV",
+		"description": [{"text": "+10% XP de mineração"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:gold_ingot"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:experience_multiplier", "value": 0.1, "operation": "multiply_total"}}],
+		"metadata": {"icon": "m_eff4_018"}
+	},
+	"passive_efficiency_5": {
+		"title": "Eficiência V",
+		"description": [{"text": "+15% XP de mineração"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:redstone"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:experience_multiplier", "value": 0.15, "operation": "multiply_total"}}],
+		"metadata": {"icon": "m_eff5_019"}
+	},
+	"passive_efficiency_6": {
+		"title": "Eficiência VI",
+		"description": [{"text": "+15% XP de mineração"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:diamond"}},
+		"frame": {"type": "advancement", "data": {"frame": "goal"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:experience_multiplier", "value": 0.15, "operation": "multiply_total"}}],
+		"metadata": {"icon": "m_eff6_020"}
+	},
+	"passive_durability_1": {
+		"title": "Resistência I",
+		"description": [{"text": "+1 Coração extra"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:iron_ingot"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "max_health", "value": 2, "operation": "addition"}}],
+		"metadata": {"icon": "m_dur1_021"}
+	},
+	"passive_durability_2": {
+		"title": "Resistência II",
+		"description": [{"text": "+1 Coração extra"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:iron_ingot"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "max_health", "value": 2, "operation": "addition"}}],
+		"metadata": {"icon": "m_dur2_022"}
+	},
+	"passive_durability_3": {
+		"title": "Resistência III",
+		"description": [{"text": "+2 Corações extras"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:diamond"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "max_health", "value": 4, "operation": "addition"}}],
+		"metadata": {"icon": "m_dur3_023"}
+	},
+	"passive_durability_4": {
+		"title": "Resistência IV",
+		"description": [{"text": "+2 Corações extras"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:netherite_ingot"}},
+		"frame": {"type": "advancement", "data": {"frame": "goal"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "max_health", "value": 4, "operation": "addition"}}],
+		"metadata": {"icon": "m_dur4_024"}
+	},
+	"challenge_garimpeiro": {
 		"title": "§9Garimpeiro",
-		"description": [
-			{
-				"text": "§7+3% Velocidade de Picareta\n§7+0.3 Fortuna\n§e§l+16 Tocha"
-			}
-		],
+		"description": [{"text": "§7+2% velocidade de mineração\n§7+16 Tochas"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:iron_ore"
-			}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "challenge"
-			}
-		},
+		"icon": {"type": "item", "data": {"item": "minecraft:coal_ore"}},
+		"frame": {"type": "advancement", "data": {"frame": "challenge"}},
 		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:pickaxe_speed",
-					"value": 0.03,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:fortune",
-					"value": 0.3,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "give @s torch 16"
-				}
-			}
+			{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:pickaxe_speed", "value": 0.02, "operation": "multiply_total"}},
+			{"type": "puffish_skills:command", "data": {"command": "give @s torch 16"}}
 		],
-		"metadata": {
-			"icon": "miner006chal0001"
-		}
+		"metadata": {"icon": "m_chr1_025"}
 	},
-	"velocidade_picareta+2%_4": {
-		"title": "+2% Velocidade de Picareta",
-		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:iron_pickaxe"
-			}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "task"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:pickaxe_speed",
-					"value": 0.02,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "miner007pass0005"
-		}
-	},
-	"velocidade_picareta+2%_5": {
-		"title": "+2% Velocidade de Picareta",
-		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:golden_pickaxe"
-			}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "task"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:pickaxe_speed",
-					"value": 0.02,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "miner008pass0006"
-		}
-	},
-	"fortuna+0.1_2": {
-		"title": "+0.1 Fortuna",
-		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:iron_ingot"
-			}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "task"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:fortune",
-					"value": 0.1,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "miner009pass0007"
-		}
-	},
-	"minerador_ferro": {
+	"challenge_minerador_ferro": {
 		"title": "§9Minerador de Ferro",
-		"description": [
-			{
-				"text": "§7+4% Velocidade de Picareta\n§7+0.5 Fortuna\n§7+2% Resistência\n§e§l+8 Ferro"
-			}
-		],
+		"description": [{"text": "§7+3% velocidade de mineração\n§7+8 Ferro"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:raw_iron"
-			}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "challenge"
-			}
-		},
+		"icon": {"type": "item", "data": {"item": "minecraft:iron_ore"}},
+		"frame": {"type": "advancement", "data": {"frame": "challenge"}},
 		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:pickaxe_speed",
-					"value": 0.04,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:fortune",
-					"value": 0.5,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:resistance",
-					"value": 0.02,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "give @s iron_ingot 8"
-				}
-			}
+			{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:pickaxe_speed", "value": 0.03, "operation": "multiply_total"}},
+			{"type": "puffish_skills:command", "data": {"command": "give @s iron_ingot 8"}}
 		],
-		"metadata": {
-			"icon": "miner010chal0002"
-		}
+		"metadata": {"icon": "m_chr2_026"}
 	},
-	"velocidade_picareta+2%_6": {
-		"title": "+2% Velocidade de Picareta",
-		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:diamond_pickaxe"
-			}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "task"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:pickaxe_speed",
-					"value": 0.02,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "miner011pass0008"
-		}
-	},
-	"velocidade_picareta+2%_7": {
-		"title": "+2% Velocidade de Picareta",
-		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:diamond_pickaxe"
-			}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "task"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:pickaxe_speed",
-					"value": 0.02,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "miner012pass0009"
-		}
-	},
-	"cacador_diamantes": {
+	"challenge_cacador_diamantes": {
 		"title": "§9Caçador de Diamantes",
-		"description": [
-			{
-				"text": "§7+6% Velocidade de Picareta\n§7+1 Fortuna\n§7+3% Resistência\n§e§l+4 Diamante"
-			}
-		],
+		"description": [{"text": "§7+5% velocidade de mineração\n§7+3 Diamantes"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:diamond"
-			}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "challenge"
-			}
-		},
+		"icon": {"type": "item", "data": {"item": "minecraft:diamond_ore"}},
+		"frame": {"type": "advancement", "data": {"frame": "challenge"}},
 		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:pickaxe_speed",
-					"value": 0.06,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:fortune",
-					"value": 1,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:resistance",
-					"value": 0.03,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "give @s diamond 4"
-				}
-			}
+			{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:pickaxe_speed", "value": 0.05, "operation": "multiply_total"}},
+			{"type": "puffish_skills:command", "data": {"command": "give @s diamond 3"}}
 		],
-		"metadata": {
-			"icon": "miner013chal0003"
-		}
+		"metadata": {"icon": "m_chr3_027"}
 	},
-	"velocidade_picareta+2%_8": {
-		"title": "+2% Velocidade de Picareta",
+	"challenge_explorador_nether": {
+		"title": "§9Explorador do Nether",
+		"description": [{"text": "§7+5% velocidade de mineração\n§7-50% tempo queimando\n§7+2 Netherite Scrap"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:netherite_pickaxe"
-			}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "task"
-			}
-		},
+		"icon": {"type": "item", "data": {"item": "minecraft:ancient_debris"}},
+		"frame": {"type": "advancement", "data": {"frame": "challenge"}},
 		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:pickaxe_speed",
-					"value": 0.02,
-					"operation": "multiply_total"
-				}
-			}
+			{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:pickaxe_speed", "value": 0.05, "operation": "multiply_total"}},
+			{"type": "puffish_skills:attribute", "data": {"attribute": "burning_time", "value": -0.5, "operation": "multiply_total"}},
+			{"type": "puffish_skills:command", "data": {"command": "give @s netherite_scrap 2"}}
 		],
-		"metadata": {
-			"icon": "miner014pass0010"
-		}
+		"metadata": {"icon": "m_chr4_028"}
 	},
-	"mestre_profundezas": {
-		"title": "§9Mestre das Profundezas",
-		"description": [
-			{
-				"text": "§7+8% Velocidade de Picareta\n§7+1.5 Fortuna\n§7+1 Coração\n§e§l+2 Ancient Debris\n\n§6Três caminhos disponíveis: Visão Mineral, Mineração Rápida e Minerador Profundo"
-			}
-		],
+	"challenge_mestre_profundezas": {
+		"title": "§6Mestre das Profundezas",
+		"description": [{"text": "§7+10% velocidade de mineração\n§7+1 Picareta Netherite\n§dDesbloqueia especializações avançadas"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:ancient_debris"
-			}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "challenge"
-			}
-		},
+		"icon": {"type": "item", "data": {"item": "minecraft:netherite_pickaxe"}},
+		"frame": {"type": "advancement", "data": {"frame": "goal"}},
 		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:pickaxe_speed",
-					"value": 0.08,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:fortune",
-					"value": 1.5,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "max_health",
-					"value": 2,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "give @s ancient_debris 2"
-				}
-			}
+			{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:pickaxe_speed", "value": 0.1, "operation": "multiply_total"}},
+			{"type": "puffish_skills:command", "data": {"command": "give @s netherite_pickaxe 1"}}
 		],
-		"metadata": {
-			"icon": "miner015chal0004"
-		}
+		"metadata": {"icon": "m_chr5_029"}
 	},
-	"visao_mineral": {
-		"title": "§dVisão Mineral",
-		"description": [
-			{
-				"text": "§6Caminho: Fortuna\n\n§7+5% Fortuna\n§7+1 Sorte\n§e§l+2 Poção Visão Noturna"
-			}
-		],
+	"passive_ore_detection_1": {
+		"title": "Detecção de Minérios I",
+		"description": [{"text": "+0.5 alcance de interação"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:ender_eye"
-			}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "challenge"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:fortune",
-					"value": 0.05,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "luck",
-					"value": 1,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "give @s potion[potion_contents={potion:\"minecraft:long_night_vision\"}] 2"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "miner016excl0001"
-		}
+		"icon": {"type": "item", "data": {"item": "minecraft:spyglass"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "block_interaction_range", "value": 0.5, "operation": "addition"}}],
+		"metadata": {"icon": "m_detect1_030"}
 	},
-	"mineracao_rapida": {
-		"title": "§dMineração Rápida",
-		"description": [
-			{
-				"text": "§6Caminho: Velocidade\n\n§7+12% Velocidade de Picareta\n§7+5% Stamina\n§e§l+2 Poção Pressa"
-			}
-		],
+	"passive_ore_detection_2": {
+		"title": "Detecção de Minérios II",
+		"description": [{"text": "+1 alcance de interação"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:redstone"
-			}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "challenge"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:pickaxe_speed",
-					"value": 0.12,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:stamina",
-					"value": 0.05,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "give @s potion[potion_contents={potion:\"minecraft:long_haste\"}] 2"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "miner017excl0002"
-		}
+		"icon": {"type": "item", "data": {"item": "minecraft:spyglass"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "block_interaction_range", "value": 1, "operation": "addition"}}],
+		"metadata": {"icon": "m_detect2_031"}
 	},
-	"minerador_profundo": {
-		"title": "§dMinerador Profundo",
-		"description": [
-			{
-				"text": "§6Caminho: Sobrevivência\n\n§7+2 Armadura\n§7+5% Resistência\n§7+1 Coração\n§e§l+8 Obsidiana"
-			}
-		],
+	"passive_treasure_1": {
+		"title": "Caçador de Tesouros I",
+		"description": [{"text": "+1 Sorte"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:obsidian"
-			}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "challenge"
-			}
-		},
+		"icon": {"type": "item", "data": {"item": "minecraft:chest"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 1, "operation": "addition"}}],
+		"metadata": {"icon": "m_treasure1_032"}
+	},
+	"passive_treasure_2": {
+		"title": "Caçador de Tesouros II",
+		"description": [{"text": "+2 Sorte"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:ender_chest"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 2, "operation": "addition"}}],
+		"metadata": {"icon": "m_treasure2_033"}
+	},
+	"passive_deep_mining_1": {
+		"title": "Mineração Profunda I",
+		"description": [{"text": "+5% velocidade de mineração em profundidade"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:deepslate"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:pickaxe_speed", "value": 0.05, "operation": "multiply_total"}}],
+		"metadata": {"icon": "m_deep1_034"}
+	},
+	"passive_deep_mining_2": {
+		"title": "Mineração Profunda II",
+		"description": [{"text": "+10% velocidade de mineração em profundidade"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:reinforced_deepslate"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:pickaxe_speed", "value": 0.1, "operation": "multiply_total"}}],
+		"metadata": {"icon": "m_deep2_035"}
+	},
+	"passive_hardness_1": {
+		"title": "Resistência a Dureza I",
+		"description": [{"text": "+5% velocidade de quebra"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:obsidian"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "block_break_speed", "value": 0.05, "operation": "multiply_total"}}],
+		"metadata": {"icon": "m_hard1_036"}
+	},
+	"passive_hardness_2": {
+		"title": "Resistência a Dureza II",
+		"description": [{"text": "+10% velocidade de quebra"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:crying_obsidian"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "block_break_speed", "value": 0.1, "operation": "multiply_total"}}],
+		"metadata": {"icon": "m_hard2_037"}
+	},
+	"challenge_especialista_velocidade": {
+		"title": "§dEspecialista em Velocidade",
+		"description": [{"text": "§7+20% velocidade de mineração\n§7+1 Picareta de Ouro Encantada"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:golden_pickaxe"}},
+		"frame": {"type": "advancement", "data": {"frame": "challenge"}},
 		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "armor",
-					"value": 2,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:resistance",
-					"value": 0.05,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "max_health",
-					"value": 2,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "give @s obsidian 8"
-				}
-			}
+			{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:pickaxe_speed", "value": 0.2, "operation": "multiply_total"}},
+			{"type": "puffish_skills:command", "data": {"command": "give @s golden_pickaxe[enchantments={levels:{\"minecraft:efficiency\":5,\"minecraft:unbreaking\":3}}] 1"}}
 		],
-		"metadata": {
-			"icon": "miner020actv0003"
-		}
+		"metadata": {"icon": "m_chr6_038"}
+	},
+	"challenge_mestre_fortuna": {
+		"title": "§dMestre da Fortuna",
+		"description": [{"text": "§7+5 Sorte\n§7+1 Picareta de Diamante Encantada"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:diamond_pickaxe"}},
+		"frame": {"type": "advancement", "data": {"frame": "challenge"}},
+		"rewards": [
+			{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 5, "operation": "addition"}},
+			{"type": "puffish_skills:command", "data": {"command": "give @s diamond_pickaxe[enchantments={levels:{\"minecraft:fortune\":3,\"minecraft:unbreaking\":3}}] 1"}}
+		],
+		"metadata": {"icon": "m_chr7_039"}
+	},
+	"challenge_minerador_lendario": {
+		"title": "§dMinerador Lendário",
+		"description": [{"text": "§7+15% velocidade de mineração\n§7+15% velocidade de quebra\n§dBalanceamento perfeito"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:netherite_pickaxe"}},
+		"frame": {"type": "advancement", "data": {"frame": "challenge"}},
+		"rewards": [
+			{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:pickaxe_speed", "value": 0.15, "operation": "multiply_total"}},
+			{"type": "puffish_skills:attribute", "data": {"attribute": "block_break_speed", "value": 0.15, "operation": "multiply_total"}}
+		],
+		"metadata": {"icon": "m_chr8_040"}
+	},
+	"passive_final_speed": {
+		"title": "§6Velocidade Suprema",
+		"description": [{"text": "§7+25% velocidade de mineração\n§dRecompensa final do caminho de velocidade"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:netherite_pickaxe"}},
+		"frame": {"type": "advancement", "data": {"frame": "goal"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:pickaxe_speed", "value": 0.25, "operation": "multiply_total"}}],
+		"metadata": {"icon": "m_final1_041"}
+	},
+	"passive_final_fortune": {
+		"title": "§6Fortuna Suprema",
+		"description": [{"text": "§7+10 Sorte\n§dRecompensa final do caminho de fortuna"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:nether_star"}},
+		"frame": {"type": "advancement", "data": {"frame": "goal"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 10, "operation": "addition"}}],
+		"metadata": {"icon": "m_final2_042"}
 	}
 }

@@ -1,23 +1,72 @@
 {
 	"normal": {
 		"bidirectional": [
-			["m001_root_center", "m002_pass_1"],
-			["m002_pass_1", "m003_pass_2"],
-			["m003_pass_2", "m004_pass_3"],
-			["m004_pass_3", "m005_pass_4"],
-			["m005_pass_4", "m006_chal_1"],
-			["m006_chal_1", "m007_pass_5"],
-			["m007_pass_5", "m008_pass_6"],
-			["m008_pass_6", "m009_pass_7"],
-			["m009_pass_7", "m010_chal_2"],
-			["m010_chal_2", "m011_pass_8"],
-			["m011_pass_8", "m012_pass_9"],
-			["m012_pass_9", "m013_chal_3"],
-			["m013_chal_3", "m014_pass_10"],
-			["m014_pass_10", "m015_chal_4"],
-			["m015_chal_4", "m016_path_left"],
-			["m015_chal_4", "m017_path_center"],
-			["m015_chal_4", "m018_path_right"]
+			["m_root_001", "m_chr1_025"],
+			["m_root_001", "m_spd1_002"],
+			["m_root_001", "m_eff1_015"],
+
+			["m_spd1_002", "m_spd2_003"],
+			["m_spd1_002", "m_fort1_010"],
+			["m_spd2_003", "m_spd3_004"],
+			["m_spd2_003", "m_fort2_011"],
+			["m_spd3_004", "m_spd4_005"],
+			["m_spd3_004", "m_fort3_012"],
+			["m_spd4_005", "m_spd5_006"],
+			["m_spd4_005", "m_fort4_013"],
+			["m_spd5_006", "m_spd6_007"],
+			["m_spd6_007", "m_spd7_008"],
+			["m_spd7_008", "m_spd8_009"],
+
+			["m_fort1_010", "m_fort2_011"],
+			["m_fort2_011", "m_fort3_012"],
+			["m_fort3_012", "m_fort4_013"],
+			["m_fort4_013", "m_fort5_014"],
+			["m_fort5_014", "m_spd6_007"],
+
+			["m_eff1_015", "m_eff2_016"],
+			["m_eff1_015", "m_dur1_021"],
+			["m_eff2_016", "m_eff3_017"],
+			["m_eff2_016", "m_dur2_022"],
+			["m_eff3_017", "m_eff4_018"],
+			["m_eff3_017", "m_dur3_023"],
+			["m_eff4_018", "m_eff5_019"],
+			["m_eff5_019", "m_eff6_020"],
+
+			["m_dur1_021", "m_dur2_022"],
+			["m_dur2_022", "m_dur3_023"],
+			["m_dur3_023", "m_dur4_024"],
+			["m_dur4_024", "m_eff4_018"],
+
+			["m_chr1_025", "m_chr2_026"],
+			["m_chr2_026", "m_chr3_027"],
+			["m_chr3_027", "m_chr4_028"],
+			["m_chr4_028", "m_chr5_029"],
+
+			["m_chr5_029", "m_detect1_030"],
+			["m_chr5_029", "m_treasure1_032"],
+			["m_chr5_029", "m_deep1_034"],
+			["m_chr5_029", "m_chr8_040"],
+
+			["m_detect1_030", "m_detect2_031"],
+			["m_detect2_031", "m_hard1_036"],
+			["m_hard1_036", "m_hard2_037"],
+			["m_hard2_037", "m_chr6_038"],
+
+			["m_treasure1_032", "m_treasure2_033"],
+
+			["m_deep1_034", "m_deep2_035"],
+			["m_deep2_035", "m_chr7_039"],
+
+			["m_spd7_008", "m_hard1_036"],
+			["m_spd8_009", "m_hard2_037"],
+
+			["m_treasure1_032", "m_deep1_034"],
+			["m_treasure2_033", "m_deep2_035"],
+
+			["m_chr6_038", "m_final1_041"],
+			["m_chr7_039", "m_final2_042"],
+			["m_chr8_040", "m_final1_041"],
+			["m_chr8_040", "m_final2_042"]
 		]
 	}
 }

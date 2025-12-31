@@ -1,98 +1,55 @@
 {
-	"f_root_001": {
-		"definition": "iniciante",
-		"x": 0,
-		"y": 0,
-		"root": true
-	},
-	"f_spd1_002": {
-		"definition": "maos_calejadas_1",
-		"x": 0,
-		"y": 68
-	},
-	"f_lck1_003": {
-		"definition": "polegar_verde_1",
-		"x": 0,
-		"y": 136
-	},
-	"f_spd2_004": {
-		"definition": "maos_calejadas_2",
-		"x": 0,
-		"y": 204
-	},
-	"f_lck2_005": {
-		"definition": "polegar_verde_2",
-		"x": 0,
-		"y": 272
-	},
-	"f_mov1_006": {
-		"definition": "agricultor_experiente_1",
-		"x": 0,
-		"y": 340
-	},
-	"f_spd3_007": {
-		"definition": "maos_calejadas_3",
-		"x": 0,
-		"y": 408
-	},
-	"f_lck3_008": {
-		"definition": "polegar_verde_3",
-		"x": 0,
-		"y": 476
-	},
-	"f_chr1_009": {
-		"definition": "desafio_trabalhador",
-		"x": 0,
-		"y": 544
-	},
-	"f_choice_010": {
-		"definition": "escolha_especializacao",
-		"x": 0,
-		"y": 612
-	},
-	"f_agr1_011": {
-		"definition": "caminho_agricultor",
-		"x": -204,
-		"y": 680
-	},
-	"f_agr2_012": {
-		"definition": "agricultor_avancado",
-		"x": -204,
-		"y": 748
-	},
-	"f_agr3_013": {
-		"definition": "mestre_dos_cultivos",
-		"x": -204,
-		"y": 816
-	},
-	"f_pec1_014": {
-		"definition": "caminho_pecuarista",
-		"x": 0,
-		"y": 680
-	},
-	"f_pec2_015": {
-		"definition": "pecuarista_avancado",
-		"x": 0,
-		"y": 748
-	},
-	"f_pec3_016": {
-		"definition": "mestre_dos_animais",
-		"x": 0,
-		"y": 816
-	},
-	"f_pes1_017": {
-		"definition": "caminho_pescador",
-		"x": 204,
-		"y": 680
-	},
-	"f_pes2_018": {
-		"definition": "pescador_avancado",
-		"x": 204,
-		"y": 748
-	},
-	"f_pes3_019": {
-		"definition": "mestre_da_pesca",
-		"x": 204,
-		"y": 816
-	}
+	"f_root_001": {"definition": "primeira_colheita", "x": 0, "y": 0, "root": true},
+
+	"f_spd1_002": {"definition": "passive_harvest_spd_1", "x": -68, "y": 68},
+	"f_spd2_003": {"definition": "passive_harvest_spd_2", "x": -68, "y": 136},
+	"f_spd3_004": {"definition": "passive_harvest_spd_3", "x": -102, "y": 170},
+	"f_spd4_005": {"definition": "passive_harvest_spd_4", "x": -102, "y": 238},
+	"f_spd5_006": {"definition": "passive_harvest_spd_5", "x": -136, "y": 272},
+	"f_spd6_007": {"definition": "passive_harvest_spd_6", "x": -136, "y": 340},
+	"f_spd7_008": {"definition": "passive_harvest_spd_7", "x": -170, "y": 374},
+	"f_spd8_009": {"definition": "passive_harvest_spd_8", "x": -170, "y": 442},
+
+	"f_yield1_010": {"definition": "passive_crop_yield_1", "x": -34, "y": 102},
+	"f_yield2_011": {"definition": "passive_crop_yield_2", "x": -34, "y": 170},
+	"f_yield3_012": {"definition": "passive_crop_yield_3", "x": -34, "y": 238},
+	"f_yield4_013": {"definition": "passive_crop_yield_4", "x": -68, "y": 272},
+	"f_yield5_014": {"definition": "passive_crop_yield_5", "x": -68, "y": 340},
+
+	"f_sat1_015": {"definition": "passive_saturation_1", "x": 68, "y": 68},
+	"f_sat2_016": {"definition": "passive_saturation_2", "x": 68, "y": 136},
+	"f_sat3_017": {"definition": "passive_saturation_3", "x": 102, "y": 170},
+	"f_sat4_018": {"definition": "passive_saturation_4", "x": 102, "y": 238},
+	"f_sat5_019": {"definition": "passive_saturation_5", "x": 136, "y": 272},
+	"f_sat6_020": {"definition": "passive_saturation_6", "x": 136, "y": 340},
+
+	"f_grow1_021": {"definition": "passive_growth_1", "x": 34, "y": 102},
+	"f_grow2_022": {"definition": "passive_growth_2", "x": 34, "y": 170},
+	"f_grow3_023": {"definition": "passive_growth_3", "x": 34, "y": 238},
+	"f_grow4_024": {"definition": "passive_growth_4", "x": 68, "y": 272},
+
+	"f_chr1_025": {"definition": "challenge_aprendiz", "x": 0, "y": 68},
+	"f_chr2_026": {"definition": "challenge_fazendeiro", "x": 0, "y": 136},
+	"f_chr3_027": {"definition": "challenge_cultivador", "x": 0, "y": 204},
+	"f_chr4_028": {"definition": "challenge_agricultor_experiente", "x": 0, "y": 272},
+	"f_chr5_029": {"definition": "challenge_mestre_fazenda", "x": 0, "y": 340},
+
+	"f_fish1_030": {"definition": "passive_fishing_1", "x": -34, "y": 374},
+	"f_fish2_031": {"definition": "passive_fishing_2", "x": -34, "y": 442},
+
+	"f_breed1_032": {"definition": "passive_breeding_1", "x": 34, "y": 374},
+	"f_breed2_033": {"definition": "passive_breeding_2", "x": 34, "y": 442},
+
+	"f_food1_034": {"definition": "passive_food_efficiency_1", "x": 102, "y": 374},
+	"f_food2_035": {"definition": "passive_food_efficiency_2", "x": 102, "y": 442},
+
+	"f_compost1_036": {"definition": "passive_composting_1", "x": -102, "y": 374},
+	"f_compost2_037": {"definition": "passive_composting_2", "x": -102, "y": 442},
+
+	"f_chr6_038": {"definition": "challenge_mestre_cultivos", "x": -136, "y": 476},
+	"f_chr7_039": {"definition": "challenge_criador_animais", "x": 136, "y": 476},
+	"f_chr8_040": {"definition": "challenge_pescador_lendario", "x": 0, "y": 510},
+
+	"f_final1_041": {"definition": "passive_final_harvest", "x": -170, "y": 510},
+	"f_final2_042": {"definition": "passive_final_food", "x": 170, "y": 510}
 }

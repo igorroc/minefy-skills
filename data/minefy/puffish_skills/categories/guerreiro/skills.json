@@ -1,133 +1,46 @@
 {
-	"w_root_001_abcd": {
-		"definition": "primeira_batalha",
-		"x": 0,
-		"y": 0,
-		"root": true
-	},
-	"w_chr1_014_abcd": {
-		"definition": "challenge_aprendiz",
-		"x": 0,
-		"y": 68
-	},
-	"w_chr2_015_efgh": {
-		"definition": "challenge_combatente",
-		"x": 0,
-		"y": 136
-	},
-	"w_spd4_013_wxyz": {
-		"definition": "passive_atk_speed_4",
-		"x": 0,
-		"y": 204
-	},
-	"w_chr4_017_mnop": {
-		"definition": "challenge_mestre",
-		"x": 0,
-		"y": 272
-	},
-	"w_act2_023_klmn": {
-		"definition": "active_investida",
-		"x": -68,
-		"y": 340
-	},
-	"w_act3_024_opqr": {
-		"definition": "active_grito",
-		"x": 68,
-		"y": 340
-	},
-	"w_dmg1_002_efgh": {
-		"definition": "passive_damage_1",
-		"x": -68,
-		"y": 68
-	},
-	"w_dmg2_003_ijkl": {
-		"definition": "passive_damage_2",
-		"x": -68,
-		"y": 136
-	},
-	"w_dmg3_004_mnop": {
-		"definition": "passive_damage_3",
-		"x": -136,
-		"y": 136
-	},
-	"w_dmg4_005_qrst": {
-		"definition": "passive_damage_4",
-		"x": -136,
-		"y": 204
-	},
-	"w_dmg5_006_uvwx": {
-		"definition": "passive_damage_5",
-		"x": -136,
-		"y": 272
-	},
-	"w_dmg6_007_yzab": {
-		"definition": "passive_damage_6",
-		"x": -136,
-		"y": 340
-	},
-	"w_pen1_008_cdef": {
-		"definition": "passive_armor_pen_1",
-		"x": -68,
-		"y": 204
-	},
-	"w_pen2_009_ghij": {
-		"definition": "passive_armor_pen_2",
-		"x": -68,
-		"y": 272
-	},
-	"w_chr5_018_qrst": {
-		"definition": "challenge_berserker",
-		"x": -136,
-		"y": 408
-	},
-	"w_act1_022_ghij": {
-		"definition": "active_furia",
-		"x": -204,
-		"y": 408
-	},
-	"w_spd1_010_klmn": {
-		"definition": "passive_atk_speed_1",
-		"x": 68,
-		"y": 68
-	},
-	"w_spd2_011_opqr": {
-		"definition": "passive_atk_speed_2",
-		"x": 68,
-		"y": 136
-	},
-	"w_spd3_012_stuv": {
-		"definition": "passive_atk_speed_3",
-		"x": 68,
-		"y": 204
-	},
-	"w_chr6_019_uvwx": {
-		"definition": "challenge_gladiador",
-		"x": 136,
-		"y": 272
-	},
-	"w_act4_025_stuv": {
-		"definition": "active_segunda_resp",
-		"x": 136,
-		"y": 340
-	},
-	"w_chr3_016_ijkl": {
-		"definition": "challenge_duelista",
-		"x": 136,
-		"y": 408
-	},
-	"w_chr7_020_yzab": {
-		"definition": "challenge_assassino",
-		"x": 0,
-		"y": 408
-	},
-	"w_act5_026_wxyz": {
-		"definition": "active_sede",
-		"x": 0,
-		"y": 476
-	},
-	"w_chr8_021_cdef": {
-		"definition": "challenge_espadachim",
-		"x": 0,
-		"y": 544
-	}
+	"g_root_001": {"definition": "primeira_batalha", "x": 0, "y": 0, "root": true},
+	"g_dmg1_002": {"definition": "passive_melee_dmg_1", "x": -68, "y": 68},
+	"g_dmg2_003": {"definition": "passive_melee_dmg_2", "x": -68, "y": 136},
+	"g_dmg3_004": {"definition": "passive_melee_dmg_3", "x": -102, "y": 170},
+	"g_dmg4_005": {"definition": "passive_melee_dmg_4", "x": -102, "y": 238},
+	"g_dmg5_006": {"definition": "passive_melee_dmg_5", "x": -136, "y": 272},
+	"g_dmg6_007": {"definition": "passive_melee_dmg_6", "x": -136, "y": 340},
+	"g_dmg7_008": {"definition": "passive_melee_dmg_7", "x": -170, "y": 374},
+	"g_dmg8_009": {"definition": "passive_melee_dmg_8", "x": -170, "y": 442},
+	"g_atk1_010": {"definition": "passive_attack_spd_1", "x": -34, "y": 102},
+	"g_atk2_011": {"definition": "passive_attack_spd_2", "x": -34, "y": 170},
+	"g_atk3_012": {"definition": "passive_attack_spd_3", "x": -34, "y": 238},
+	"g_atk4_013": {"definition": "passive_attack_spd_4", "x": -68, "y": 272},
+	"g_atk5_014": {"definition": "passive_attack_spd_5", "x": -68, "y": 340},
+	"g_hp1_015": {"definition": "passive_health_1", "x": 68, "y": 68},
+	"g_hp2_016": {"definition": "passive_health_2", "x": 68, "y": 136},
+	"g_hp3_017": {"definition": "passive_health_3", "x": 102, "y": 170},
+	"g_hp4_018": {"definition": "passive_health_4", "x": 102, "y": 238},
+	"g_hp5_019": {"definition": "passive_health_5", "x": 136, "y": 272},
+	"g_hp6_020": {"definition": "passive_health_6", "x": 136, "y": 340},
+	"g_regen1_021": {"definition": "passive_regen_1", "x": 34, "y": 102},
+	"g_regen2_022": {"definition": "passive_regen_2", "x": 34, "y": 170},
+	"g_regen3_023": {"definition": "passive_regen_3", "x": 34, "y": 238},
+	"g_regen4_024": {"definition": "passive_regen_4", "x": 68, "y": 272},
+	"g_chr1_025": {"definition": "challenge_lutador", "x": 0, "y": 68},
+	"g_chr2_026": {"definition": "challenge_espadachim", "x": 0, "y": 136},
+	"g_chr3_027": {"definition": "challenge_gladiador", "x": 0, "y": 204},
+	"g_chr4_028": {"definition": "challenge_veterano", "x": 0, "y": 272},
+	"g_chr5_029": {"definition": "challenge_mestre_guerra", "x": 0, "y": 340},
+	"g_lifesteal1_030": {"definition": "passive_lifesteal_1", "x": -34, "y": 374},
+	"g_lifesteal2_031": {"definition": "passive_lifesteal_2", "x": -34, "y": 442},
+	"g_knockback1_032": {"definition": "passive_knockback_1", "x": 34, "y": 374},
+	"g_knockback2_033": {"definition": "passive_knockback_2", "x": 34, "y": 442},
+	"g_sweep1_034": {"definition": "passive_sweep_1", "x": 102, "y": 374},
+	"g_sweep2_035": {"definition": "passive_sweep_2", "x": 102, "y": 442},
+	"g_armor1_036": {"definition": "passive_armor_1", "x": -102, "y": 374},
+	"g_armor2_037": {"definition": "passive_armor_2", "x": -102, "y": 442},
+	"g_crit1_038": {"definition": "passive_crit_1", "x": -170, "y": 272},
+	"g_crit2_039": {"definition": "passive_crit_2", "x": -204, "y": 306},
+	"g_chr6_040": {"definition": "challenge_berserker", "x": -136, "y": 476},
+	"g_chr7_041": {"definition": "challenge_tanque", "x": 136, "y": 476},
+	"g_chr8_042": {"definition": "challenge_duelista", "x": 0, "y": 510},
+	"g_final1_043": {"definition": "passive_final_dmg", "x": -170, "y": 510},
+	"g_final2_044": {"definition": "passive_final_hp", "x": 170, "y": 510}
 }

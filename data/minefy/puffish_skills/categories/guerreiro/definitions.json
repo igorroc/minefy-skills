@@ -1,924 +1,438 @@
 {
 	"primeira_batalha": {
 		"title": "Primeira Batalha",
-		"description": [
-			{"text": "O começo da sua jornada como guerreiro."}
-		],
+		"description": [{"text": "O começo da sua jornada como guerreiro."}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:wooden_sword"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
+		"icon": {"type": "item", "data": {"item": "minecraft:iron_sword"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
 		"rewards": [],
-		"metadata": {
-			"icon": "w_root_001_abcd"
-		}
+		"metadata": {"icon": "g_root_001"}
 	},
-	"passive_damage_1": {
+	"passive_melee_dmg_1": {
 		"title": "Força I",
-		"description": [
-			{"text": "+3% de dano corpo a corpo"},
-			{"text": "+1 coração de vida"}
-		],
+		"description": [{"text": "+1% dano corpo a corpo"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:iron_sword"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:melee_damage",
-					"value": 0.03,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:max_health",
-					"value": 2,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "w_dmg1_002_efgh"
-		}
+		"icon": {"type": "item", "data": {"item": "minecraft:iron_sword"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:melee_damage", "value": 0.01, "operation": "multiply_total"}}],
+		"metadata": {"icon": "g_dmg1_002"}
 	},
-	"passive_damage_2": {
+	"passive_melee_dmg_2": {
 		"title": "Força II",
-		"description": [
-			{"text": "+4% de dano corpo a corpo"},
-			{"text": "+1 coração de vida"}
-		],
+		"description": [{"text": "+1% dano corpo a corpo"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:iron_sword"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:melee_damage",
-					"value": 0.04,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:max_health",
-					"value": 2,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "w_dmg2_003_ijkl"
-		}
+		"icon": {"type": "item", "data": {"item": "minecraft:iron_sword"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:melee_damage", "value": 0.01, "operation": "multiply_total"}}],
+		"metadata": {"icon": "g_dmg2_003"}
 	},
-	"passive_damage_3": {
+	"passive_melee_dmg_3": {
 		"title": "Força III",
-		"description": [
-			{"text": "+5% de dano corpo a corpo"},
-			{"text": "+1 coração de vida"}
-		],
+		"description": [{"text": "+2% dano corpo a corpo"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:diamond_sword"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:melee_damage",
-					"value": 0.05,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:max_health",
-					"value": 2,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "w_dmg3_004_mnop"
-		}
+		"icon": {"type": "item", "data": {"item": "minecraft:diamond_sword"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:melee_damage", "value": 0.02, "operation": "multiply_total"}}],
+		"metadata": {"icon": "g_dmg3_004"}
 	},
-	"passive_damage_4": {
+	"passive_melee_dmg_4": {
 		"title": "Força IV",
-		"description": [
-			{"text": "+5% de dano corpo a corpo"},
-			{"text": "+1 coração de vida"}
-		],
+		"description": [{"text": "+2% dano corpo a corpo"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:diamond_sword"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:melee_damage",
-					"value": 0.05,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:max_health",
-					"value": 2,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "w_dmg4_005_qrst"
-		}
+		"icon": {"type": "item", "data": {"item": "minecraft:diamond_sword"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:melee_damage", "value": 0.02, "operation": "multiply_total"}}],
+		"metadata": {"icon": "g_dmg4_005"}
 	},
-	"passive_damage_5": {
+	"passive_melee_dmg_5": {
 		"title": "Força V",
-		"description": [
-			{"text": "+6% de dano corpo a corpo"},
-			{"text": "+2 corações de vida"}
-		],
+		"description": [{"text": "+3% dano corpo a corpo"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:netherite_sword"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:melee_damage",
-					"value": 0.06,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:max_health",
-					"value": 4,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "w_dmg5_006_uvwx"
-		}
+		"icon": {"type": "item", "data": {"item": "minecraft:netherite_sword"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:melee_damage", "value": 0.03, "operation": "multiply_total"}}],
+		"metadata": {"icon": "g_dmg5_006"}
 	},
-	"passive_damage_6": {
+	"passive_melee_dmg_6": {
 		"title": "Força VI",
-		"description": [
-			{"text": "+7% de dano corpo a corpo"},
-			{"text": "+2 corações de vida"}
-		],
+		"description": [{"text": "+3% dano corpo a corpo"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:netherite_sword"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:melee_damage",
-					"value": 0.07,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:max_health",
-					"value": 4,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "w_dmg6_007_yzab"
-		}
+		"icon": {"type": "item", "data": {"item": "minecraft:netherite_sword"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:melee_damage", "value": 0.03, "operation": "multiply_total"}}],
+		"metadata": {"icon": "g_dmg6_007"}
 	},
-	"passive_armor_pen_1": {
-		"title": "Penetração I",
-		"description": [
-			{"text": "+5% de penetração de armadura"}
-		],
+	"passive_melee_dmg_7": {
+		"title": "Força VII",
+		"description": [{"text": "+4% dano corpo a corpo"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:iron_axe"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:armor_shred",
-					"value": 0.05,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "w_pen1_008_cdef"
-		}
+		"icon": {"type": "item", "data": {"item": "minecraft:netherite_axe"}},
+		"frame": {"type": "advancement", "data": {"frame": "goal"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:melee_damage", "value": 0.04, "operation": "multiply_total"}}],
+		"metadata": {"icon": "g_dmg7_008"}
 	},
-	"passive_armor_pen_2": {
-		"title": "Penetração II",
-		"description": [
-			{"text": "+7% de penetração de armadura"}
-		],
+	"passive_melee_dmg_8": {
+		"title": "Força VIII",
+		"description": [{"text": "+5% dano corpo a corpo"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:diamond_axe"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:armor_shred",
-					"value": 0.07,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "w_pen2_009_ghij"
-		}
+		"icon": {"type": "item", "data": {"item": "minecraft:mace"}},
+		"frame": {"type": "advancement", "data": {"frame": "goal"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:melee_damage", "value": 0.05, "operation": "multiply_total"}}],
+		"metadata": {"icon": "g_dmg8_009"}
 	},
-	"passive_atk_speed_1": {
+	"passive_attack_spd_1": {
 		"title": "Agilidade I",
-		"description": [
-			{"text": "+4% de velocidade de ataque"}
-		],
+		"description": [{"text": "+3% velocidade de ataque"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:feather"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:attack_speed",
-					"value": 0.04,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "w_spd1_010_klmn"
-		}
+		"icon": {"type": "item", "data": {"item": "minecraft:sugar"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "minecraft:attack_speed", "value": 0.03, "operation": "multiply_total"}}],
+		"metadata": {"icon": "g_atk1_010"}
 	},
-	"passive_atk_speed_2": {
+	"passive_attack_spd_2": {
 		"title": "Agilidade II",
-		"description": [
-			{"text": "+5% de velocidade de ataque"}
-		],
+		"description": [{"text": "+4% velocidade de ataque"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:feather"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:attack_speed",
-					"value": 0.05,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "w_spd2_011_opqr"
-		}
+		"icon": {"type": "item", "data": {"item": "minecraft:sugar"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "minecraft:attack_speed", "value": 0.04, "operation": "multiply_total"}}],
+		"metadata": {"icon": "g_atk2_011"}
 	},
-	"passive_atk_speed_3": {
+	"passive_attack_spd_3": {
 		"title": "Agilidade III",
-		"description": [
-			{"text": "+6% de velocidade de ataque"}
-		],
+		"description": [{"text": "+5% velocidade de ataque"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:feather"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:attack_speed",
-					"value": 0.06,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "w_spd3_012_stuv"
-		}
+		"icon": {"type": "item", "data": {"item": "minecraft:rabbit_foot"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "minecraft:attack_speed", "value": 0.05, "operation": "multiply_total"}}],
+		"metadata": {"icon": "g_atk3_012"}
 	},
-	"passive_atk_speed_4": {
+	"passive_attack_spd_4": {
 		"title": "Agilidade IV",
-		"description": [
-			{"text": "+7% de velocidade de ataque"}
-		],
+		"description": [{"text": "+6% velocidade de ataque"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:sugar"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:attack_speed",
-					"value": 0.07,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "w_spd4_013_wxyz"
-		}
+		"icon": {"type": "item", "data": {"item": "minecraft:rabbit_foot"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "minecraft:attack_speed", "value": 0.06, "operation": "multiply_total"}}],
+		"metadata": {"icon": "g_atk4_013"}
 	},
-	"challenge_aprendiz": {
-		"title": "Aprendiz de Espada",
-		"description": [
-			{"text": "+5% dano corpo a corpo"},
-			{"text": "+1 coração de vida"}
-		],
+	"passive_attack_spd_5": {
+		"title": "Agilidade V",
+		"description": [{"text": "+8% velocidade de ataque"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:stone_sword"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "challenge"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:melee_damage",
-					"value": 0.05,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:max_health",
-					"value": 2,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "w_chr1_014_abcd"
-		}
+		"icon": {"type": "item", "data": {"item": "minecraft:blaze_powder"}},
+		"frame": {"type": "advancement", "data": {"frame": "goal"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "minecraft:attack_speed", "value": 0.08, "operation": "multiply_total"}}],
+		"metadata": {"icon": "g_atk5_014"}
 	},
-	"challenge_combatente": {
-		"title": "Combatente",
-		"description": [
-			{"text": "+8% dano corpo a corpo"},
-			{"text": "+2 corações de vida"}
-		],
+	"passive_health_1": {
+		"title": "Vitalidade I",
+		"description": [{"text": "+2 de vida máxima"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:golden_sword"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "challenge"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:melee_damage",
-					"value": 0.08,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:max_health",
-					"value": 4,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "w_chr2_015_efgh"
-		}
+		"icon": {"type": "item", "data": {"item": "minecraft:apple"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "minecraft:max_health", "value": 2, "operation": "add_value"}}],
+		"metadata": {"icon": "g_hp1_015"}
 	},
-	"challenge_duelista": {
-		"title": "Duelista",
-		"description": [
-			{"text": "+10% velocidade de ataque"},
-			{"text": "+3 corações de vida"}
-		],
+	"passive_health_2": {
+		"title": "Vitalidade II",
+		"description": [{"text": "+2 de vida máxima"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:trident"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "challenge"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:attack_speed",
-					"value": 0.10,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:max_health",
-					"value": 6,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "w_chr3_016_ijkl"
-		}
+		"icon": {"type": "item", "data": {"item": "minecraft:apple"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "minecraft:max_health", "value": 2, "operation": "add_value"}}],
+		"metadata": {"icon": "g_hp2_016"}
 	},
-	"challenge_mestre": {
-		"title": "Mestre da Lâmina",
-		"description": [
-			{"text": "+10% dano corpo a corpo"},
-			{"text": "+3 corações de vida"},
-			{"text": ""},
-			{"text": "Recompensa: Lâmina do Mestre"}
-		],
-		"size": 2,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:netherite_sword"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "challenge"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:melee_damage",
-					"value": 0.10,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:max_health",
-					"value": 6,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:command",
-				"data": {"command": "give @s netherite_sword[custom_name='{\"text\":\"Lâmina do Mestre\",\"color\":\"red\",\"bold\":true}',enchantments={sharpness:5,looting:3,fire_aspect:2}] 1"}
-			}
-		],
-		"metadata": {
-			"icon": "w_chr4_017_mnop"
-		}
+	"passive_health_3": {
+		"title": "Vitalidade III",
+		"description": [{"text": "+3 de vida máxima"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:golden_apple"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "minecraft:max_health", "value": 3, "operation": "add_value"}}],
+		"metadata": {"icon": "g_hp3_017"}
 	},
-	"challenge_berserker": {
-		"title": "Berserker",
-		"description": [
-			{"text": "Caminho Ofensivo"},
-			{"text": ""},
-			{"text": "+15% dano corpo a corpo"},
-			{"text": "+8% velocidade de ataque"},
-			{"text": "-5% resistência"},
-			{"text": ""},
-			{"text": "Recompensa: Livro Encantado"}
-		],
-		"size": 2,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:red_dye"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "challenge"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:melee_damage",
-					"value": 0.15,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:attack_speed",
-					"value": 0.08,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:resistance",
-					"value": -0.05,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:command",
-				"data": {"command": "give @s enchanted_book[stored_enchantments={sharpness:6}] 1"}
-			}
-		],
-		"metadata": {
-			"icon": "w_chr5_018_qrst"
-		}
+	"passive_health_4": {
+		"title": "Vitalidade IV",
+		"description": [{"text": "+3 de vida máxima"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:golden_apple"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "minecraft:max_health", "value": 3, "operation": "add_value"}}],
+		"metadata": {"icon": "g_hp4_018"}
 	},
-	"challenge_gladiador": {
-		"title": "Gladiador",
-		"description": [
-			{"text": "Caminho Defensivo"},
-			{"text": ""},
-			{"text": "+12% velocidade de ataque"},
-			{"text": "+10% resistência"},
-			{"text": "+3 corações de vida"},
-			{"text": ""},
-			{"text": "Recompensa: Escudo Encantado"}
-		],
-		"size": 2,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:iron_chestplate"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "challenge"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:attack_speed",
-					"value": 0.12,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:resistance",
-					"value": 0.10,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:max_health",
-					"value": 6,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:command",
-				"data": {"command": "give @s shield[enchantments={unbreaking:3}] 1"}
-			}
-		],
-		"metadata": {
-			"icon": "w_chr6_019_uvwx"
-		}
+	"passive_health_5": {
+		"title": "Vitalidade V",
+		"description": [{"text": "+4 de vida máxima"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:enchanted_golden_apple"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "minecraft:max_health", "value": 4, "operation": "add_value"}}],
+		"metadata": {"icon": "g_hp5_019"}
 	},
-	"challenge_assassino": {
-		"title": "Assassino",
-		"description": [
-			{"text": "Caminho Furtivo"},
-			{"text": ""},
-			{"text": "+18% dano corpo a corpo"},
-			{"text": "+10% velocidade de movimento"},
-			{"text": "+10% velocidade de ataque"},
-			{"text": "-8% resistência"},
-			{"text": ""},
-			{"text": "Recompensa: Botas Especiais"}
-		],
-		"size": 2,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:black_dye"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "challenge"}
-		},
+	"passive_health_6": {
+		"title": "Vitalidade VI",
+		"description": [{"text": "+6 de vida máxima"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:enchanted_golden_apple"}},
+		"frame": {"type": "advancement", "data": {"frame": "goal"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "minecraft:max_health", "value": 6, "operation": "add_value"}}],
+		"metadata": {"icon": "g_hp6_020"}
+	},
+	"passive_regen_1": {
+		"title": "Regeneração I",
+		"description": [{"text": "+5% regeneração natural"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:glistering_melon_slice"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:command", "data": {"command": "give @s golden_apple 2"}}],
+		"metadata": {"icon": "g_regen1_021"}
+	},
+	"passive_regen_2": {
+		"title": "Regeneração II",
+		"description": [{"text": "+8% regeneração natural"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:glistering_melon_slice"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:command", "data": {"command": "give @s golden_apple 3"}}],
+		"metadata": {"icon": "g_regen2_022"}
+	},
+	"passive_regen_3": {
+		"title": "Regeneração III",
+		"description": [{"text": "+10% regeneração natural"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:golden_carrot"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:command", "data": {"command": "give @s enchanted_golden_apple 1"}}],
+		"metadata": {"icon": "g_regen3_023"}
+	},
+	"passive_regen_4": {
+		"title": "Regeneração IV",
+		"description": [{"text": "+12% regeneração natural"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:golden_carrot"}},
+		"frame": {"type": "advancement", "data": {"frame": "goal"}},
+		"rewards": [{"type": "puffish_skills:command", "data": {"command": "give @s totem_of_undying 1"}}],
+		"metadata": {"icon": "g_regen4_024"}
+	},
+	"challenge_lutador": {
+		"title": "§9Lutador",
+		"description": [{"text": "§7+2% dano corpo a corpo\n§e§lEspada de Ferro Encantada"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:iron_sword"}},
+		"frame": {"type": "advancement", "data": {"frame": "challenge"}},
 		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:melee_damage",
-					"value": 0.18,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:movement_speed",
-					"value": 0.10,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:attack_speed",
-					"value": 0.10,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:resistance",
-					"value": -0.08,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:command",
-				"data": {"command": "give @s leather_boots[trim={material:\"netherite\",pattern:\"silence\"},enchantments={feather_falling:4,swift_sneak:3}] 1"}
-			}
+			{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:melee_damage", "value": 0.02, "operation": "multiply_total"}},
+			{"type": "puffish_skills:command", "data": {"command": "give @s iron_sword[enchantments={sharpness:2,unbreaking:2}] 1"}}
 		],
-		"metadata": {
-			"icon": "w_chr7_020_yzab"
-		}
+		"metadata": {"icon": "g_chr1_025"}
 	},
 	"challenge_espadachim": {
-		"title": "Espadachim Supremo",
-		"description": [
-			{"text": "+15% dano corpo a corpo"},
-			{"text": "+5 corações de vida"},
-			{"text": ""},
-			{"text": "Recompensa: Nether Star"}
+		"title": "§9Espadachim",
+		"description": [{"text": "§7+3% dano corpo a corpo\n§e§lEspada de Diamante Encantada"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:diamond_sword"}},
+		"frame": {"type": "advancement", "data": {"frame": "challenge"}},
+		"rewards": [
+			{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:melee_damage", "value": 0.03, "operation": "multiply_total"}},
+			{"type": "puffish_skills:command", "data": {"command": "give @s diamond_sword[enchantments={sharpness:3,looting:1}] 1"}}
 		],
+		"metadata": {"icon": "g_chr2_026"}
+	},
+	"challenge_gladiador": {
+		"title": "§9Gladiador",
+		"description": [{"text": "§7+5% velocidade de ataque\n§7+3 vida máxima\n§e§lArmadura de Gladiador"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:chainmail_chestplate"}},
+		"frame": {"type": "advancement", "data": {"frame": "challenge"}},
+		"rewards": [
+			{"type": "puffish_skills:attribute", "data": {"attribute": "minecraft:attack_speed", "value": 0.05, "operation": "multiply_total"}},
+			{"type": "puffish_skills:attribute", "data": {"attribute": "minecraft:max_health", "value": 3, "operation": "add_value"}},
+			{"type": "puffish_skills:command", "data": {"command": "give @s chainmail_chestplate[enchantments={protection:2}] 1"}}
+		],
+		"metadata": {"icon": "g_chr3_027"}
+	},
+	"challenge_veterano": {
+		"title": "§9Veterano",
+		"description": [{"text": "§7+4% dano corpo a corpo\n§7+4 vida máxima\n§e§lEscudo Encantado"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:shield"}},
+		"frame": {"type": "advancement", "data": {"frame": "challenge"}},
+		"rewards": [
+			{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:melee_damage", "value": 0.04, "operation": "multiply_total"}},
+			{"type": "puffish_skills:attribute", "data": {"attribute": "minecraft:max_health", "value": 4, "operation": "add_value"}},
+			{"type": "puffish_skills:command", "data": {"command": "give @s shield[enchantments={unbreaking:3}] 1"}}
+		],
+		"metadata": {"icon": "g_chr4_028"}
+	},
+	"challenge_mestre_guerra": {
+		"title": "§9Mestre de Guerra",
+		"description": [{"text": "§7+6% dano corpo a corpo\n§7+5 vida máxima\n§e§lEspada do Mestre\n\n§6Três caminhos finais se abrem"}],
 		"size": 2,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:wither_skeleton_skull"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "challenge"}
-		},
+		"icon": {"type": "item", "data": {"item": "minecraft:netherite_sword"}},
+		"frame": {"type": "advancement", "data": {"frame": "challenge"}},
 		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:melee_damage",
-					"value": 0.15,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:max_health",
-					"value": 10,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:command",
-				"data": {"command": "give @s nether_star 1"}
-			}
+			{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:melee_damage", "value": 0.06, "operation": "multiply_total"}},
+			{"type": "puffish_skills:attribute", "data": {"attribute": "minecraft:max_health", "value": 5, "operation": "add_value"}},
+			{"type": "puffish_skills:command", "data": {"command": "give @s netherite_sword[custom_name='{\"text\":\"Espada do Mestre\",\"color\":\"aqua\",\"bold\":true}',enchantments={sharpness:5,looting:3,sweeping_edge:3}] 1"}}
 		],
-		"metadata": {
-			"icon": "w_chr8_021_cdef"
-		}
+		"metadata": {"icon": "g_chr5_029"}
 	},
-	"active_furia": {
-		"title": "Fúria de Batalha",
-		"description": [
-			{"text": "Skill Ativa: Ao desbloquear, recebe:"},
-			{"text": "Força II por 60 segundos"}
-		],
+	"passive_lifesteal_1": {
+		"title": "Roubo de Vida I",
+		"description": [{"text": "+2% de cura ao causar dano"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:blaze_powder"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {"command": "effect give @s strength 60 1"}
-			},
-			{
-				"type": "puffish_skills:command",
-				"data": {"command": "tag @s add minefy_furia_batalha"}
-			}
-		],
-		"metadata": {
-			"icon": "w_act1_022_ghij"
-		}
+		"icon": {"type": "item", "data": {"item": "minecraft:ghast_tear"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:command", "data": {"command": "give @s golden_apple 4"}}],
+		"metadata": {"icon": "g_lifesteal1_030"}
 	},
-	"active_investida": {
-		"title": "Investida",
-		"description": [
-			{"text": "Skill Ativa: Ao desbloquear, recebe:"},
-			{"text": "Velocidade II por 30 segundos"}
-		],
+	"passive_lifesteal_2": {
+		"title": "Roubo de Vida II",
+		"description": [{"text": "+3% de cura ao causar dano"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:phantom_membrane"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {"command": "effect give @s speed 30 1"}
-			},
-			{
-				"type": "puffish_skills:command",
-				"data": {"command": "tag @s add minefy_investida"}
-			}
-		],
-		"metadata": {
-			"icon": "w_act2_023_klmn"
-		}
+		"icon": {"type": "item", "data": {"item": "minecraft:ghast_tear"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:command", "data": {"command": "give @s enchanted_golden_apple 2"}}],
+		"metadata": {"icon": "g_lifesteal2_031"}
 	},
-	"active_grito": {
-		"title": "Grito de Guerra",
-		"description": [
-			{"text": "Skill Ativa: Ao desbloquear, recebe:"},
-			{"text": "Resistência I por 60 segundos"}
-		],
+	"passive_knockback_1": {
+		"title": "Repulsão I",
+		"description": [{"text": "+15% knockback"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:goat_horn"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {"command": "effect give @s resistance 60 0"}
-			},
-			{
-				"type": "puffish_skills:command",
-				"data": {"command": "tag @s add minefy_grito_guerra"}
-			}
-		],
-		"metadata": {
-			"icon": "w_act3_024_opqr"
-		}
+		"icon": {"type": "item", "data": {"item": "minecraft:piston"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "minecraft:attack_knockback", "value": 0.15, "operation": "multiply_total"}}],
+		"metadata": {"icon": "g_knockback1_032"}
 	},
-	"active_segunda_resp": {
-		"title": "Segunda Respiração",
-		"description": [
-			{"text": "Skill Ativa: Ao desbloquear, recebe:"},
-			{"text": "Regeneração II por 30 segundos"}
-		],
+	"passive_knockback_2": {
+		"title": "Repulsão II",
+		"description": [{"text": "+20% knockback"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:ghast_tear"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {"command": "effect give @s regeneration 30 1"}
-			},
-			{
-				"type": "puffish_skills:command",
-				"data": {"command": "tag @s add minefy_segunda_resp"}
-			}
-		],
-		"metadata": {
-			"icon": "w_act4_025_stuv"
-		}
+		"icon": {"type": "item", "data": {"item": "minecraft:sticky_piston"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "minecraft:attack_knockback", "value": 0.20, "operation": "multiply_total"}}],
+		"metadata": {"icon": "g_knockback2_033"}
 	},
-	"active_sede": {
-		"title": "Sede de Sangue",
-		"description": [
-			{"text": "Skill Ativa: Ao desbloquear, recebe:"},
-			{"text": "Absorção II por 120 segundos"}
-		],
+	"passive_sweep_1": {
+		"title": "Ataque em Área I",
+		"description": [{"text": "+10% dano sweep"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:redstone"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
+		"icon": {"type": "item", "data": {"item": "minecraft:iron_axe"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:melee_damage", "value": 0.10, "operation": "multiply_total"}}],
+		"metadata": {"icon": "g_sweep1_034"}
+	},
+	"passive_sweep_2": {
+		"title": "Ataque em Área II",
+		"description": [{"text": "+15% dano sweep"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:diamond_axe"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:melee_damage", "value": 0.15, "operation": "multiply_total"}}],
+		"metadata": {"icon": "g_sweep2_035"}
+	},
+	"passive_armor_1": {
+		"title": "Armadura I",
+		"description": [{"text": "+2% resistência"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:iron_chestplate"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:resistance", "value": 0.02, "operation": "multiply_total"}}],
+		"metadata": {"icon": "g_armor1_036"}
+	},
+	"passive_armor_2": {
+		"title": "Armadura II",
+		"description": [{"text": "+3% resistência"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:diamond_chestplate"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:resistance", "value": 0.03, "operation": "multiply_total"}}],
+		"metadata": {"icon": "g_armor2_037"}
+	},
+	"passive_crit_1": {
+		"title": "Golpe Crítico I",
+		"description": [{"text": "+3% chance de crítico"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:redstone"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:critical_hit_chance", "value": 0.03, "operation": "add_value"}}],
+		"metadata": {"icon": "g_crit1_038"}
+	},
+	"passive_crit_2": {
+		"title": "Golpe Crítico II",
+		"description": [{"text": "+5% chance de crítico"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:glowstone_dust"}},
+		"frame": {"type": "advancement", "data": {"frame": "goal"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:critical_hit_chance", "value": 0.05, "operation": "add_value"}}],
+		"metadata": {"icon": "g_crit2_039"}
+	},
+	"challenge_berserker": {
+		"title": "§dBerserker",
+		"description": [{"text": "§6Caminho: Dano Máximo\n\n§7+20% dano corpo a corpo\n§7-10% vida máxima\n§7+15% velocidade ataque\n§e§lEspada Berserker"}],
+		"size": 2,
+		"icon": {"type": "item", "data": {"item": "minecraft:netherite_axe"}},
+		"frame": {"type": "advancement", "data": {"frame": "challenge"}},
 		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {"command": "effect give @s absorption 120 1"}
-			},
-			{
-				"type": "puffish_skills:command",
-				"data": {"command": "tag @s add minefy_sede_sangue"}
-			}
+			{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:melee_damage", "value": 0.20, "operation": "multiply_total"}},
+			{"type": "puffish_skills:attribute", "data": {"attribute": "minecraft:max_health", "value": -0.10, "operation": "multiply_total"}},
+			{"type": "puffish_skills:attribute", "data": {"attribute": "minecraft:attack_speed", "value": 0.15, "operation": "multiply_total"}},
+			{"type": "puffish_skills:command", "data": {"command": "give @s netherite_axe[custom_name='{\"text\":\"Machado Berserker\",\"color\":\"dark_red\",\"bold\":true}',enchantments={sharpness:7}] 1"}}
 		],
-		"metadata": {
-			"icon": "w_act5_026_wxyz"
-		}
+		"metadata": {"icon": "g_chr6_040"}
+	},
+	"challenge_tanque": {
+		"title": "§dTanque",
+		"description": [{"text": "§6Caminho: Defesa Máxima\n\n§7+25 vida máxima\n§7+15% resistência\n§7-10% velocidade movimento\n§e§lArmadura Completa"}],
+		"size": 2,
+		"icon": {"type": "item", "data": {"item": "minecraft:netherite_chestplate"}},
+		"frame": {"type": "advancement", "data": {"frame": "challenge"}},
+		"rewards": [
+			{"type": "puffish_skills:attribute", "data": {"attribute": "minecraft:max_health", "value": 25, "operation": "add_value"}},
+			{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:resistance", "value": 0.15, "operation": "multiply_total"}},
+			{"type": "puffish_skills:attribute", "data": {"attribute": "minecraft:movement_speed", "value": -0.10, "operation": "multiply_total"}},
+			{"type": "puffish_skills:command", "data": {"command": "give @s netherite_helmet[custom_name='{\"text\":\"Elmo do Tanque\",\"color\":\"gray\",\"bold\":true}',enchantments={protection:4,unbreaking:3}] 1"}},
+			{"type": "puffish_skills:command", "data": {"command": "give @s netherite_chestplate[custom_name='{\"text\":\"Peitoral do Tanque\",\"color\":\"gray\",\"bold\":true}',enchantments={protection:4,unbreaking:3}] 1"}}
+		],
+		"metadata": {"icon": "g_chr7_041"}
+	},
+	"challenge_duelista": {
+		"title": "§dDuelista",
+		"description": [{"text": "§6Caminho: Balanceado\n\n§7+12% dano corpo a corpo\n§7+10% velocidade ataque\n§7+10 vida máxima\n§e§lEspada do Duelista"}],
+		"size": 2,
+		"icon": {"type": "item", "data": {"item": "minecraft:netherite_sword"}},
+		"frame": {"type": "advancement", "data": {"frame": "challenge"}},
+		"rewards": [
+			{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:melee_damage", "value": 0.12, "operation": "multiply_total"}},
+			{"type": "puffish_skills:attribute", "data": {"attribute": "minecraft:attack_speed", "value": 0.10, "operation": "multiply_total"}},
+			{"type": "puffish_skills:attribute", "data": {"attribute": "minecraft:max_health", "value": 10, "operation": "add_value"}},
+			{"type": "puffish_skills:command", "data": {"command": "give @s netherite_sword[custom_name='{\"text\":\"Lâmina do Duelista\",\"color\":\"gold\",\"bold\":true}',enchantments={sharpness:6,looting:3,sweeping_edge:3}] 1"}}
+		],
+		"metadata": {"icon": "g_chr8_042"}
+	},
+	"passive_final_dmg": {
+		"title": "Destruição Total",
+		"description": [{"text": "+10% dano corpo a corpo\n§e§l+10% dano crítico"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:tnt"}},
+		"frame": {"type": "advancement", "data": {"frame": "goal"}},
+		"rewards": [
+			{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:melee_damage", "value": 0.10, "operation": "multiply_total"}},
+			{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:critical_hit_damage", "value": 0.10, "operation": "multiply_total"}}
+		],
+		"metadata": {"icon": "g_final1_043"}
+	},
+	"passive_final_hp": {
+		"title": "Imortalidade",
+		"description": [{"text": "+15 vida máxima\n§e§l+5% regeneração"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:totem_of_undying"}},
+		"frame": {"type": "advancement", "data": {"frame": "goal"}},
+		"rewards": [
+			{"type": "puffish_skills:attribute", "data": {"attribute": "minecraft:max_health", "value": 15, "operation": "add_value"}},
+			{"type": "puffish_skills:command", "data": {"command": "give @s totem_of_undying 1"}}
+		],
+		"metadata": {"icon": "g_final2_044"}
 	}
 }

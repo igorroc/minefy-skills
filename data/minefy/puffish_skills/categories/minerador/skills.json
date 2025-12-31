@@ -1,110 +1,55 @@
 {
-	"m001_root_center": {
-		"definition": "primeira_picareta",
-		"x": 0,
-		"y": 0,
-		"root": true
-	},
-	"m002_pass_1": {
-		"definition": "velocidade_picareta+2%_1",
-		"x": 0,
-		"y": -68,
-		"root": false
-	},
-	"m003_pass_2": {
-		"definition": "velocidade_picareta+2%_2",
-		"x": 0,
-		"y": -136,
-		"root": false
-	},
-	"m004_pass_3": {
-		"definition": "velocidade_picareta+2%_3",
-		"x": 0,
-		"y": -204,
-		"root": false
-	},
-	"m005_pass_4": {
-		"definition": "fortuna+0.1_1",
-		"x": 0,
-		"y": -272,
-		"root": false
-	},
-	"m006_chal_1": {
-		"definition": "garimpeiro",
-		"x": 0,
-		"y": -340,
-		"root": false
-	},
-	"m007_pass_5": {
-		"definition": "velocidade_picareta+2%_4",
-		"x": 0,
-		"y": -408,
-		"root": false
-	},
-	"m008_pass_6": {
-		"definition": "velocidade_picareta+2%_5",
-		"x": 0,
-		"y": -476,
-		"root": false
-	},
-	"m009_pass_7": {
-		"definition": "fortuna+0.1_2",
-		"x": 0,
-		"y": -544,
-		"root": false
-	},
-	"m010_chal_2": {
-		"definition": "minerador_ferro",
-		"x": 0,
-		"y": -612,
-		"root": false
-	},
-	"m011_pass_8": {
-		"definition": "velocidade_picareta+2%_6",
-		"x": 0,
-		"y": -680,
-		"root": false
-	},
-	"m012_pass_9": {
-		"definition": "velocidade_picareta+2%_7",
-		"x": 0,
-		"y": -748,
-		"root": false
-	},
-	"m013_chal_3": {
-		"definition": "cacador_diamantes",
-		"x": 0,
-		"y": -816,
-		"root": false
-	},
-	"m014_pass_10": {
-		"definition": "velocidade_picareta+2%_8",
-		"x": 0,
-		"y": -884,
-		"root": false
-	},
-	"m015_chal_4": {
-		"definition": "mestre_profundezas",
-		"x": 0,
-		"y": -952,
-		"root": false
-	},
-	"m016_path_left": {
-		"definition": "visao_mineral",
-		"x": -136,
-		"y": -1020,
-		"root": false
-	},
-	"m017_path_center": {
-		"definition": "mineracao_rapida",
-		"x": 0,
-		"y": -1020,
-		"root": false
-	},
-	"m018_path_right": {
-		"definition": "minerador_profundo",
-		"x": 136,
-		"y": -1020,
-		"root": false
-	}
+	"m_root_001": {"definition": "primeira_picareta", "x": 0, "y": 0, "root": true},
+
+	"m_spd1_002": {"definition": "passive_mining_spd_1", "x": -68, "y": 68},
+	"m_spd2_003": {"definition": "passive_mining_spd_2", "x": -68, "y": 136},
+	"m_spd3_004": {"definition": "passive_mining_spd_3", "x": -102, "y": 170},
+	"m_spd4_005": {"definition": "passive_mining_spd_4", "x": -102, "y": 238},
+	"m_spd5_006": {"definition": "passive_mining_spd_5", "x": -136, "y": 272},
+	"m_spd6_007": {"definition": "passive_mining_spd_6", "x": -136, "y": 340},
+	"m_spd7_008": {"definition": "passive_mining_spd_7", "x": -170, "y": 374},
+	"m_spd8_009": {"definition": "passive_mining_spd_8", "x": -170, "y": 442},
+
+	"m_fort1_010": {"definition": "passive_fortune_1", "x": -34, "y": 102},
+	"m_fort2_011": {"definition": "passive_fortune_2", "x": -34, "y": 170},
+	"m_fort3_012": {"definition": "passive_fortune_3", "x": -34, "y": 238},
+	"m_fort4_013": {"definition": "passive_fortune_4", "x": -68, "y": 272},
+	"m_fort5_014": {"definition": "passive_fortune_5", "x": -68, "y": 340},
+
+	"m_eff1_015": {"definition": "passive_efficiency_1", "x": 68, "y": 68},
+	"m_eff2_016": {"definition": "passive_efficiency_2", "x": 68, "y": 136},
+	"m_eff3_017": {"definition": "passive_efficiency_3", "x": 102, "y": 170},
+	"m_eff4_018": {"definition": "passive_efficiency_4", "x": 102, "y": 238},
+	"m_eff5_019": {"definition": "passive_efficiency_5", "x": 136, "y": 272},
+	"m_eff6_020": {"definition": "passive_efficiency_6", "x": 136, "y": 340},
+
+	"m_dur1_021": {"definition": "passive_durability_1", "x": 34, "y": 102},
+	"m_dur2_022": {"definition": "passive_durability_2", "x": 34, "y": 170},
+	"m_dur3_023": {"definition": "passive_durability_3", "x": 34, "y": 238},
+	"m_dur4_024": {"definition": "passive_durability_4", "x": 68, "y": 272},
+
+	"m_chr1_025": {"definition": "challenge_garimpeiro", "x": 0, "y": 68},
+	"m_chr2_026": {"definition": "challenge_minerador_ferro", "x": 0, "y": 136},
+	"m_chr3_027": {"definition": "challenge_cacador_diamantes", "x": 0, "y": 204},
+	"m_chr4_028": {"definition": "challenge_explorador_nether", "x": 0, "y": 272},
+	"m_chr5_029": {"definition": "challenge_mestre_profundezas", "x": 0, "y": 340},
+
+	"m_detect1_030": {"definition": "passive_ore_detection_1", "x": -34, "y": 374},
+	"m_detect2_031": {"definition": "passive_ore_detection_2", "x": -34, "y": 442},
+
+	"m_treasure1_032": {"definition": "passive_treasure_1", "x": 34, "y": 374},
+	"m_treasure2_033": {"definition": "passive_treasure_2", "x": 34, "y": 442},
+
+	"m_deep1_034": {"definition": "passive_deep_mining_1", "x": 102, "y": 374},
+	"m_deep2_035": {"definition": "passive_deep_mining_2", "x": 102, "y": 442},
+
+	"m_hard1_036": {"definition": "passive_hardness_1", "x": -102, "y": 374},
+	"m_hard2_037": {"definition": "passive_hardness_2", "x": -102, "y": 442},
+
+	"m_chr6_038": {"definition": "challenge_especialista_velocidade", "x": -136, "y": 476},
+	"m_chr7_039": {"definition": "challenge_mestre_fortuna", "x": 136, "y": 476},
+	"m_chr8_040": {"definition": "challenge_minerador_lendario", "x": 0, "y": 510},
+
+	"m_final1_041": {"definition": "passive_final_speed", "x": -170, "y": 510},
+	"m_final2_042": {"definition": "passive_final_fortune", "x": 170, "y": 510}
 }

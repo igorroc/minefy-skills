@@ -1,24 +1,72 @@
 {
 	"normal": {
 		"bidirectional": [
+			["f_root_001", "f_chr1_025"],
 			["f_root_001", "f_spd1_002"],
-			["f_spd1_002", "f_lck1_003"],
-			["f_lck1_003", "f_spd2_004"],
-			["f_spd2_004", "f_lck2_005"],
-			["f_lck2_005", "f_mov1_006"],
-			["f_mov1_006", "f_spd3_007"],
-			["f_spd3_007", "f_lck3_008"],
-			["f_lck3_008", "f_chr1_009"],
-			["f_chr1_009", "f_choice_010"],
-			["f_choice_010", "f_agr1_011"],
-			["f_choice_010", "f_pec1_014"],
-			["f_choice_010", "f_pes1_017"],
-			["f_agr1_011", "f_agr2_012"],
-			["f_agr2_012", "f_agr3_013"],
-			["f_pec1_014", "f_pec2_015"],
-			["f_pec2_015", "f_pec3_016"],
-			["f_pes1_017", "f_pes2_018"],
-			["f_pes2_018", "f_pes3_019"]
+			["f_root_001", "f_sat1_015"],
+
+			["f_spd1_002", "f_spd2_003"],
+			["f_spd1_002", "f_yield1_010"],
+			["f_spd2_003", "f_spd3_004"],
+			["f_spd2_003", "f_yield2_011"],
+			["f_spd3_004", "f_spd4_005"],
+			["f_spd3_004", "f_yield3_012"],
+			["f_spd4_005", "f_spd5_006"],
+			["f_spd4_005", "f_yield4_013"],
+			["f_spd5_006", "f_spd6_007"],
+			["f_spd6_007", "f_spd7_008"],
+			["f_spd7_008", "f_spd8_009"],
+
+			["f_yield1_010", "f_yield2_011"],
+			["f_yield2_011", "f_yield3_012"],
+			["f_yield3_012", "f_yield4_013"],
+			["f_yield4_013", "f_yield5_014"],
+			["f_yield5_014", "f_spd6_007"],
+
+			["f_sat1_015", "f_sat2_016"],
+			["f_sat1_015", "f_grow1_021"],
+			["f_sat2_016", "f_sat3_017"],
+			["f_sat2_016", "f_grow2_022"],
+			["f_sat3_017", "f_sat4_018"],
+			["f_sat3_017", "f_grow3_023"],
+			["f_sat4_018", "f_sat5_019"],
+			["f_sat5_019", "f_sat6_020"],
+
+			["f_grow1_021", "f_grow2_022"],
+			["f_grow2_022", "f_grow3_023"],
+			["f_grow3_023", "f_grow4_024"],
+			["f_grow4_024", "f_sat4_018"],
+
+			["f_chr1_025", "f_chr2_026"],
+			["f_chr2_026", "f_chr3_027"],
+			["f_chr3_027", "f_chr4_028"],
+			["f_chr4_028", "f_chr5_029"],
+
+			["f_chr5_029", "f_fish1_030"],
+			["f_chr5_029", "f_breed1_032"],
+			["f_chr5_029", "f_food1_034"],
+			["f_chr5_029", "f_chr8_040"],
+
+			["f_fish1_030", "f_fish2_031"],
+			["f_fish2_031", "f_compost1_036"],
+			["f_compost1_036", "f_compost2_037"],
+			["f_compost2_037", "f_chr6_038"],
+
+			["f_breed1_032", "f_breed2_033"],
+
+			["f_food1_034", "f_food2_035"],
+			["f_food2_035", "f_chr7_039"],
+
+			["f_spd7_008", "f_compost1_036"],
+			["f_spd8_009", "f_compost2_037"],
+
+			["f_breed1_032", "f_food1_034"],
+			["f_breed2_033", "f_food2_035"],
+
+			["f_chr6_038", "f_final1_041"],
+			["f_chr7_039", "f_final2_042"],
+			["f_chr8_040", "f_final1_041"],
+			["f_chr8_040", "f_final2_042"]
 		]
 	}
 }

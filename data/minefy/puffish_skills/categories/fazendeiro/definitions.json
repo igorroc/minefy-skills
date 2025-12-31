@@ -1,709 +1,406 @@
 {
-	"iniciante": {
-		"title": "Iniciante",
-		"description": [
-			{"text": "Bem-vindo ao caminho do Fazendeiro!"},
-			{"text": "Desbloqueie esta skill para começar sua jornada."}
-		],
+	"primeira_colheita": {
+		"title": "Primeira Colheita",
+		"description": [{"text": "O começo da sua jornada como fazendeiro."}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:wooden_hoe"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
+		"icon": {"type": "item", "data": {"item": "minecraft:wooden_hoe"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
 		"rewards": [],
-		"metadata": {
-			"icon": "f_root_001"
-		}
+		"metadata": {"icon": "f_root_001"}
 	},
-	"maos_calejadas_1": {
-		"title": "Mãos Calejadas I",
-		"description": [
-			{"text": "+8% de velocidade de colheita"}
-		],
+	"passive_harvest_spd_1": {
+		"title": "Colheita Rápida I",
+		"description": [{"text": "+1% velocidade de colheita"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:stone_hoe"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
+		"icon": {"type": "item", "data": {"item": "minecraft:wheat"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "block_break_speed", "value": 0.01, "operation": "multiply_total"}}],
+		"metadata": {"icon": "f_spd1_002"}
+	},
+	"passive_harvest_spd_2": {
+		"title": "Colheita Rápida II",
+		"description": [{"text": "+1% velocidade de colheita"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:wheat"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "block_break_speed", "value": 0.01, "operation": "multiply_total"}}],
+		"metadata": {"icon": "f_spd2_003"}
+	},
+	"passive_harvest_spd_3": {
+		"title": "Colheita Rápida III",
+		"description": [{"text": "+2% velocidade de colheita"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:carrot"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "block_break_speed", "value": 0.02, "operation": "multiply_total"}}],
+		"metadata": {"icon": "f_spd3_004"}
+	},
+	"passive_harvest_spd_4": {
+		"title": "Colheita Rápida IV",
+		"description": [{"text": "+2% velocidade de colheita"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:potato"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "block_break_speed", "value": 0.02, "operation": "multiply_total"}}],
+		"metadata": {"icon": "f_spd4_005"}
+	},
+	"passive_harvest_spd_5": {
+		"title": "Colheita Rápida V",
+		"description": [{"text": "+3% velocidade de colheita"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:beetroot"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "block_break_speed", "value": 0.03, "operation": "multiply_total"}}],
+		"metadata": {"icon": "f_spd5_006"}
+	},
+	"passive_harvest_spd_6": {
+		"title": "Colheita Rápida VI",
+		"description": [{"text": "+3% velocidade de colheita"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:melon_slice"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "block_break_speed", "value": 0.03, "operation": "multiply_total"}}],
+		"metadata": {"icon": "f_spd6_007"}
+	},
+	"passive_harvest_spd_7": {
+		"title": "Colheita Rápida VII",
+		"description": [{"text": "+4% velocidade de colheita"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:pumpkin"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "block_break_speed", "value": 0.04, "operation": "multiply_total"}}],
+		"metadata": {"icon": "f_spd7_008"}
+	},
+	"passive_harvest_spd_8": {
+		"title": "Colheita Rápida VIII",
+		"description": [{"text": "+5% velocidade de colheita"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:golden_hoe"}},
+		"frame": {"type": "advancement", "data": {"frame": "goal"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "block_break_speed", "value": 0.05, "operation": "multiply_total"}}],
+		"metadata": {"icon": "f_spd8_009"}
+	},
+	"passive_crop_yield_1": {
+		"title": "Rendimento I",
+		"description": [{"text": "+1 Sorte (melhora drops)"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:wheat_seeds"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 1, "operation": "addition"}}],
+		"metadata": {"icon": "f_yield1_010"}
+	},
+	"passive_crop_yield_2": {
+		"title": "Rendimento II",
+		"description": [{"text": "+1 Sorte (melhora drops)"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:beetroot_seeds"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 1, "operation": "addition"}}],
+		"metadata": {"icon": "f_yield2_011"}
+	},
+	"passive_crop_yield_3": {
+		"title": "Rendimento III",
+		"description": [{"text": "+2 Sorte (melhora drops)"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:melon_seeds"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 2, "operation": "addition"}}],
+		"metadata": {"icon": "f_yield3_012"}
+	},
+	"passive_crop_yield_4": {
+		"title": "Rendimento IV",
+		"description": [{"text": "+2 Sorte (melhora drops)"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:pumpkin_seeds"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 2, "operation": "addition"}}],
+		"metadata": {"icon": "f_yield4_013"}
+	},
+	"passive_crop_yield_5": {
+		"title": "Rendimento V",
+		"description": [{"text": "+3 Sorte (melhora drops)"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:glistering_melon_slice"}},
+		"frame": {"type": "advancement", "data": {"frame": "goal"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 3, "operation": "addition"}}],
+		"metadata": {"icon": "f_yield5_014"}
+	},
+	"passive_saturation_1": {
+		"title": "Saciedade I",
+		"description": [{"text": "+1 Coração extra"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:bread"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "max_health", "value": 2, "operation": "addition"}}],
+		"metadata": {"icon": "f_sat1_015"}
+	},
+	"passive_saturation_2": {
+		"title": "Saciedade II",
+		"description": [{"text": "+1 Coração extra"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:baked_potato"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "max_health", "value": 2, "operation": "addition"}}],
+		"metadata": {"icon": "f_sat2_016"}
+	},
+	"passive_saturation_3": {
+		"title": "Saciedade III",
+		"description": [{"text": "+2 Corações extras"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:cooked_beef"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "max_health", "value": 4, "operation": "addition"}}],
+		"metadata": {"icon": "f_sat3_017"}
+	},
+	"passive_saturation_4": {
+		"title": "Saciedade IV",
+		"description": [{"text": "+2 Corações extras"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:cooked_porkchop"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "max_health", "value": 4, "operation": "addition"}}],
+		"metadata": {"icon": "f_sat4_018"}
+	},
+	"passive_saturation_5": {
+		"title": "Saciedade V",
+		"description": [{"text": "+3 Corações extras"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:golden_carrot"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "max_health", "value": 6, "operation": "addition"}}],
+		"metadata": {"icon": "f_sat5_019"}
+	},
+	"passive_saturation_6": {
+		"title": "Saciedade VI",
+		"description": [{"text": "+3 Corações extras"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:golden_apple"}},
+		"frame": {"type": "advancement", "data": {"frame": "goal"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "max_health", "value": 6, "operation": "addition"}}],
+		"metadata": {"icon": "f_sat6_020"}
+	},
+	"passive_growth_1": {
+		"title": "Crescimento Acelerado I",
+		"description": [{"text": "+5% XP de fazenda"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:bone_meal"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:experience_multiplier", "value": 0.05, "operation": "multiply_total"}}],
+		"metadata": {"icon": "f_grow1_021"}
+	},
+	"passive_growth_2": {
+		"title": "Crescimento Acelerado II",
+		"description": [{"text": "+5% XP de fazenda"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:bone_meal"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:experience_multiplier", "value": 0.05, "operation": "multiply_total"}}],
+		"metadata": {"icon": "f_grow2_022"}
+	},
+	"passive_growth_3": {
+		"title": "Crescimento Acelerado III",
+		"description": [{"text": "+10% XP de fazenda"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:composter"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:experience_multiplier", "value": 0.1, "operation": "multiply_total"}}],
+		"metadata": {"icon": "f_grow3_023"}
+	},
+	"passive_growth_4": {
+		"title": "Crescimento Acelerado IV",
+		"description": [{"text": "+10% XP de fazenda"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:composter"}},
+		"frame": {"type": "advancement", "data": {"frame": "goal"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:experience_multiplier", "value": 0.1, "operation": "multiply_total"}}],
+		"metadata": {"icon": "f_grow4_024"}
+	},
+	"challenge_aprendiz": {
+		"title": "§9Aprendiz de Fazenda",
+		"description": [{"text": "§7+2% velocidade de colheita\n§7+16 Sementes de Trigo"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:hay_block"}},
+		"frame": {"type": "advancement", "data": {"frame": "challenge"}},
 		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:block_break_speed",
-					"value": 0.08,
-					"operation": "multiply_total"
-				}
-			}
+			{"type": "puffish_skills:attribute", "data": {"attribute": "block_break_speed", "value": 0.02, "operation": "multiply_total"}},
+			{"type": "puffish_skills:command", "data": {"command": "give @s wheat_seeds 16"}}
 		],
-		"metadata": {
-			"icon": "f_spd1_002"
-		}
+		"metadata": {"icon": "f_chr1_025"}
 	},
-	"polegar_verde_1": {
-		"title": "Polegar Verde I",
-		"description": [
-			{"text": "+1 de Sorte ao colher"}
-		],
+	"challenge_fazendeiro": {
+		"title": "§9Fazendeiro",
+		"description": [{"text": "§7+3% velocidade de colheita\n§7+8 Cenouras"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:wheat"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
+		"icon": {"type": "item", "data": {"item": "minecraft:farmland"}},
+		"frame": {"type": "advancement", "data": {"frame": "challenge"}},
 		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:luck",
-					"value": 1,
-					"operation": "addition"
-				}
-			}
+			{"type": "puffish_skills:attribute", "data": {"attribute": "block_break_speed", "value": 0.03, "operation": "multiply_total"}},
+			{"type": "puffish_skills:command", "data": {"command": "give @s carrot 8"}}
 		],
-		"metadata": {
-			"icon": "f_lck1_003"
-		}
+		"metadata": {"icon": "f_chr2_026"}
 	},
-	"maos_calejadas_2": {
-		"title": "Mãos Calejadas II",
-		"description": [
-			{"text": "+12% de velocidade de colheita"}
-		],
+	"challenge_cultivador": {
+		"title": "§9Cultivador",
+		"description": [{"text": "§7+5% velocidade de colheita\n§7+3 Sorte\n§7+8 Batatas"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:iron_hoe"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
+		"icon": {"type": "item", "data": {"item": "minecraft:stone_hoe"}},
+		"frame": {"type": "advancement", "data": {"frame": "challenge"}},
 		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:block_break_speed",
-					"value": 0.12,
-					"operation": "multiply_total"
-				}
-			}
+			{"type": "puffish_skills:attribute", "data": {"attribute": "block_break_speed", "value": 0.05, "operation": "multiply_total"}},
+			{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 3, "operation": "addition"}},
+			{"type": "puffish_skills:command", "data": {"command": "give @s potato 8"}}
 		],
-		"metadata": {
-			"icon": "f_spd2_004"
-		}
+		"metadata": {"icon": "f_chr3_027"}
 	},
-	"polegar_verde_2": {
-		"title": "Polegar Verde II",
-		"description": [
-			{"text": "+1.5 de Sorte ao colher"},
-			{"text": "+1 coração de vida"}
-		],
+	"challenge_agricultor_experiente": {
+		"title": "§9Agricultor Experiente",
+		"description": [{"text": "§7+5% velocidade de colheita\n§7+5 Sorte\n§7+1 Enxada de Ferro"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:melon"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
+		"icon": {"type": "item", "data": {"item": "minecraft:iron_hoe"}},
+		"frame": {"type": "advancement", "data": {"frame": "challenge"}},
 		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:luck",
-					"value": 1.5,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:max_health",
-					"value": 2,
-					"operation": "addition"
-				}
-			}
+			{"type": "puffish_skills:attribute", "data": {"attribute": "block_break_speed", "value": 0.05, "operation": "multiply_total"}},
+			{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 5, "operation": "addition"}},
+			{"type": "puffish_skills:command", "data": {"command": "give @s iron_hoe 1"}}
 		],
-		"metadata": {
-			"icon": "f_lck2_005"
-		}
+		"metadata": {"icon": "f_chr4_028"}
 	},
-	"agricultor_experiente_1": {
-		"title": "Agricultor Experiente I",
-		"description": [
-			{"text": "+5% de velocidade de movimento"},
-			{"text": "+1 coração de vida"}
-		],
+	"challenge_mestre_fazenda": {
+		"title": "§6Mestre da Fazenda",
+		"description": [{"text": "§7+10% velocidade de colheita\n§7+1 Enxada de Diamante\n§dDesbloqueia especializações avançadas"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:golden_hoe"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
+		"icon": {"type": "item", "data": {"item": "minecraft:diamond_hoe"}},
+		"frame": {"type": "advancement", "data": {"frame": "goal"}},
 		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:movement_speed",
-					"value": 0.05,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:max_health",
-					"value": 2,
-					"operation": "addition"
-				}
-			}
+			{"type": "puffish_skills:attribute", "data": {"attribute": "block_break_speed", "value": 0.1, "operation": "multiply_total"}},
+			{"type": "puffish_skills:command", "data": {"command": "give @s diamond_hoe 1"}}
 		],
-		"metadata": {
-			"icon": "f_mov1_006"
-		}
+		"metadata": {"icon": "f_chr5_029"}
 	},
-	"maos_calejadas_3": {
-		"title": "Mãos Calejadas III",
-		"description": [
-			{"text": "+15% de velocidade de colheita"},
-			{"text": "+1 coração de vida"}
-		],
+	"passive_fishing_1": {
+		"title": "Pesca Aprimorada I",
+		"description": [{"text": "+2 Sorte na pesca"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:diamond_hoe"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
+		"icon": {"type": "item", "data": {"item": "minecraft:fishing_rod"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 2, "operation": "addition"}}],
+		"metadata": {"icon": "f_fish1_030"}
+	},
+	"passive_fishing_2": {
+		"title": "Pesca Aprimorada II",
+		"description": [{"text": "+4 Sorte na pesca"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:fishing_rod"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 4, "operation": "addition"}}],
+		"metadata": {"icon": "f_fish2_031"}
+	},
+	"passive_breeding_1": {
+		"title": "Criação de Animais I",
+		"description": [{"text": "+10% XP de fazenda"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:wheat"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:experience_multiplier", "value": 0.1, "operation": "multiply_total"}}],
+		"metadata": {"icon": "f_breed1_032"}
+	},
+	"passive_breeding_2": {
+		"title": "Criação de Animais II",
+		"description": [{"text": "+15% XP de fazenda"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:golden_carrot"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:experience_multiplier", "value": 0.15, "operation": "multiply_total"}}],
+		"metadata": {"icon": "f_breed2_033"}
+	},
+	"passive_food_efficiency_1": {
+		"title": "Eficiência Alimentar I",
+		"description": [{"text": "+2 Corações extras"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:cooked_chicken"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "max_health", "value": 4, "operation": "addition"}}],
+		"metadata": {"icon": "f_food1_034"}
+	},
+	"passive_food_efficiency_2": {
+		"title": "Eficiência Alimentar II",
+		"description": [{"text": "+4 Corações extras"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:cake"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "max_health", "value": 8, "operation": "addition"}}],
+		"metadata": {"icon": "f_food2_035"}
+	},
+	"passive_composting_1": {
+		"title": "Compostagem I",
+		"description": [{"text": "+5% velocidade de colheita"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:composter"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "block_break_speed", "value": 0.05, "operation": "multiply_total"}}],
+		"metadata": {"icon": "f_compost1_036"}
+	},
+	"passive_composting_2": {
+		"title": "Compostagem II",
+		"description": [{"text": "+10% velocidade de colheita"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:composter"}},
+		"frame": {"type": "advancement", "data": {"frame": "task"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "block_break_speed", "value": 0.1, "operation": "multiply_total"}}],
+		"metadata": {"icon": "f_compost2_037"}
+	},
+	"challenge_mestre_cultivos": {
+		"title": "§dMestre dos Cultivos",
+		"description": [{"text": "§7+20% velocidade de colheita\n§7+1 Enxada de Ouro Encantada"}],
+		"size": 1,
+		"icon": {"type": "item", "data": {"item": "minecraft:golden_hoe"}},
+		"frame": {"type": "advancement", "data": {"frame": "challenge"}},
 		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:block_break_speed",
-					"value": 0.15,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:max_health",
-					"value": 2,
-					"operation": "addition"
-				}
-			}
+			{"type": "puffish_skills:attribute", "data": {"attribute": "block_break_speed", "value": 0.2, "operation": "multiply_total"}},
+			{"type": "puffish_skills:command", "data": {"command": "give @s golden_hoe[enchantments={levels:{\"minecraft:efficiency\":5,\"minecraft:unbreaking\":3}}] 1"}}
 		],
-		"metadata": {
-			"icon": "f_spd3_007"
-		}
+		"metadata": {"icon": "f_chr6_038"}
 	},
-	"polegar_verde_3": {
-		"title": "Polegar Verde III",
-		"description": [
-			{"text": "+2 de Sorte ao colher"},
-			{"text": "+2 corações de vida"}
-		],
+	"challenge_criador_animais": {
+		"title": "§dCriador de Animais",
+		"description": [{"text": "§7+25% XP de fazenda\n§7+8 Trigo Dourado"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:pumpkin"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
+		"icon": {"type": "item", "data": {"item": "minecraft:lead"}},
+		"frame": {"type": "advancement", "data": {"frame": "challenge"}},
 		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:luck",
-					"value": 2,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:max_health",
-					"value": 4,
-					"operation": "addition"
-				}
-			}
+			{"type": "puffish_skills:attribute", "data": {"attribute": "puffish_attributes:experience_multiplier", "value": 0.25, "operation": "multiply_total"}},
+			{"type": "puffish_skills:command", "data": {"command": "give @s golden_carrot 8"}}
 		],
-		"metadata": {
-			"icon": "f_lck3_008"
-		}
+		"metadata": {"icon": "f_chr7_039"}
 	},
-	"desafio_trabalhador": {
-		"title": "Trabalhador Incansável",
-		"description": [
-			{"text": "Desafio: Prove sua dedicação"},
-			{"text": ""},
-			{"text": "+20% de velocidade de colheita"},
-			{"text": "+2 de Sorte"},
-			{"text": "+2 corações de vida"}
-		],
+	"challenge_pescador_lendario": {
+		"title": "§dPescador Lendário",
+		"description": [{"text": "§7+15 Sorte\n§7+1 Vara de Pesca Encantada"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:netherite_hoe"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "challenge"}
-		},
+		"icon": {"type": "item", "data": {"item": "minecraft:fishing_rod"}},
+		"frame": {"type": "advancement", "data": {"frame": "challenge"}},
 		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:block_break_speed",
-					"value": 0.20,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:luck",
-					"value": 2,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:max_health",
-					"value": 4,
-					"operation": "addition"
-				}
-			}
+			{"type": "puffish_skills:attribute", "data": {"attribute": "luck", "value": 15, "operation": "addition"}},
+			{"type": "puffish_skills:command", "data": {"command": "give @s fishing_rod[enchantments={levels:{\"minecraft:luck_of_the_sea\":3,\"minecraft:lure\":3,\"minecraft:unbreaking\":3}}] 1"}}
 		],
-		"metadata": {
-			"icon": "f_chr1_009"
-		}
+		"metadata": {"icon": "f_chr8_040"}
 	},
-	"escolha_especializacao": {
-		"title": "Caminhos de Especialização",
-		"description": [
-			{"text": "Três caminhos disponíveis:"},
-			{"text": "Agricultor, Pecuarista ou Pescador"}
-		],
+	"passive_final_harvest": {
+		"title": "§6Colheita Suprema",
+		"description": [{"text": "§7+25% velocidade de colheita\n§dRecompensa final do caminho de cultivos"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:compass"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "goal"}
-		},
-		"rewards": [],
-		"metadata": {
-			"icon": "f_choice_010"
-		}
+		"icon": {"type": "item", "data": {"item": "minecraft:netherite_hoe"}},
+		"frame": {"type": "advancement", "data": {"frame": "goal"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "block_break_speed", "value": 0.25, "operation": "multiply_total"}}],
+		"metadata": {"icon": "f_final1_041"}
 	},
-	"caminho_agricultor": {
-		"title": "Agricultor Especialista",
-		"description": [
-			{"text": "Caminho do Agricultor"},
-			{"text": ""},
-			{"text": "+25% de velocidade de colheita"},
-			{"text": "+3 de Sorte"}
-		],
+	"passive_final_food": {
+		"title": "§6Saciedade Suprema",
+		"description": [{"text": "§7+10 Corações extras\n§dRecompensa final do caminho de alimentação"}],
 		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:hay_block"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:block_break_speed",
-					"value": 0.25,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:luck",
-					"value": 3,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "f_agr1_011"
-		}
-	},
-	"agricultor_avancado": {
-		"title": "Agricultor Avançado",
-		"description": [
-			{"text": "+3 de Sorte ao colher"},
-			{"text": "+2 corações de vida"}
-		],
-		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:golden_carrot"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:luck",
-					"value": 3,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:max_health",
-					"value": 4,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "f_agr2_012"
-		}
-	},
-	"mestre_dos_cultivos": {
-		"title": "Mestre dos Cultivos",
-		"description": [
-			{"text": "O ápice da agricultura!"},
-			{"text": ""},
-			{"text": "+35% de velocidade de colheita"},
-			{"text": "+5 de Sorte"},
-			{"text": "+4 corações de vida"},
-			{"text": ""},
-			{"text": "Recompensa: Enxada do Mestre Agricultor"}
-		],
-		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:enchanted_golden_apple"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "challenge"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:block_break_speed",
-					"value": 0.35,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:luck",
-					"value": 5,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:max_health",
-					"value": 8,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "give @s diamond_hoe[custom_name='{\"text\":\"Enxada do Mestre Agricultor\",\"color\":\"green\",\"italic\":false}',enchantments={efficiency:5,fortune:3,unbreaking:3}] 1"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "f_agr3_013"
-		}
-	},
-	"caminho_pecuarista": {
-		"title": "Pecuarista Especialista",
-		"description": [
-			{"text": "Caminho do Pecuarista"},
-			{"text": ""},
-			{"text": "+10% de velocidade de movimento"},
-			{"text": "+2 corações de vida"}
-		],
-		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:lead"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:movement_speed",
-					"value": 0.10,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:max_health",
-					"value": 4,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "f_pec1_014"
-		}
-	},
-	"pecuarista_avancado": {
-		"title": "Pecuarista Avançado",
-		"description": [
-			{"text": "+3 corações de vida"},
-			{"text": "+2 de Sorte"}
-		],
-		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:cooked_beef"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:max_health",
-					"value": 6,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:luck",
-					"value": 2,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "f_pec2_015"
-		}
-	},
-	"mestre_dos_animais": {
-		"title": "Mestre dos Animais",
-		"description": [
-			{"text": "O ápice da pecuária!"},
-			{"text": ""},
-			{"text": "+15% de velocidade de movimento"},
-			{"text": "+5 corações de vida"},
-			{"text": "+3 de Sorte"},
-			{"text": ""},
-			{"text": "Recompensa: 64 Cenouras Douradas"}
-		],
-		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:saddle"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "challenge"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:movement_speed",
-					"value": 0.15,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:max_health",
-					"value": 10,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:luck",
-					"value": 3,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "give @s golden_carrot[custom_name='{\"text\":\"Cenoura Dourada do Mestre\",\"color\":\"gold\",\"italic\":false}'] 64"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "f_pec3_016"
-		}
-	},
-	"caminho_pescador": {
-		"title": "Pescador Especialista",
-		"description": [
-			{"text": "Caminho do Pescador"},
-			{"text": ""},
-			{"text": "+4 de Sorte"},
-			{"text": "+1 coração de vida"}
-		],
-		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:fishing_rod"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:luck",
-					"value": 4,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:max_health",
-					"value": 2,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "f_pes1_017"
-		}
-	},
-	"pescador_avancado": {
-		"title": "Pescador Avançado",
-		"description": [
-			{"text": "+4 de Sorte"},
-			{"text": "+2 corações de vida"}
-		],
-		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:cod"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "task"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:luck",
-					"value": 4,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:max_health",
-					"value": 4,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "f_pes2_018"
-		}
-	},
-	"mestre_da_pesca": {
-		"title": "Mestre da Pesca",
-		"description": [
-			{"text": "O ápice da pesca!"},
-			{"text": ""},
-			{"text": "+8 de Sorte"},
-			{"text": "+3 corações de vida"},
-			{"text": ""},
-			{"text": "Recompensa: Vara do Mestre Pescador"}
-		],
-		"size": 1,
-		"icon": {
-			"type": "item",
-			"data": {"item": "minecraft:trident"}
-		},
-		"frame": {
-			"type": "advancement",
-			"data": {"frame": "challenge"}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:luck",
-					"value": 8,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:max_health",
-					"value": 6,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "give @s fishing_rod[custom_name='{\"text\":\"Vara do Mestre Pescador\",\"color\":\"aqua\",\"italic\":false}',enchantments={lure:3,luck_of_the_sea:3,unbreaking:3,mending:1}] 1"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "f_pes3_019"
-		}
+		"icon": {"type": "item", "data": {"item": "minecraft:enchanted_golden_apple"}},
+		"frame": {"type": "advancement", "data": {"frame": "goal"}},
+		"rewards": [{"type": "puffish_skills:attribute", "data": {"attribute": "max_health", "value": 20, "operation": "addition"}}],
+		"metadata": {"icon": "f_final2_042"}
 	}
 }

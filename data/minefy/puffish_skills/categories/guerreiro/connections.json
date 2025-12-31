@@ -1,32 +1,74 @@
 {
 	"normal": {
 		"bidirectional": [
-			["w_root_001_abcd", "w_chr1_014_abcd"],
-			["w_root_001_abcd", "w_dmg1_002_efgh"],
-			["w_root_001_abcd", "w_spd1_010_klmn"],
-			["w_chr1_014_abcd", "w_chr2_015_efgh"],
-			["w_chr2_015_efgh", "w_spd4_013_wxyz"],
-			["w_spd4_013_wxyz", "w_chr4_017_mnop"],
-			["w_chr4_017_mnop", "w_act2_023_klmn"],
-			["w_chr4_017_mnop", "w_act3_024_opqr"],
-			["w_chr4_017_mnop", "w_chr7_020_yzab"],
-			["w_dmg1_002_efgh", "w_dmg2_003_ijkl"],
-			["w_dmg2_003_ijkl", "w_dmg3_004_mnop"],
-			["w_dmg2_003_ijkl", "w_pen1_008_cdef"],
-			["w_dmg3_004_mnop", "w_dmg4_005_qrst"],
-			["w_dmg4_005_qrst", "w_dmg5_006_uvwx"],
-			["w_dmg5_006_uvwx", "w_dmg6_007_yzab"],
-			["w_pen1_008_cdef", "w_pen2_009_ghij"],
-			["w_pen2_009_ghij", "w_dmg5_006_uvwx"],
-			["w_dmg6_007_yzab", "w_chr5_018_qrst"],
-			["w_chr5_018_qrst", "w_act1_022_ghij"],
-			["w_spd1_010_klmn", "w_spd2_011_opqr"],
-			["w_spd2_011_opqr", "w_spd3_012_stuv"],
-			["w_spd3_012_stuv", "w_chr6_019_uvwx"],
-			["w_chr6_019_uvwx", "w_act4_025_stuv"],
-			["w_act4_025_stuv", "w_chr3_016_ijkl"],
-			["w_chr7_020_yzab", "w_act5_026_wxyz"],
-			["w_act5_026_wxyz", "w_chr8_021_cdef"]
+			["g_root_001", "g_chr1_025"],
+			["g_root_001", "g_dmg1_002"],
+			["g_root_001", "g_hp1_015"],
+
+			["g_dmg1_002", "g_dmg2_003"],
+			["g_dmg1_002", "g_atk1_010"],
+			["g_dmg2_003", "g_dmg3_004"],
+			["g_dmg2_003", "g_atk2_011"],
+			["g_dmg3_004", "g_dmg4_005"],
+			["g_dmg3_004", "g_atk3_012"],
+			["g_dmg4_005", "g_dmg5_006"],
+			["g_dmg4_005", "g_atk4_013"],
+			["g_dmg5_006", "g_dmg6_007"],
+			["g_dmg5_006", "g_crit1_038"],
+			["g_dmg6_007", "g_dmg7_008"],
+			["g_dmg7_008", "g_dmg8_009"],
+
+			["g_atk1_010", "g_atk2_011"],
+			["g_atk2_011", "g_atk3_012"],
+			["g_atk3_012", "g_atk4_013"],
+			["g_atk4_013", "g_atk5_014"],
+			["g_atk5_014", "g_dmg6_007"],
+
+			["g_hp1_015", "g_hp2_016"],
+			["g_hp1_015", "g_regen1_021"],
+			["g_hp2_016", "g_hp3_017"],
+			["g_hp2_016", "g_regen2_022"],
+			["g_hp3_017", "g_hp4_018"],
+			["g_hp3_017", "g_regen3_023"],
+			["g_hp4_018", "g_hp5_019"],
+			["g_hp4_018", "g_regen4_024"],
+			["g_hp5_019", "g_hp6_020"],
+
+			["g_regen1_021", "g_regen2_022"],
+			["g_regen2_022", "g_regen3_023"],
+			["g_regen3_023", "g_regen4_024"],
+
+			["g_chr1_025", "g_chr2_026"],
+			["g_chr2_026", "g_chr3_027"],
+			["g_chr3_027", "g_chr4_028"],
+			["g_chr4_028", "g_chr5_029"],
+
+			["g_chr5_029", "g_lifesteal1_030"],
+			["g_chr5_029", "g_knockback1_032"],
+			["g_chr5_029", "g_chr8_042"],
+
+			["g_lifesteal1_030", "g_lifesteal2_031"],
+			["g_lifesteal2_031", "g_armor1_036"],
+			["g_armor1_036", "g_armor2_037"],
+			["g_armor2_037", "g_chr6_040"],
+
+			["g_knockback1_032", "g_knockback2_033"],
+			["g_knockback2_033", "g_sweep1_034"],
+			["g_sweep1_034", "g_sweep2_035"],
+			["g_sweep2_035", "g_chr7_041"],
+
+			["g_dmg7_008", "g_armor1_036"],
+			["g_dmg8_009", "g_armor2_037"],
+
+			["g_knockback1_032", "g_sweep1_034"],
+			["g_knockback2_033", "g_sweep2_035"],
+
+			["g_crit1_038", "g_crit2_039"],
+
+			["g_chr6_040", "g_final1_043"],
+			["g_chr7_041", "g_final2_044"],
+			["g_chr8_042", "g_final1_043"],
+			["g_chr8_042", "g_final2_044"]
 		]
 	}
 }
